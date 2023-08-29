@@ -1,8 +1,6 @@
-
-
 #include <iostream>
 
 int main() 
 {
-    std::cout << "jacob" << std::endl;
+    std::cout << "jacob boiii" << std::endl;
 }

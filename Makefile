@@ -1,10 +1,12 @@
-EXENAME = main
+CXX = g++
+CXXFLAGS = -Wall -std=c++11
 
-CXX = clang++
-CXXFLAGS = -std=c++0x -g -O0 -Wall -Wextra
+TARGET = main
 
-all : $(EXENAME)
+all: $(TARGET)
 
-.PHONY: clean
+$(TARGET): main.cpp
+	$(CXX) $(CXXFLAGS) -o $(TARGET) main.cpp
+
 clean:
-	rm -f *.o $(EXENAME)
+	rm -f $(TARGET)

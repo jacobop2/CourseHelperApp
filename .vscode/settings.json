@@ -4,3 +4,13 @@
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
+
+{
+    "configurations": [
+        {
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+        }
+    ],
+    "version": 4
+}

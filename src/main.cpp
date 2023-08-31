@@ -1,6 +1,5 @@
 #include <iostream>
 
-int main()
-{
-    std::cout << "hello, this is a test" << std::endl;
+int main() {
+    std::cout << "Hello" << std::endl;
 }

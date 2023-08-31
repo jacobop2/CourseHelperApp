@@ -3,7 +3,7 @@
 # Compiler
 CXX := clang++
 # Compiler flags
-CXXFLAGS := -std=c++14 -Wall
+CXXFLAGS := -std=c++17 -Wall
 # Source files directory
 SRC_DIR := src
 # Output directory

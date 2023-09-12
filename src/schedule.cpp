@@ -1,12 +1,8 @@
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
-#include <map>
-#include <unordered_map>
 #include <string>
 #include <cstdio>
-#include "stdio.h"
-#include <cstring>
 
 #include "schedule.h"
 #include "utils.h"

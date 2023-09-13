@@ -4,8 +4,8 @@
 #include <string>
 #include <cstdio>
 
-#include "course_schedule.h"
-#include "utils.h"
+#include "../include/course_schedule.h"
+#include "../include/utils.h"
 #include <algorithm>
 
 std::vector< CourseSection > Schedule::getCourseSections() const

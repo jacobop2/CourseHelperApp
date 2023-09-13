@@ -1,7 +1,5 @@
-#include "utils.h"
+#include "../include/utils.h"
 #include <sstream>
-#include <fenv.h>
-#include <signal.h>
 #include <vector>
 
 std::string file_to_string(const std::string& filename){

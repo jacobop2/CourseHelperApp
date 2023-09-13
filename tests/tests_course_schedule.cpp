@@ -1,25 +1,25 @@
-// #include "../include/catch_amalgamated.hpp"
-// #include "../src/course_schedule.h"
+#define CATCH_CONFIG_MAIN
+#include "catch.hpp"
 
-// #define CATCH_CONFIG_MAIN
+#include "../include/course_schedule.h"
 
-// #include <algorithm>
-// #include <iostream>
-// #include <string>
-// #include <vector>
-// #include <memory>
+#include <algorithm>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <memory>
 
-// TEST_CASE( "Empty CourseList Test" )
-// {
-//     std::cout << "Beginning Empty CourseList Test" << std::endl;
+TEST_CASE( "Empty CourseList Test" )
+{
+    std::cout << "Beginning Empty CourseList Test" << std::endl;
 
-//     CourseList courseList;
-//     Schedule schedule;
-//     ScheduleGroup scheduleGroup;
+    CourseList courseList;
+    Schedule schedule;
+    ScheduleGroup scheduleGroup;
 
-//     generateSchedules( courseList, 0, schedule, scheduleGroup );
+    generateSchedules( courseList, 0, schedule, scheduleGroup );
 
-//     REQUIRE( scheduleGroup.empty() );
+    REQUIRE( scheduleGroup.empty() );
 
-//     std::cout << "Empty CourseList Test Finished" << std::endl;
-// }
+    std::cout << "Empty CourseList Test Finished" << std::endl;
+}

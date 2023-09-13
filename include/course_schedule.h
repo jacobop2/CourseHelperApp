@@ -36,4 +36,4 @@ bool isTimeOverlap( const CourseSection & a, const CourseSection & b );
 bool isDayOverlap( const CourseSection & a, const CourseSection & b );
 bool isConflict( const CourseSection & a, const CourseSection & b );
 
-void generateSchedules( const CourseList courseList, int index, Schedule & currSchedule, ScheduleGroup & scheduleGroup );
+void generateSchedules( const CourseList courseList, unsigned int index, Schedule & currSchedule, ScheduleGroup & scheduleGroup );

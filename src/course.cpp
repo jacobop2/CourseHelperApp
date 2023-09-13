@@ -1,4 +1,4 @@
-#include "course.h"
+#include "../include/course.h"
 
 int CourseSection::getStartTime() const
 {

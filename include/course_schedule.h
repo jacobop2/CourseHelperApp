@@ -17,7 +17,7 @@ class Schedule
         void pop_back();
 
     private:
-        std::vector< CourseSection > vCourseSections;
+        std::vector< CourseSection > vCourseSections_;
 
 };
 
@@ -25,10 +25,13 @@ class ScheduleGroup
 {
     public:
         void push_back( Schedule & s );
-        bool empty();
+        bool empty() const;
+        void print() const;
+
+        int getNumSchedules() const;
 
     private:
-        std::vector< Schedule > vSchedules;
+        std::vector< Schedule > vSchedules_;
 
 };
 

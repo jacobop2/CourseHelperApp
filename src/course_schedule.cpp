@@ -8,15 +8,17 @@
 #include "../include/utils.h"
 #include <algorithm>
 
+#define WEEKDAYS std::vector<std::string>{"M", "Tu", "W", "Th", "F"}
+
 std::vector< CourseSection > Schedule::getCourseSections() const
 {
-    return vCourseSections;
+    return vCourseSections_;
 }
 
 int Schedule::getSumCreditHours() const
 {
     int sum = 0;
-    for( const CourseSection & s : vCourseSections )
+    for( const CourseSection & s : vCourseSections_ )
     {
         sum += s.getCreditHours();
     }
@@ -26,22 +28,60 @@ int Schedule::getSumCreditHours() const
 
 void Schedule::push_back( const CourseSection & cs )
 {
-    vCourseSections.push_back( cs );
+    vCourseSections_.push_back( cs );
 }
 
 void Schedule::pop_back()
 {
-    vCourseSections.pop_back();
+    vCourseSections_.pop_back();
 }
 
 void ScheduleGroup::push_back( Schedule & s )
 {
-    vSchedules.push_back( s );
+    vSchedules_.push_back( s );
 }
 
-bool ScheduleGroup::empty()
+bool ScheduleGroup::empty() const
 {
-    return vSchedules.empty();
+    return vSchedules_.empty();
+}
+
+int ScheduleGroup::getNumSchedules() const
+{
+    return vSchedules_.size();
+}
+
+void ScheduleGroup::print() const
+{
+    for( int i = 0; i < vSchedules_.size(); i++ )
+    {
+        std::cout << "Schedule " << i << ": " << std::endl;
+
+        for( const std::string & weekDay : WEEKDAYS )
+        {
+            std::cout << weekDay << ": ";
+
+            for( const CourseSection & currSection : vSchedules_[i].getCourseSections() )
+            {
+                for( const std::string & day : currSection.getSectionDays() )
+                {
+                    if( day == weekDay )
+                    {
+                        std::cout << currSection.getCourse().getCourseName() << "/" << 
+                        currSection.getSectionCode() << " (" << 
+                        std::to_string( currSection.getStartTime() ) << "-" <<
+                        std::to_string( currSection.getEndTime() ) << ", ";
+                    }
+
+                }
+            }
+
+            std::cout << std::endl;
+        }
+
+        std::cout << std::endl;
+    }
+
 }
 
 bool isTimeOverlap( const CourseSection & a, const CourseSection & b )
@@ -104,6 +144,11 @@ bool isConflict( const CourseSection & a, const CourseSection & b )
 
 void generateSchedules( const CourseList courseList, unsigned int index, Schedule & currSchedule, ScheduleGroup & scheduleGroup )
 {
+    if( courseList.empty() )
+    {
+        return;
+    }
+
     if( index == courseList.size() )
     {
         scheduleGroup.push_back( currSchedule );

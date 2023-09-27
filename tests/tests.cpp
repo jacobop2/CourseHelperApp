@@ -2,12 +2,14 @@
 #include "catch.hpp"
 
 #include "../include/course_schedule.h"
+#include "../include/grade_calculator.h"
 
 #include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>
-#include <memory>
+
+#define EPSILON 0.01
 
 TEST_CASE( "Empty CourseList Test" )
 {
@@ -71,4 +73,50 @@ TEST_CASE( "Simple CourseList Test" )
     scheduleGroup.print();
 
     std::cout << "Simple CourseList Test Finished" << std::endl;
+}
+
+TEST_CASE ( "Empty GradeListBlock Test")
+{
+    GradeListBlock glb;
+    glb.clear();
+
+    std::vector< double > gradeBreakdown;
+    gradeBreakdown.clear();
+
+    REQUIRE( -1 == calculateGrade( glb, gradeBreakdown ) );
+}
+
+TEST_CASE ( "Simple GradeListBlock Test" )
+{
+    GradeListBlock glb;
+
+    std::vector< double > gradeBreakdown = { 0.25, 0.75 };
+
+    std::vector< double > glHW = { 92.0, 90.0, 50.0 };
+    std::vector< double > glExams = { 88.0 };
+
+    glb.push_back( glHW );
+    glb.push_back( glExams );
+
+    double dExpected = 85.33;
+    double dResult = calculateGrade( glb, gradeBreakdown );
+
+    REQUIRE( std::abs( dExpected - dResult ) < EPSILON );
+}
+
+TEST_CASE ( "Incorrect GradeBreakdown Test" )
+{
+    GradeListBlock glb;
+
+    std::vector< double > gradeBreakdown = { 0.20, 0.75 };
+
+    std::vector< double > glHW = { 92.0, 90.0, 50.0 };
+    std::vector< double > glExams = { 88.0 };
+
+    glb.push_back( glHW );
+    glb.push_back( glExams );
+
+    double dResult = calculateGrade( glb, gradeBreakdown );
+
+    REQUIRE( -2 == dResult );
 }

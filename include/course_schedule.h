@@ -5,6 +5,8 @@
 
 #include "course.h"
 
+#define WEEKDAYS std::vector<std::string>{"M", "Tu", "W", "Th", "F"}
+
 typedef std::vector < Course > CourseList;
 
 class Schedule
@@ -39,4 +41,4 @@ bool isTimeOverlap( const CourseSection & a, const CourseSection & b );
 bool isDayOverlap( const CourseSection & a, const CourseSection & b );
 bool isConflict( const CourseSection & a, const CourseSection & b );
 
-void generateSchedules( const CourseList courseList, unsigned int index, Schedule & currSchedule, ScheduleGroup & scheduleGroup );
+void generateSchedules( const CourseList & courseList, unsigned int index, Schedule & currSchedule, ScheduleGroup & scheduleGroup );

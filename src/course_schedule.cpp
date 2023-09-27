@@ -8,8 +8,6 @@
 #include "../include/utils.h"
 #include <algorithm>
 
-#define WEEKDAYS std::vector<std::string>{"M", "Tu", "W", "Th", "F"}
-
 std::vector< CourseSection > Schedule::getCourseSections() const
 {
     return vCourseSections_;
@@ -142,7 +140,7 @@ bool isConflict( const CourseSection & a, const CourseSection & b )
 
 */
 
-void generateSchedules( const CourseList courseList, unsigned int index, Schedule & currSchedule, ScheduleGroup & scheduleGroup )
+void generateSchedules( const CourseList & courseList, unsigned int index, Schedule & currSchedule, ScheduleGroup & scheduleGroup )
 {
     if( courseList.empty() )
     {

@@ -12,6 +12,7 @@ class CourseSection
         CourseSection( std::string szSectionCode, std::string szSectionType, int iStartTime, 
                        int iEndTime, std::vector< std::string > vSectionDays, std::string szPartOfSemester,
                        int iCreditHours, Course & course ) :
+
                         szSectionCode_ ( szSectionCode ), 
                         szSectionType_ ( szSectionType ), 
                         iStartTime_ ( iStartTime ), 
@@ -35,13 +36,13 @@ class CourseSection
 
         std::string szSectionCode_;
         std::string szSectionType_;
-        std::string szPartOfSemester_;
 
         int iStartTime_;
         int iEndTime_;
-        int iCreditHours_;
-
         std::vector< std::string > vSectionDays_;
+        std::string szPartOfSemester_;
+
+        int iCreditHours_;
 
         Course & course_;
 

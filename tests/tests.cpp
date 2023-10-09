@@ -3,6 +3,8 @@
 
 #include "../include/course_schedule.h"
 #include "../include/grade_calculator.h"
+#include "../include/course.h"
+#include "../include/utils.h"
 
 #include <algorithm>
 #include <iostream>
@@ -13,7 +15,7 @@
 
 TEST_CASE( "Empty CourseList Test" )
 {
-    std::cout << "Beginning Empty CourseList Test" << std::endl;
+    std::cout << "\n" << "Beginning Empty CourseList Test" << std::endl;
 
     CourseList courseList;
     Schedule schedule;
@@ -28,10 +30,12 @@ TEST_CASE( "Empty CourseList Test" )
 
 TEST_CASE( "Simple CourseList Test" )
 {
-    std::cout << "Beginning Simple CourseList Test" << std::endl;
+    std::cout << "\n" << "Beginning Simple CourseList Test" << std::endl;
 
+    std::string name = "ECE310";
     CourseList courseList;
     Course course1;
+    course1.setCourseName( name );
 
     std::vector< std::string > days;
     days.push_back("M");
@@ -42,22 +46,28 @@ TEST_CASE( "Simple CourseList Test" )
     course1.push_back( *section1a );
 
     Course course2;
+    name = "CS225";
+    course2.setCourseName( name );
+
 
     days.clear();
     days.push_back("Tu");
     days.push_back("Th");
 
     CourseSection * section2a = new CourseSection( "A2", "Dis", 60, 160, days, "F", 4, course2 );
-    course1.push_back( *section2a );
+    course2.push_back( *section2a );
 
     Course course3;
+    name = "PHYS400";
+    course3.setCourseName( name );
+
 
     days.clear();
     days.push_back("M");
     days.push_back("F");
 
     CourseSection * section3a = new CourseSection( "A3", "Lab", 160, 210, days, "F", 3, course3 );
-    course1.push_back( *section3a );
+    course3.push_back( *section3a );
 
     Schedule schedule;
     ScheduleGroup scheduleGroup;
@@ -77,6 +87,8 @@ TEST_CASE( "Simple CourseList Test" )
 
 TEST_CASE ( "Empty GradeListBlock Test")
 {
+    std::cout << "\n" << "Beginning Empty GradeListBlock Test" << std::endl;
+
     GradeListBlock glb;
     glb.clear();
 
@@ -84,10 +96,14 @@ TEST_CASE ( "Empty GradeListBlock Test")
     gradeBreakdown.clear();
 
     REQUIRE( -1 == calculateGrade( glb, gradeBreakdown ) );
+
+    std::cout << "Empty GradeListBlock Test Finished" << std::endl;
 }
 
 TEST_CASE ( "Simple GradeListBlock Test" )
 {
+    std::cout << "\n" << "Beginning Simple GradeListBlock Test" << std::endl;
+
     GradeListBlock glb;
 
     std::vector< double > gradeBreakdown = { 0.25, 0.75 };
@@ -102,10 +118,14 @@ TEST_CASE ( "Simple GradeListBlock Test" )
     double dResult = calculateGrade( glb, gradeBreakdown );
 
     REQUIRE( std::abs( dExpected - dResult ) < EPSILON );
+
+    std::cout << "Simple GradeListBlock Test Finished" << std::endl;
 }
 
 TEST_CASE ( "Incorrect GradeBreakdown Test" )
 {
+    std::cout << "\n" << "Beginning Incorrect GradeBreakdown Test" << std::endl;
+
     GradeListBlock glb;
 
     std::vector< double > gradeBreakdown = { 0.20, 0.75 };
@@ -119,4 +139,6 @@ TEST_CASE ( "Incorrect GradeBreakdown Test" )
     double dResult = calculateGrade( glb, gradeBreakdown );
 
     REQUIRE( -2 == dResult );
+
+    std::cout << "Incorrect GradeBreakdown Test Finished" << std::endl;
 }

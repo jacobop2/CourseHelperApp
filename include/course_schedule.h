@@ -18,6 +18,8 @@ class Schedule
         void push_back( const CourseSection & cs );
         void pop_back();
 
+        void print();
+
     private:
         std::vector< CourseSection > vCourseSections_;
 

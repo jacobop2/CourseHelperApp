@@ -54,6 +54,8 @@ class Course
         std::vector< CourseSection > getCourseSections() const;
         std::string getCourseName() const;
 
+        void setCourseName( std::string & name );
+
         void push_back( CourseSection & cs );
 
     private:

@@ -9,7 +9,7 @@ Alternatively, from the same web_scraping directory, run:
 ```
 py generate_course_urls.py
 ```
-Wait for 2-3 minutes after running this command, so that the webscraping driver has time to collect the course information.Next, run the command:
+Wait for 2-3 minutes after running this command, so that the webscraping driver has time to collect the course information. Next, run the command:
 ```
 py web_scraping.py
 ```

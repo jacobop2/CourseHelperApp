@@ -7,8 +7,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException
 import time
 import os
-from decouple import config
-import numpy as np
+#from decouple import config
+#import numpy as np
 import csv
 
 
@@ -35,7 +35,7 @@ arr = []
 
 # 1. Open the CSV file
 CURR_DIR = os.getcwd()
-with open(f'{CURR_DIR}\course_urls.csv', 'r') as csv_file:
+with open(f'{CURR_DIR}\\course_urls.csv', 'r') as csv_file:
     # 2. Create a CSV reader
     csv_reader = csv.reader(csv_file)
 

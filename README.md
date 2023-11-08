@@ -1,3 +1,9 @@
-This is a basic repo for our independent studies project.
-
-We are thinking of making a simple c++ game first like snake to test and demonstrate our ability to make a project, and then doing something more serious later.
+Commands to build project:
+From source directory:
+1. make clean
+2. mkdir build
+3. make
+OR
+3. make test
+To run main: ./main
+To run tests: ./test_runner

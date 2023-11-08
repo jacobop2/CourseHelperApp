@@ -44,3 +44,8 @@ void Course::push_back( CourseSection & cs )
 {
     vCourseSections_.push_back( cs );
 }
+
+void Course::setCourseName( std::string & name ) 
+{
+    szCourseName_ = name;
+}

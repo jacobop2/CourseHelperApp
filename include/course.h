@@ -12,6 +12,7 @@ class CourseSection
         CourseSection( std::string szSectionCode, std::string szSectionType, int iStartTime, 
                        int iEndTime, std::vector< std::string > vSectionDays, std::string szPartOfSemester,
                        int iCreditHours, Course & course ) :
+
                         szSectionCode_ ( szSectionCode ), 
                         szSectionType_ ( szSectionType ), 
                         iStartTime_ ( iStartTime ), 
@@ -35,12 +36,21 @@ class CourseSection
 
         std::string szSectionCode_;
         std::string szSectionType_;
+<<<<<<< HEAD
+=======
+
+>>>>>>> a45b41fb182d13d2d39b78157df8efa6b35df24d
         int iStartTime_;
         int iEndTime_;
         std::vector< std::string > vSectionDays_;
         std::string szPartOfSemester_;
+<<<<<<< HEAD
         int iCreditHours_;
 
+=======
+
+        int iCreditHours_;
+>>>>>>> a45b41fb182d13d2d39b78157df8efa6b35df24d
 
         Course & course_;
 
@@ -51,6 +61,8 @@ class Course
     public:
         std::vector< CourseSection > getCourseSections() const;
         std::string getCourseName() const;
+
+        void setCourseName( std::string & name );
 
         void push_back( CourseSection & cs );
 

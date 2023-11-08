@@ -8,8 +8,6 @@
 #include "../include/utils.h"
 #include <algorithm>
 
-#define WEEKDAYS std::vector<std::string>{"M", "Tu", "W", "Th", "F"}
-
 std::vector< CourseSection > Schedule::getCourseSections() const
 {
     return vCourseSections_;
@@ -36,6 +34,17 @@ void Schedule::pop_back()
     vCourseSections_.pop_back();
 }
 
+void Schedule::print()
+{
+    std::cout << "\n" << "Beginning of Schedule print" << "\n" << std::endl;
+
+    for( const CourseSection & s : vCourseSections_ )
+    {
+        std::cout << s.getSectionCode() << std::endl;
+    }
+    std::cout << "\n" << "End of Schedule print" << "\n" << std::endl;
+}
+
 void ScheduleGroup::push_back( Schedule & s )
 {
     vSchedules_.push_back( s );
@@ -55,7 +64,7 @@ void ScheduleGroup::print() const
 {
     for( int i = 0; i < vSchedules_.size(); i++ )
     {
-        std::cout << "Schedule " << i << ": " << std::endl;
+        std::cout << "\n" << "Schedule " << i << ": " << std::endl;
 
         for( const std::string & weekDay : WEEKDAYS )
         {
@@ -70,7 +79,7 @@ void ScheduleGroup::print() const
                         std::cout << currSection.getCourse().getCourseName() << "/" << 
                         currSection.getSectionCode() << " (" << 
                         std::to_string( currSection.getStartTime() ) << "-" <<
-                        std::to_string( currSection.getEndTime() ) << ", ";
+                        std::to_string( currSection.getEndTime() ) << "), ";
                     }
 
                 }
@@ -81,7 +90,7 @@ void ScheduleGroup::print() const
 
         std::cout << std::endl;
     }
-
+    return;
 }
 
 bool isTimeOverlap( const CourseSection & a, const CourseSection & b )
@@ -114,6 +123,22 @@ bool isConflict( const CourseSection & a, const CourseSection & b )
     return isTimeOverlap( a, b ) && isDayOverlap( a, b );
 }
 
+void print( const CourseList & c )
+{
+    std::cout << "\n" << "Beginning of CourseList print" << std::endl;
+    for ( const Course & course : c )
+    {
+        std::cout << "\n" << course.getCourseName() << std::endl;
+
+        for ( const CourseSection & cs : course.getCourseSections() )
+        {
+            std::cout << cs.getSectionCode() << std::endl;
+        } 
+    }
+    std::cout << "End of CourseList print" << std::endl;
+    return;
+}
+
 // Returns std pair so we can have an int error code
 /* ERROR CODE LIST
 0 - NO ERROR
@@ -142,25 +167,43 @@ bool isConflict( const CourseSection & a, const CourseSection & b )
 
 */
 
-void generateSchedules( const CourseList courseList, unsigned int index, Schedule & currSchedule, ScheduleGroup & scheduleGroup )
+void generateSchedules( const CourseList & courseList, unsigned int index, Schedule & currSchedule, ScheduleGroup & scheduleGroup )
 {
+    //std::cout << "BEGINNING OF GENERATE SCHEDULES, index: " << std::to_string( index ) << std::endl;
+    //currSchedule.print();
+
+    //print( courseList );
+
     if( courseList.empty() )
     {
+       // std::cout << "CourseList Size: " << std::to_string( courseList.size() ) << std::endl;
         return;
     }
 
     if( index == courseList.size() )
     {
+        // std::cout << "CourseList Size: " << std::to_string( courseList.size() ) << "Index: " << std::to_string( index ) << std::endl;
+
         scheduleGroup.push_back( currSchedule );
         return;
     }
 
+    //std::cout << "Reached end of return checks" << std::endl;
+    //std::cout << "Size: " << std::to_string( courseList[index].getCourseSections().size() ) << std::endl;
+
     for( const CourseSection & currSection : courseList[index].getCourseSections() )
     {
+        //std::cout << "Inside first for loop" << std::endl;
+
         bool bIsConflict = false;
+
+        //std::cout << currSection.getSectionCode() << "\n" << std::endl;
 
         for( const CourseSection & existingSection : currSchedule.getCourseSections() )
         {
+            //std::cout << "Inside second for loop" << std::endl;
+            //std::cout << "\n" << existingSection.getSectionCode() << std::endl;
+
             if( isConflict( existingSection, currSection ) )
             {
                 bIsConflict = true;
@@ -168,12 +211,22 @@ void generateSchedules( const CourseList courseList, unsigned int index, Schedul
             }
         }
 
+        //std::cout << "\n" << std::to_string( bIsConflict ) << std::endl;
+
         if( !bIsConflict && currSchedule.getSumCreditHours() + currSection.getCreditHours() <= 18 )
         {
 
+            //std::cout << "Inside check to add" << std::endl;
+            //std::cout << "Section to be added: " << currSection.getSectionCode() << std::endl;
+
             currSchedule.push_back( currSection );
 
+            //currSchedule.print();
+            //std::cout << "This is updated currSchedule before recursive call" << std::endl;
+
             generateSchedules( courseList, index + 1, currSchedule, scheduleGroup );
+
+            //std::cout << "Returned from recursive" << std::endl;
 
             currSchedule.pop_back();
         }

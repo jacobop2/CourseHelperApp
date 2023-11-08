@@ -1,9 +1,36 @@
+'''
+Developed by Michael Rheintgen in September 2023
+
+
+MOTIVATION
+For an Independent Study Project with the objective of offering 
+students an app that enables them to access a holistic overview 
+of the academic resources available to them. This includes features 
+such as schedule generation, professor recommendations, 
+a final grade calculator, and more.
+
+
+FILE DESCRIPTION
+This file in particular generates two CSV files, one of these files
+contains the name of all of the courses at UIUC for the a
+particular semester called all_courses_names.csv. The other 
+CSV file generated is called course_urls.csv. This file contains 
+all of the course URLs so that they can be used in 
+web_scraping.py to collect course information using selenium.
+'''
+
+
+
+
 import requests
 from bs4 import BeautifulSoup
 import csv
 import pickle
 import json
 
+
+# Not being used anymore.
+'''
 class course:
     def __init__(self, title, prereqs = None, dates = None, credit_hours = -1, gen_ed = None, description = "No desc yet", name = "Yo"):
         self.title = title
@@ -19,11 +46,10 @@ csv_rows = []
 
 # Add header row
 csv_rows.append(['Title', 'Name', 'Required Courses', 'Date', 'Instructor', 'Credit Hours'])
-
+'''
 
 
 #///////////////////////////////////////////////////////////
-'''
 # Creates a list of all of the possible degrees a course could be part of
 
 # Used to help generate URLs for scraping all of the possible classes in each degree
@@ -40,12 +66,12 @@ for index, li in enumerate(soup2.find_all('li')):
         if "/courses-of-instruction" in href and len(href) > 24 and len(href) < 30:
             degree = href[24: len(href) - 1].upper()
             all_degrees.append(degree)
-'''
 #///////////////////////////////////////////////////////////
 
 
+
+
 #///////////////////////////////////////////////////////////
-'''
 # Loop through all of the academic catalog degree course list URLs
 # Extract all courses from each degree and stores in all_courses
 # Each course will be made into an object with only the title known, other details are added elsewhere.
@@ -76,7 +102,12 @@ for deg in all_degrees:
                 add = True
     all_courses.append(degree_courses)
     all_courses_names.append(degree_courses_names)
+#///////////////////////////////////////////////////////////
 
+
+
+# Not being used anymore/experimental
+'''
 # Now I save all of these course objects to a file for later reference, and so I don't have to run this again
 
 
@@ -86,16 +117,14 @@ with open('all_courses.pkl', 'wb') as file:
 
 print('Courses saved to "all_courses.pkl"')
 '''
-#///////////////////////////////////////////////////////////
 
 
 
 #///////////////////////////////////////////////////////////
-
 # Creates a CSV file for all of the courses so it doesn't have to be created everytime
 # because my computa getting too hot homie.
+# Need to generate course names as they are used in generating the course URLs
 
-'''
 # Specify the CSV file path
 csv_file_path = 'all_courses_names.csv'
 
@@ -106,15 +135,12 @@ with open(csv_file_path, 'w', newline='') as csv_file:
 
     # Write the array to the CSV file
     csv_writer.writerows(all_courses_names)
-'''
-
 #///////////////////////////////////////////////////////////
 
 
-#///////////////////////////////////////////////////////////
 
-# Used to read number of elements from CSV file.
 
+# Uncomment to see number of courses available.
 '''
 # Specify the path to your CSV file
 csv_file_path = 'all_courses_names.csv'
@@ -138,16 +164,13 @@ with open(csv_file_path, 'r', newline='') as csv_file:
 print(f"The CSV file '{csv_file_path}' has a total of {total_classes} classes.")
 '''
 
-#///////////////////////////////////////////////////////////
 
 
 #///////////////////////////////////////////////////////////
+# Generates a CSV containing the URLs for every course at
+# UIUC for the next semester. Uses course explorer URLS.
+# Generated CSV will be titled course_urls.csv
 
-# This scrapes from all of the specific course URLs to extract more info on them
-# Uses all_courses_names and a base URL to find the correct URL for each course
-# Utilizes the academic catalog, and gets info like prerequisites, date, credit hours, etc for each course
-# Adds this info to each course object in all_courses.
-'''
 base_url_course = "https://courses.illinois.edu/schedule/2023/fall/"
 
 # Specify the path to your CSV file
@@ -181,8 +204,14 @@ with open(csv_file_path, 'w', newline='') as csv_file:
 
     # Write each string as a single-item list
     csv_writer.writerows([[url] for url in course_urls])
-'''
+#///////////////////////////////////////////////////////////
 
+
+
+
+
+# Not used, see updated selenium code to webscrape from course urls.
+'''
 # Going to need to alter the course objects so load them back in here:
 
 # Load the list of course objects from the pickle file
@@ -233,7 +262,7 @@ with open(csv_file_path, 'r') as file:
         break
   
 #///////////////////////////////////////////////////////////
-
+'''
 
 
 #print(soup2.prettify())

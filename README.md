@@ -11,8 +11,9 @@ py web_scraping.py
 Now, in the course_information.csv file in the web_scraping folder, you should see updated course information. This is the information that will be used in all of our services regarding schedule generation and recommendations.
 
 In order to run the webscraping, you need to install Selenium in order to use the webdriver. (Download the most recent version of python and verify pip is installed) Run the commands:
-        pip install selenium
-        ```
+```
+pip install selenium
+```
 
 
 Commands to build project:

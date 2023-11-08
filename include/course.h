@@ -36,21 +36,12 @@ class CourseSection
 
         std::string szSectionCode_;
         std::string szSectionType_;
-<<<<<<< HEAD
-=======
-
->>>>>>> a45b41fb182d13d2d39b78157df8efa6b35df24d
         int iStartTime_;
         int iEndTime_;
         std::vector< std::string > vSectionDays_;
         std::string szPartOfSemester_;
-<<<<<<< HEAD
         int iCreditHours_;
 
-=======
-
-        int iCreditHours_;
->>>>>>> a45b41fb182d13d2d39b78157df8efa6b35df24d
 
         Course & course_;
 

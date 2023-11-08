@@ -12,7 +12,9 @@ import os
 import re
 import csv
 
+import sys
 
+print( "Beginning Webscraping from Python" )
 
 service = Service()
 options = webdriver.ChromeOptions()
@@ -26,6 +28,19 @@ driver = webdriver.Chrome(service=service, options=options)
 # table = str(WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[3]/div[2]/div[2]/div[2]/div[1]/div[2]/table/tbody"))).text)
 # li = list(table.splitlines())
 
+if len( sys.argv ) != 2 and len( sys.argv ) != 3:
+    print( "Webscraper expects 1 or 2 arguments: <Major> [ClassNum]" )
+    sys.exit(1)
+
+if sys.argv[1] == None:
+    print( "Major argument is Null")
+else:
+    major = sys.argv[1]
+
+if sys.argv[2]:
+    classNum = "/" + sys.argv[2]
+
+
 #LOOPS THROUGH EACH SECTION'S ROW AND GATHERS THE CLASS DATA IN AN ARRAY
 #////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 arr = []
@@ -38,7 +53,7 @@ with open(f'{CURR_DIR}\\course_urls.csv', 'r') as csv_file:
 
     # 3. Iterate through the rows
     for row in csv_reader:
-        if "https://courses.illinois.edu/schedule/2023/fall/ECE/397" in row[0]:
+        if f"https://courses.illinois.edu/schedule/2023/fall/{major}{classNum}" in row[0]:
             driver.get(row[0])
 
             for i in range(100):
@@ -55,7 +70,7 @@ with open(f'{CURR_DIR}\\course_urls.csv', 'r') as csv_file:
                     credit_hours = str(WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//*[@id='app-course-info']/div[3]/p[1]"))).text)
                     
                     
-                    if("to" in credit_hours or "TO" in credit_hours or "To" in credit_hours):
+                    if("to" in credit_hours or "TO" in credit_hours or "To" in credit_hours or "OR" in credit_hours or "or" in credit_hours):
                         credit_hours = 3
                     else:
                         credit_hours = re.sub("Credit: ", "", credit_hours)
@@ -72,13 +87,10 @@ with open(f'{CURR_DIR}\\course_urls.csv', 'r') as csv_file:
                         end_time = class_time
 
                     c = [course, crn, type, section, start_time, end_time, day, location, instructor, credit_hours]
-                    print(c) 
+                    # print(c) 
                     arr.append(c)   
                 except TimeoutException:
                     break
-
-
-
 
 # USED TO LOOP THROUGH THE ARRAY AND FORMAT THE OUTPUT TO PRINT OUT
 # for i in range(len(arr)):
@@ -94,15 +106,39 @@ with open(f'{CURR_DIR}\\course_urls.csv', 'r') as csv_file:
 
 
 #USED TO PUT THE SCRAPED VALUES INTO A CSV FILE 
-# fields = ['Course Name', 'CRN', 'Type', 'Section', 'Time', 'Day', 'Location', 'Instructor']
+fields = ['Course Name', 'CRN', 'Type', 'Section', 'Time', 'Day', 'Location', 'Instructor']
 
 # filename = "new_trial.csv"
-# filename = "course_information.csv"
+filename = "course_information.csv"
+
+# for i, row in enumerate(arr):
+#     for j, item in enumerate(row):
+#         if item == "":
+#             print(f"Empty element found at row {i}, column {j}")
+
+
+# Clean 'arr' to remove empty rows and strip leading/trailing spaces only for string elements
+clean_arr = []
+for row in arr:
+    cleaned_row = []
+    for item in row:
+        cleaned_item = item.strip() if isinstance(item, str) else item
+        cleaned_row.append(cleaned_item)
+    if any(cleaned_row):
+        clean_arr.append(cleaned_row)
+
+# Writing to the CSV file without empty lines
+with open(filename, 'w', newline='') as csvfile:
+    csvwriter = csv.writer(csvfile)
+    csvwriter.writerow(fields)
+    for row in clean_arr:
+        if any(row):  # Check if the row contains at least one non-empty element
+            csvwriter.writerow(row)
 
 # with open(filename, 'w') as csvfile:
 #     csvwriter = csv.writer(csvfile)
 #     csvwriter.writerow(fields)
-#     csvwriter.writerows(arr)
+#     csvwriter.writerows(clean_arr)
 
 
 #OPENS EVERY COURSE PAGE IN THE ECE PAGE 
@@ -118,6 +154,9 @@ with open(f'{CURR_DIR}\\course_urls.csv', 'r') as csv_file:
 #         next_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[3]/div[2]/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[{}]/td[2]/a".format(i+2))))
 #         driver.execute_script("arguments[0].scrollIntoView();", next_button)
 
+print( "Finished Webscraping in Python" )
+
 driver.quit()
+sys.exit(0)
 
 

@@ -3,11 +3,7 @@
 # Compiler
 CXX := clang++
 # Compiler flags
-<<<<<<< HEAD
 CXXFLAGS := -std=c++17 -Wall -g
-=======
-CXXFLAGS := -std=c++17 -Wall -ggdb
->>>>>>> a45b41fb182d13d2d39b78157df8efa6b35df24d
 # Source files directory
 SRC_DIR := src
 # Output directory

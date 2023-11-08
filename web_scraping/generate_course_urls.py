@@ -19,9 +19,6 @@ all of the course URLs so that they can be used in
 web_scraping.py to collect course information using selenium.
 '''
 
-
-
-
 import requests
 from bs4 import BeautifulSoup
 import csv
@@ -53,6 +50,8 @@ csv_rows.append(['Title', 'Name', 'Required Courses', 'Date', 'Instructor', 'Cre
 # Creates a list of all of the possible degrees a course could be part of
 
 # Used to help generate URLs for scraping all of the possible classes in each degree
+
+print( "Generating Course URLS" )
 
 all_degrees = [] # A list of all of the degree abbreviations in all caps. Ex: ECE
 alt_url = "http://catalog.illinois.edu/courses-of-instruction/"
@@ -95,7 +94,7 @@ for deg in all_degrees:
             if add is True:
                 # Extract text from the "td" element and append it to the "td_text" variable
                 name = td.text.strip()
-                degree_courses.append(course(title=name))
+                # degree_courses.append(course(title=name))
                 degree_courses_names.append(name)
                 add = False
             else:
@@ -191,7 +190,7 @@ with open(csv_file_path, 'r') as file:
             course_num = splitter[1]
 
             course_url = base_url_course + f"{course_deg}/{course_num}"
-            print(course_url)
+            # print(course_url)
             course_urls.append(course_url)
 
 # Specify the CSV file path
@@ -264,5 +263,6 @@ with open(csv_file_path, 'r') as file:
 #///////////////////////////////////////////////////////////
 '''
 
+print( "Finished Generating Course URLS" )
 
 #print(soup2.prettify())

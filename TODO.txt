@@ -1,3 +1,4 @@
 1: Update error handling
 2: Add a credit hour minimum
 3: Add linking for sections ie (Lec -> Discussion)
+4: Pass in argument to webscraping

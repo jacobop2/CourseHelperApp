@@ -7,13 +7,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException
 import time
 import os
-from decouple import config
-import numpy as np
+import re
 import csv
-
-
-
-
 
 
 
@@ -41,7 +36,7 @@ with open(f'{CURR_DIR}\course_urls.csv', 'r') as csv_file:
 
     # 3. Iterate through the rows
     for row in csv_reader:
-        if "https://courses.illinois.edu/schedule/2023/fall/ECE/385" in row[0]:
+        if "https://courses.illinois.edu/schedule/2023/fall/ECE/397" in row[0]:
             driver.get(row[0])
 
             for i in range(100):
@@ -55,39 +50,57 @@ with open(f'{CURR_DIR}\course_urls.csv', 'r') as csv_file:
                     day =  str(WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//*[@id='uid{}']/td[8]".format(i +1)))).text)
                     location =  str(WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//*[@id='uid{}']/td[9]".format(i +1)))).text)
                     instructor =  str(WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//*[@id='uid{}']/td[10]".format(i +1)))).text)
+                    credit_hours = str(WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//*[@id='app-course-info']/div[3]/p[1]"))).text)
+                    
+                    
+                    if("to" in credit_hours or "TO" in credit_hours or "To" in credit_hours):
+                        credit_hours = 3
+                    else:
+                        credit_hours = re.sub("Credit: ", "", credit_hours)
+                        credit_hours = re.sub(" hours.", "", credit_hours)
+                        credit_hours = int(credit_hours)
 
 
+                    if("-" in class_time):
+                        times = class_time.split(" - ")
+                        start_time = times[0]
+                        end_time = times[1]
+                    else:
+                        start_time = class_time
+                        end_time = class_time
 
-
-                    c = [course, crn, type, section, class_time, day, location, instructor]
-                    # print(first_385) 
+                    c = [course, crn, type, section, start_time, end_time, day, location, instructor, credit_hours]
+                    print(c) 
                     arr.append(c)   
                 except TimeoutException:
                     break
 
 
+
+
 # USED TO LOOP THROUGH THE ARRAY AND FORMAT THE OUTPUT TO PRINT OUT
-for i in range(len(arr)):
-    for j in range(len(arr[i])):
-        # print(arr[i])                                     
-        arr[i][j].strip()
-        if arr[i][j] == "":
-            arr[i][j] = "Not Specified"
-    print("Section: " + (arr[i])[3] + "     CRN: " + (arr[i])[1])
-    print("Type: " + (arr[i])[2] + "   Instructor: " + (arr[i])[7])
-    print("Time: " + (arr[i])[4] + "   Day: " + (arr[i])[5] + "    Location: " + (arr[i])[6] + "\n")
+# for i in range(len(arr)):
+#     for j in range(len(arr[i])):
+#         # print(arr[i])                                     
+#         arr[i][j].strip()
+#         if arr[i][j] == "":
+#             arr[i][j] = "Not Specified"
+#     print("Section: " + (arr[i])[3] + "     CRN: " + (arr[i])[1])
+#     print("Type: " + (arr[i])[2] + "   Instructor: " + (arr[i])[7])
+#     print("Time: " + (arr[i])[4] + "   Day: " + (arr[i])[5] + "    Location: " + (arr[i])[6] + "\n")
 
 
 
 #USED TO PUT THE SCRAPED VALUES INTO A CSV FILE 
-fields = ['Course Name', 'CRN', 'Type', 'Section', 'Time', 'Day', 'Location', 'Instructor']
+# fields = ['Course Name', 'CRN', 'Type', 'Section', 'Time', 'Day', 'Location', 'Instructor']
 
-filename = "new_trial.csv"
+# filename = "new_trial.csv"
+# filename = "course_information.csv"
 
-with open(filename, 'w') as csvfile:
-    csvwriter = csv.writer(csvfile)
-    csvwriter.writerow(fields)
-    csvwriter.writerows(arr)
+# with open(filename, 'w') as csvfile:
+#     csvwriter = csv.writer(csvfile)
+#     csvwriter.writerow(fields)
+#     csvwriter.writerows(arr)
 
 
 #OPENS EVERY COURSE PAGE IN THE ECE PAGE 

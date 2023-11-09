@@ -2,12 +2,23 @@
 
 #include <string>
 #include <vector>
+#include <cstdint>
+#include <fstream>
 
 #include "course.h"
+#include "utils.h"
 
 #define WEEKDAYS std::vector<std::string>{"M", "Tu", "W", "Th", "F"}
 
 typedef std::vector < Course > CourseList;
+
+enum StatusCode {
+    SUCCESS,
+    FAILURE,
+    INVALID_FILE,
+    INVALID_COURSENAME,
+    INVALID_TIME
+};
 
 class Schedule
 {
@@ -43,4 +54,9 @@ bool isTimeOverlap( const CourseSection & a, const CourseSection & b );
 bool isDayOverlap( const CourseSection & a, const CourseSection & b );
 bool isConflict( const CourseSection & a, const CourseSection & b );
 
+int timeStringtoMinutes( std::string & time );
+std::vector<std::string> daysStringtoVec( std::string & days );
+
 void generateSchedules( const CourseList & courseList, unsigned int index, Schedule & currSchedule, ScheduleGroup & scheduleGroup );
+
+StatusCode scheduler( std::vector<std::string> courseNames, ScheduleGroup & bufScheduleGroup );

@@ -139,6 +139,116 @@ void print( const CourseList & c )
     return;
 }
 
+int timeStringtoMinutes( std::string & time )
+{
+    if ( time.empty() )
+    {
+        std::cerr << "Time string is empty, aborting conversion" << std::endl;
+        return -1;
+    }
+
+    if ( "ARRANGED" == time )
+    {
+        return 0;
+    }
+
+    std::string meridiem = time.substr( time.size() - 2 ); // fetches AM or PM
+    for( char & c : meridiem ) // convert chars to upper case
+    {
+        c = std::toupper( c );
+    }
+
+    if ( "AM" != meridiem && "PM" != meridiem ) // if meridiem is invalid, return error
+    {
+        std::cerr << "Invalid time format: " << time << std::endl;
+        return -1;
+    }
+
+    std::string timeTrimmed = time.substr( 0, time.size() - 2 );
+
+    std::vector<std::string> fields;
+    if ( SplitString( timeTrimmed, ':', fields ) == 2 ) // if string successfully split into hours and minutes
+    {
+
+        int hours = stoi( fields[0] );
+        int minutes = stoi( fields[1] );
+
+        if ( hours < 0 || hours > 12 || minutes < 0 || minutes >= 60) // validating time
+        {
+            std::cerr << "Invalid time: " << time << std::endl;
+            return -1;
+        }
+
+        if ( "AM" == meridiem )
+        {
+            return hours * 60 + minutes - 8*60; //  adjusting for t 0 being 8 am
+        }
+        else if ( "PM" == meridiem )
+        {
+            return hours * 60 + minutes + 720 - 8*60; // adjusting for 12 hour offset
+        }
+
+    }
+    else
+    {
+        std::cerr << std::to_string( fields.size()) << std::endl;
+        std::cerr << "Time string " << time << " is not in the format HH:MM(AM/PM), aborting conversion" << std::endl;
+        return -1;
+    }
+
+    std::cerr << "Unknown Time Conversion Error" << std::endl;
+    return -1;
+}
+
+std::vector<std::string> daysStringtoVec( std::string & days )
+{
+    std::vector<std::string> retDays;
+    std::vector<std::string> empty;
+    if ( days.empty() )
+    {
+        std::cerr << "Days string is empty, aborting conversion" << std::endl;
+        return empty;
+    }
+
+    if ( "n.a." == days )
+    {
+        retDays.push_back("NA");
+        return retDays;
+    }
+
+    for( size_t i = 0; i < days.size(); i++ )
+    {
+        char c = days[i];
+        c = std::toupper( c );
+        if ( c == 'M')
+        {
+            retDays.push_back("M");
+        }
+        else if ( c == 'W' )
+        {
+            retDays.push_back("W");
+        }
+        else if ( c == 'F' )
+        {
+            retDays.push_back("F");
+        }
+        else if ( c == 'T' )
+        {
+            retDays.push_back("T");
+        }
+        else if ( c == 'R' )
+        {
+            retDays.push_back("R");
+        }
+        else
+        {
+            std::cerr << "Invalid day string " << days << std::endl;
+            return empty;
+        }
+    }
+    return retDays;
+} 
+
 // Returns std pair so we can have an int error code
 /* ERROR CODE LIST
 0 - NO ERROR
@@ -231,4 +341,107 @@ void generateSchedules( const CourseList & courseList, unsigned int index, Sched
             currSchedule.pop_back();
         }
     }
+}
+
+/*
+    Arguments:
+        std::vector<std::string> courseNames - vector of course names needed to make the schedule
+        ScheduleGroup & bufScheduleGroup - a ScheduleGroup buffer which will be filled out by the helper function
+
+    Returns:
+        StatusCode symbolizing error status
+
+    Purpose:
+        This function takes in a list of course names and parses the csv. For every match, a new course object is created
+        and the necessary sections are added. Once all course objects are finalized, the generate schedules helper is called
+        which creates all possible schedules and fills them into the schedulegroup buffer.
+*/
+
+StatusCode scheduler( std::vector<std::string> courseNames, ScheduleGroup & bufScheduleGroup )
+{
+    if ( courseNames.empty() )
+    {
+        std::cerr << "CourseNames vector cannot be empty" << std::endl;
+        return INVALID_COURSENAME;
+    }
+
+    CourseList courseList;
+
+    for ( std::string & s : courseNames )
+    {
+        std::ifstream file("web_scraping\\course_information.csv"); 
+
+        if ( file.is_open() ) 
+        { 
+            bool bHasMatched = false;
+            bool bValidCourseName = false;
+            bool bCourseCreated = false;
+
+            std::string line;
+            while (std::getline(file, line)) { // while there are still full lines in the file
+
+                Course course;
+                std::vector<std::string> fields;
+                SplitString(line, ',', fields); // Split lines into vector fields
+
+                if ( s == fields[0] )
+                {
+                    bValidCourseName = true;
+                    std::vector<CourseSection> courseSections;
+                    if ( !bHasMatched ) // if this is first time matching, make a new course object and add it to list
+                    {
+                        // std::cout << "Initializing Course" << std::endl;
+                        course.setCourseName( s );
+                        
+                        courseList.push_back(course);
+                        bCourseCreated = true;
+                    }
+
+                    // Otherwise, just make new section for the same course
+                    if ( bCourseCreated )
+                    {
+                        int startTime = timeStringtoMinutes( fields[4] );
+                        int endTime = timeStringtoMinutes( fields[5] ); 
+                        if ( -1 == startTime || -1 == endTime )
+                        {
+                            return INVALID_TIME;
+                        }
+
+                        CourseSection courseSection(
+                                                    fields[3],                        // section code
+                                                    fields[2],                        // section type
+                                                    startTime, // start time
+                                                    endTime, // end time
+                                                    daysStringtoVec( fields[6] ),     //change to vec, section days
+                                                    "full",                           // will need to update when fetch part of semester, part of semester
+                                                    std::stoi( Trim( fields[9] ) ),  // credit hours
+                                                    fields[8],                        // Instructor
+                                                    fields[7],                        // Location
+                                                    course                            // parent course
+                                                    );
+                        course.push_back(courseSection);
+                    }
+
+                    bHasMatched = true;
+                }         
+            }
+
+            if ( !bValidCourseName )
+            {
+                return INVALID_COURSENAME;
+            }
+
+            file.close();
+        }
+        else 
+        {
+            std::cerr << "Unable to open csv file " << std::endl;
+            return INVALID_FILE;
+        }
+    } 
+
+    Schedule schedule;
+    generateSchedules( courseList, 0, schedule, bufScheduleGroup );
+
+    return SUCCESS;
 }

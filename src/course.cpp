@@ -30,6 +30,14 @@ Course & CourseSection::getCourse() const
     return course_;
 }
 
+void CourseSection::print() const
+{
+    std::cout << "Printing Course Section: \n";
+    std::cout << szSectionCode_ << " " << szSectionType_ << " " << szInstructor_ << " " << course_.getCourseName() << std::endl;
+    std::cout << "Print Complete" << std::endl;
+}
+
+
 std::vector< CourseSection > Course::getCourseSections() const
 {
     return vCourseSections_;

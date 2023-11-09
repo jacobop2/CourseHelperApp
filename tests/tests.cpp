@@ -43,35 +43,30 @@ TEST_CASE ( "Simple CourseList Test" )
     Course course1;
     course1.setCourseName( name );
 
-    std::vector< std::string > days;
-    days.push_back("M");
-    days.push_back("W");
-    days.push_back("F");
+    std::vector< std::string > days = {"M", "W", "F"};
 
-    CourseSection * section1a = new CourseSection( "A1", "Lec", 0, 50, days, "F", 3, course1 );
-    course1.push_back( *section1a );
+    CourseSection section1a( "A1", "Lec", 0, 50, days, "F", 3, "Ins", "Loc", course1 );
+    course1.push_back( section1a );
 
     Course course2;
     name = "CS225";
     course2.setCourseName( name );
 
     days.clear();
-    days.push_back("Tu");
-    days.push_back("Th");
+    days = {"Tu", "Th"};
 
-    CourseSection * section2a = new CourseSection( "A2", "Dis", 60, 160, days, "F", 4, course2 );
-    course2.push_back( *section2a );
+    CourseSection section2a( "A2", "Dis", 60, 160, days, "F", 4, "Ins", "Loc", course2 );
+    course2.push_back( section2a );
 
     Course course3;
     name = "PHYS400";
     course3.setCourseName( name );
 
     days.clear();
-    days.push_back("M");
-    days.push_back("F");
+    days = {"M", "F"};
 
-    CourseSection * section3a = new CourseSection( "A3", "Lab", 160, 210, days, "F", 3, course3 );
-    course3.push_back( *section3a );
+    CourseSection section3a( "A3", "Lab", 160, 210, days, "F", 3, "Ins", "Loc", course3 );
+    course3.push_back( section3a );
 
     Schedule schedule;
     ScheduleGroup scheduleGroup;
@@ -109,17 +104,17 @@ TEST_CASE ( "Simple CourseList Test 2" )
     days.push_back("W");
     days.push_back("F");
 
-    CourseSection * section1a = new CourseSection( "A1", "Lec", 0, 50, days, "F", 3, course1 );
+    CourseSection * section1a = new CourseSection( "A1", "Lec", 0, 50, days, "F", 3, "Ins", "Loc", course1 );
     course1.push_back( *section1a );
 
-    CourseSection * section3a = new CourseSection( "A3", "Lab", 160, 210, days, "F", 3, course1 );
+    CourseSection * section3a = new CourseSection( "A3", "Lab", 160, 210, days, "F", 3, "Ins", "Loc", course1 );
     course1.push_back( *section3a );
 
     days.clear();
     days.push_back("Tu");
     days.push_back("Th");
 
-    CourseSection * section2a = new CourseSection( "A2", "Dis", 60, 160, days, "F", 4, course1 );
+    CourseSection * section2a = new CourseSection( "A2", "Dis", 60, 160, days, "F", 4, "Ins", "Loc", course1 );
     course1.push_back( *section2a );
 
     Schedule schedule;
@@ -157,27 +152,27 @@ TEST_CASE ( "CourseList Test 1" )
     Course course1;
     course1.setCourseName( name );
 
-    CourseSection * section1a = new CourseSection( "1A", "Lec", 0, 50, { "M", "W", "F" }, "F", 3, course1 );
+    CourseSection * section1a = new CourseSection( "1A", "Lec", 0, 50, { "M", "W", "F" }, "F", 3, "Ins", "Loc", course1 );
     course1.push_back( *section1a );
 
-    CourseSection * section1b = new CourseSection( "1B", "Lec", 160, 210, { "M", "W", "F" }, "F", 3, course1 );
+    CourseSection * section1b = new CourseSection( "1B", "Lec", 160, 210, { "M", "W", "F" }, "F", 3, "Ins", "Loc", course1 );
     course1.push_back( *section1b );
 
     Course course2;
     name = "CS225";
     course2.setCourseName( name );
 
-    CourseSection * section2a = new CourseSection( "2A", "Dis", 60, 160, { "Th", "Tu" }, "F", 4, course2 );
+    CourseSection * section2a = new CourseSection( "2A", "Dis", 60, 160, { "Th", "Tu" }, "F", 4, "Ins", "Loc", course2 );
     course2.push_back( *section2a );
 
-    CourseSection * section2b = new CourseSection( "2B", "Dis", 60, 160, { "M", "W" }, "F", 4, course2 );
+    CourseSection * section2b = new CourseSection( "2B", "Dis", 60, 160, { "M", "W" }, "F", 4, "Ins", "Loc", course2 );
     course2.push_back( *section2b );
 
     Course course3;
     name = "PHYS400";
     course3.setCourseName( name );
 
-    CourseSection * section3a = new CourseSection( "3A", "Lab", 160, 210, { "M", "F" }, "F", 3, course3 );
+    CourseSection * section3a = new CourseSection( "3A", "Lab", 160, 210, { "M", "F" }, "F", 3, "Ins", "Loc", course3 );
     course3.push_back( *section3a );
 
     Schedule schedule;
@@ -253,3 +248,151 @@ TEST_CASE ( "Incorrect GradeBreakdown Test" )
 
     std::cout << "Incorrect GradeBreakdown Test Finished" << std::endl;
 }
+
+TEST_CASE ( "Empty Time String Test" )
+{
+    std::cout << "\n" << "Beginning Empty Time String Test" << std::endl;
+
+    std::string t;
+    int rv;
+    
+    rv = timeStringtoMinutes( t );
+    REQUIRE ( -1 == rv );
+
+    std::cout << "Empty Time String Test Finished" << std::endl;
+}
+
+TEST_CASE ( "Incorrect Time Strings Test" )
+{
+    std::cout << "\n" << "Beginning Incorrect Time Strings Test" << std::endl;
+
+    std::string t = "hello";
+    int rv;
+    
+    rv = timeStringtoMinutes( t );
+    REQUIRE ( -1 == rv );
+
+    t = "9:40XX";
+    rv = timeStringtoMinutes( t );
+    REQUIRE ( -1 == rv );
+
+    t = "14:40PM";
+    rv = timeStringtoMinutes( t );
+    REQUIRE ( -1 == rv );
+
+    t = "11:80AM";
+    rv = timeStringtoMinutes( t );
+    REQUIRE ( -1 == rv );
+
+    t = "10:10:10";
+    rv = timeStringtoMinutes( t );
+    REQUIRE ( -1 == rv );
+
+    std::cout << "Incorrect Time Strings Test Finished" << std::endl;
+}
+
+TEST_CASE ( "Time Strings Test" )
+{
+    std::cout << "\n" << "Beginning Time Strings Test" << std::endl;
+
+    std::string t = "9:40AM";
+    int rv;
+    
+    rv = timeStringtoMinutes( t );
+    REQUIRE ( 100 == rv );
+
+    t = "9:40PM";
+    rv = timeStringtoMinutes( t );
+    REQUIRE ( 820 == rv );
+
+    std::cout << "Time Strings Test Finished" << std::endl;
+}
+
+TEST_CASE ( "Empty Day String Test" )
+{
+    std::cout << "\n" << "Beginning Empty Day String Test" << std::endl;
+
+    std::string d;
+    std::vector<std::string> rv;
+    
+    rv = daysStringtoVec( d );
+    REQUIRE ( rv.empty() );
+
+    std::cout << "Empty Day String Test Finished" << std::endl;
+}
+
+TEST_CASE ( "Incorrect Day Strings Test" )
+{
+    std::cout << "\n" << "Beginning Incorrect Day Strings Test" << std::endl;
+
+    std::string d = "hello";
+    std::vector<std::string> rv;
+    
+    rv = daysStringtoVec( d );
+    REQUIRE ( rv.empty() );
+
+    d = "MWH";
+    rv = daysStringtoVec( d );
+    REQUIRE ( rv.empty() );
+
+    std::cout << "Incorrect Day Strings Test Finished" << std::endl;
+}
+
+TEST_CASE ( "Day Strings Test" )
+{
+    std::cout << "\n" << "Beginning Day Strings Test" << std::endl;
+
+    std::string d = "MWF";
+    std::vector<std::string> rv;
+    
+    rv = daysStringtoVec( d );
+    REQUIRE ( 3 == rv.size() );
+
+    d = "mwf";
+    rv = daysStringtoVec( d );
+    REQUIRE ( 3 == rv.size() );
+
+    d = "TT";
+    rv = daysStringtoVec( d );
+    REQUIRE ( 2 == rv.size() );
+
+    std::cout << "Day Strings Test Finished" << std::endl;
+}
+
+TEST_CASE ( "Incorrect Courselist Test" )
+{
+    std::cout << "\n" << "Beginning Incorrect Courselist Test" << std::endl;
+
+    std::vector<std::string> courseNames = {"ECE 310", "ECE 385", "XXXXXX"};
+
+    ScheduleGroup buf;
+    StatusCode status;
+
+    status = scheduler( courseNames, buf ); 
+    REQUIRE( INVALID_COURSENAME == status );
+
+    std::cout << "Incorrect Courselist Finished" << std::endl;
+}
+
+TEST_CASE ( "Large Courselist Test" )
+{
+    std::cout << "\n" << "Beginning Large Courselist Test" << std::endl;
+
+    std::vector<std::string> courseNames = {"ECE 310", "ECE 385", "ECE 391", "ECE 374", "ECE 210", "ECE 448" };
+
+    ScheduleGroup buf;
+    StatusCode status;
+
+    status = scheduler( courseNames, buf ); 
+    REQUIRE( SUCCESS == status );
+    REQUIRE( 0 == buf.getNumSchedules() );
+
+    std::cout << "Large Courselist Finished" << std::endl;
+}
+
+
+
+
+     // std::cout << "\n" << "Beginning Empty Time String Test" << std::endl;
+     // std::cout << "Empty Time String Test Finished" << std::endl;
+    

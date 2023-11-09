@@ -30,6 +30,7 @@ driver = webdriver.Chrome(service=service, options=options)
 
 if len( sys.argv ) != 2 and len( sys.argv ) != 3:
     print( "Webscraper expects 1 or 2 arguments: <Major> [ClassNum]" )
+    print(len(sys.argv)) 
     sys.exit(1)
 
 if sys.argv[1] == None:
@@ -37,8 +38,10 @@ if sys.argv[1] == None:
 else:
     major = sys.argv[1]
 
-if sys.argv[2]:
+if len(sys.argv) == 3:
     classNum = "/" + sys.argv[2]
+else:
+    classNum = ''
 
 
 #LOOPS THROUGH EACH SECTION'S ROW AND GATHERS THE CLASS DATA IN AN ARRAY
@@ -67,6 +70,7 @@ with open(f'{CURR_DIR}\\course_urls.csv', 'r') as csv_file:
                     day =  str(WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//*[@id='uid{}']/td[8]".format(i +1)))).text)
                     location =  str(WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//*[@id='uid{}']/td[9]".format(i +1)))).text)
                     instructor =  str(WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//*[@id='uid{}']/td[10]".format(i +1)))).text)
+                    instructor = instructor.replace( ",", "." )
                     credit_hours = str(WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//*[@id='app-course-info']/div[3]/p[1]"))).text)
                     
                     
@@ -122,10 +126,10 @@ clean_arr = []
 for row in arr:
     cleaned_row = []
     for item in row:
-        cleaned_item = item.strip() if isinstance(item, str) else item
+        cleaned_item = item.strip().replace("\n", " ") if isinstance(item, str) else item
         cleaned_row.append(cleaned_item)
     if any(cleaned_row):
-        clean_arr.append(cleaned_row)
+        clean_arr.append(cleaned_row)        
 
 # Writing to the CSV file without empty lines
 with open(filename, 'w', newline='') as csvfile:

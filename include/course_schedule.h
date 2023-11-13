@@ -8,7 +8,7 @@
 #include "course.h"
 #include "utils.h"
 
-#define WEEKDAYS std::vector<std::string>{"M", "Tu", "W", "Th", "F"}
+#define WEEKDAYS std::vector<std::string>{"M", "T", "W", "R", "F"}
 
 typedef std::vector < Course > CourseList;
 
@@ -23,16 +23,24 @@ enum StatusCode {
 class Schedule
 {
     public:
+
+        Schedule() : vCourseSections_(), bNeedOverride_(false) {}
+
         std::vector< CourseSection > getCourseSections() const;
         int getSumCreditHours() const;
 
         void push_back( const CourseSection & cs );
         void pop_back();
 
+        void setOverride( bool override );
+        bool getOverride() const;
+        int getNumSections() const;
+
         void print();
 
     private:
         std::vector< CourseSection > vCourseSections_;
+        bool bNeedOverride_;
 
 };
 
@@ -45,8 +53,10 @@ class ScheduleGroup
 
         int getNumSchedules() const;
 
+        std::vector<Schedule>& getSchedules();
+
     private:
-        std::vector< Schedule > vSchedules_;
+        std::vector<Schedule> vSchedules_;
 
 };
 

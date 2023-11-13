@@ -9,3 +9,7 @@ TIME 0 corresponds to ARRANGED:
 
 Days, changed thurs to R.
 Add location /professor.
+
+Mark override instead of too many credits
+
+Testing possibilities:

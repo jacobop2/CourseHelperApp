@@ -28,6 +28,6 @@ make test
 ```
 To run the tests, enter this command:
 ```
-./test_runner
+./test
 ```
 Now, the results of the tests should be displayed on the terminal. 

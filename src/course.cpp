@@ -35,6 +35,7 @@ void CourseSection::print() const
     std::cout << "Printing Course Section: \n";
     std::cout << szSectionCode_ << " " << szSectionType_ << " " << szInstructor_ << " " << course_.getCourseName() << std::endl;
     std::cout << "Print Complete" << std::endl;
+    return;
 }
 
 
@@ -51,9 +52,27 @@ std::string Course::getCourseName() const
 void Course::push_back( CourseSection & cs )
 {
     vCourseSections_.push_back( cs );
+    return;
 }
 
 void Course::setCourseName( std::string & name ) 
 {
     szCourseName_ = name;
+    return;
+}
+
+void Course::printCourseSections() 
+{
+    for ( CourseSection & cs : vCourseSections_ )
+    {
+        std::cout << cs.getSectionCode() << ", ";
+    }
+    std::cout << std::endl;
+    return;
+}
+
+void Course::clearCourseSections()
+{
+    vCourseSections_.clear();
+    return;
 }

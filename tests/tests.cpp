@@ -363,7 +363,7 @@ TEST_CASE ( "Incorrect Courselist Test" )
 {
     std::cout << "\n" << "Beginning Incorrect Courselist Test" << std::endl;
 
-    std::vector<std::string> courseNames = {"ECE 310", "ECE 385", "XXXXXX"};
+    std::vector<std::string> courseNames = { "ECE 310", "ECE 385", "XXXXXX"};
 
     ScheduleGroup buf;
     StatusCode status;
@@ -371,24 +371,108 @@ TEST_CASE ( "Incorrect Courselist Test" )
     status = scheduler( courseNames, buf ); 
     REQUIRE( INVALID_COURSENAME == status );
 
-    std::cout << "Incorrect Courselist Finished" << std::endl;
+    std::cout << "Incorrect Courselist Test Finished" << std::endl;
 }
 
 TEST_CASE ( "Large Courselist Test" )
 {
     std::cout << "\n" << "Beginning Large Courselist Test" << std::endl;
 
-    std::vector<std::string> courseNames = {"ECE 310", "ECE 385", "ECE 391", "ECE 374", "ECE 210", "ECE 448" };
+    std::vector<std::string> courseNames = { "ECE 310", "ECE 385", "ECE 391", "ECE 374", "ECE 210", "ECE 448" }; // , "ECE 374", "ECE 210", "ECE 448"
+
+    ScheduleGroup buf;
+    StatusCode status;
+
+    status = scheduler( courseNames, buf ); 
+    REQUIRE( SUCCESS == status ); 
+    REQUIRE( 0 == buf.getNumSchedules() );
+
+    std::cout << "Large Courselist Test Finished" << std::endl;
+}
+
+TEST_CASE ( "Empty Courselist Test" )
+{
+    std::cout << "\n" << "Beginning Empty Courselist Test" << std::endl;
+
+    std::vector<std::string> courseNames = {}; // , "ECE 374", "ECE 210", "ECE 448"
+
+    ScheduleGroup buf;
+    StatusCode status;
+
+    status = scheduler( courseNames, buf ); 
+    REQUIRE( INVALID_COURSENAME == status ); 
+    REQUIRE( 0 == buf.getNumSchedules() );
+
+    std::cout << "Empty Courselist Test Finished" << std::endl;
+}
+
+TEST_CASE ( "Small Courselist Test" )
+{
+    std::cout << "\n" << "Beginning Small Courselist Test" << std::endl;
+
+    std::vector<std::string> courseNames = { "ECE 310" }; 
 
     ScheduleGroup buf;
     StatusCode status;
 
     status = scheduler( courseNames, buf ); 
     REQUIRE( SUCCESS == status );
-    REQUIRE( 0 == buf.getNumSchedules() );
 
-    std::cout << "Large Courselist Finished" << std::endl;
+    for ( Schedule & s : buf.getSchedules() )
+    {
+        REQUIRE( true == s.getOverride() );
+    }
+
+    std::cout << "CourseList: <ECE 310> had <" << buf.getNumSchedules() << "> schedules" << std::endl;
+    std::cout << "Small Courselist Test Finished" << std::endl;
 }
+
+TEST_CASE ( "Medium Courselist Test" )
+{
+    std::cout << "\n" << "Beginning Medium Courselist Test" << std::endl;
+
+    std::vector<std::string> courseNames = { "ECE 310", "ECE 385" }; 
+
+    ScheduleGroup buf;
+    StatusCode status;
+
+    status = scheduler( courseNames, buf ); 
+    REQUIRE( SUCCESS == status );
+
+    for ( Schedule & s : buf.getSchedules() )
+    {
+        REQUIRE( true == s.getOverride() );
+    }
+
+    buf.print();
+
+    std::cout << "CourseList: <ECE 310, ECE 385> had <" << buf.getNumSchedules() << "> schedules" << std::endl;
+    std::cout << "Medium Courselist Test Finished" << std::endl;
+}
+
+TEST_CASE ( "Medium Courselist Test 2" )
+{
+    std::cout << "\n" << "Beginning Medium Courselist Test 2" << std::endl;
+
+    std::vector<std::string> courseNames = { "ECE 310", "ECE 385", "ECE 391" }; 
+
+    ScheduleGroup buf;
+    StatusCode status;
+
+    status = scheduler( courseNames, buf ); 
+    REQUIRE( SUCCESS == status );
+
+    for ( Schedule & s : buf.getSchedules() )
+    {
+        REQUIRE( true == s.getOverride() );
+    }
+
+    buf.print();
+
+    std::cout << "CourseList: <ECE 310, ECE 385, ECE 391> had <" << buf.getNumSchedules() << "> schedules" << std::endl;
+    std::cout << "Medium Courselist Test 2 Finished" << std::endl;
+}
+
 
 
 

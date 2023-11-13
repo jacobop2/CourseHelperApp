@@ -34,9 +34,24 @@ void Schedule::pop_back()
     vCourseSections_.pop_back();
 }
 
+void Schedule::setOverride( bool override )
+{
+    bNeedOverride_ = override;
+}
+
+bool Schedule::getOverride() const
+{
+    return bNeedOverride_;
+}
+
+int Schedule::getNumSections() const
+{
+    return vCourseSections_.size();
+}
+
 void Schedule::print()
 {
-    std::cout << "\n" << "Beginning of Schedule print" << "\n" << std::endl;
+    std::cout << "\n" << "Beginning of Schedule print, override = <" << std::to_string( bNeedOverride_ ) << ">" << "\n" << std::endl;
 
     for( const CourseSection & s : vCourseSections_ )
     {
@@ -58,6 +73,11 @@ bool ScheduleGroup::empty() const
 int ScheduleGroup::getNumSchedules() const
 {
     return vSchedules_.size();
+}
+
+std::vector<Schedule>& ScheduleGroup::getSchedules() 
+{
+    return vSchedules_;
 }
 
 void ScheduleGroup::print() const
@@ -87,6 +107,22 @@ void ScheduleGroup::print() const
 
             std::cout << std::endl;
         }
+        std::cout << "NA: ";
+
+        for( const CourseSection & currSection : vSchedules_[i].getCourseSections() )
+        {
+            for( const std::string & day : currSection.getSectionDays() )
+            {
+                if( day == "NA" )
+                {
+                    std::cout << currSection.getCourse().getCourseName() << "/" << 
+                    currSection.getSectionCode() << " (" << 
+                    std::to_string( currSection.getStartTime() ) << "-" <<
+                    std::to_string( currSection.getEndTime() ) << "), ";
+                }
+
+            }
+        }
 
         std::cout << std::endl;
     }
@@ -95,7 +131,7 @@ void ScheduleGroup::print() const
 
 bool isTimeOverlap( const CourseSection & a, const CourseSection & b )
 {
-    if ( a.getEndTime() + 10 >= b.getStartTime() || a.getStartTime() -10 >= b.getEndTime() )
+    if ( a.getEndTime() >= b.getStartTime() || a.getStartTime() >= b.getEndTime() )
     {
         return true;
     }
@@ -132,7 +168,7 @@ void print( const CourseList & c )
 
         for ( const CourseSection & cs : course.getCourseSections() )
         {
-            std::cout << cs.getSectionCode() << std::endl;
+            std::cout << cs.getSectionCode() << ", ";
         } 
     }
     std::cout << "End of CourseList print" << std::endl;
@@ -182,6 +218,10 @@ int timeStringtoMinutes( std::string & time )
         if ( "AM" == meridiem )
         {
             return hours * 60 + minutes - 8*60; //  adjusting for t 0 being 8 am
+        }
+        else if ( "PM" == meridiem && 12 == hours )
+        {
+            return 240 + minutes; // adjusting for 12 hour offset
         }
         else if ( "PM" == meridiem )
         {
@@ -279,14 +319,15 @@ std::vector<std::string> daysStringtoVec( std::string & days )
 
 void generateSchedules( const CourseList & courseList, unsigned int index, Schedule & currSchedule, ScheduleGroup & scheduleGroup )
 {
-    //std::cout << "BEGINNING OF GENERATE SCHEDULES, index: " << std::to_string( index ) << std::endl;
+    // std::cout << "BEGINNING OF GENERATE SCHEDULES, index: " << std::to_string( index ) << std::endl;
+    // std::cout << "ScheduleGroup size: " << scheduleGroup.getNumSchedules() << std::endl;
     //currSchedule.print();
 
     //print( courseList );
 
     if( courseList.empty() )
     {
-       // std::cout << "CourseList Size: " << std::to_string( courseList.size() ) << std::endl;
+        // std::cout << "Empty loop, CourseList Size: " << std::to_string( courseList.size() ) << std::endl;
         return;
     }
 
@@ -294,7 +335,12 @@ void generateSchedules( const CourseList & courseList, unsigned int index, Sched
     {
         // std::cout << "CourseList Size: " << std::to_string( courseList.size() ) << "Index: " << std::to_string( index ) << std::endl;
 
-        scheduleGroup.push_back( currSchedule );
+        // std::cout << "Adding Schedule" << std::endl;
+
+        if ( courseList.size() != currSchedule.getNumSections() ) // if too few sections have been placed
+            return;
+
+        scheduleGroup.push_back( currSchedule ); // otherwise, add section
         return;
     }
 
@@ -303,7 +349,7 @@ void generateSchedules( const CourseList & courseList, unsigned int index, Sched
 
     for( const CourseSection & currSection : courseList[index].getCourseSections() )
     {
-        //std::cout << "Inside first for loop" << std::endl;
+        // std::cout << "Inside first for loop" << std::endl;
 
         bool bIsConflict = false;
 
@@ -323,7 +369,7 @@ void generateSchedules( const CourseList & courseList, unsigned int index, Sched
 
         //std::cout << "\n" << std::to_string( bIsConflict ) << std::endl;
 
-        if( !bIsConflict && currSchedule.getSumCreditHours() + currSection.getCreditHours() <= 18 )
+        if( !bIsConflict )
         {
 
             //std::cout << "Inside check to add" << std::endl;
@@ -366,10 +412,13 @@ StatusCode scheduler( std::vector<std::string> courseNames, ScheduleGroup & bufS
     }
 
     CourseList courseList;
+    Course course;
 
     for ( std::string & s : courseNames )
     {
-        std::ifstream file("web_scraping\\course_information.csv"); 
+        course.clearCourseSections();
+
+        std::ifstream file("web_scraping\\ece_course_information.csv"); 
 
         if ( file.is_open() ) 
         { 
@@ -380,20 +429,18 @@ StatusCode scheduler( std::vector<std::string> courseNames, ScheduleGroup & bufS
             std::string line;
             while (std::getline(file, line)) { // while there are still full lines in the file
 
-                Course course;
                 std::vector<std::string> fields;
                 SplitString(line, ',', fields); // Split lines into vector fields
 
                 if ( s == fields[0] )
                 {
                     bValidCourseName = true;
-                    std::vector<CourseSection> courseSections;
                     if ( !bHasMatched ) // if this is first time matching, make a new course object and add it to list
                     {
                         // std::cout << "Initializing Course" << std::endl;
+
                         course.setCourseName( s );
                         
-                        courseList.push_back(course);
                         bCourseCreated = true;
                     }
 
@@ -420,11 +467,14 @@ StatusCode scheduler( std::vector<std::string> courseNames, ScheduleGroup & bufS
                                                     course                            // parent course
                                                     );
                         course.push_back(courseSection);
+                        // course.printCourseSections();
                     }
 
                     bHasMatched = true;
                 }         
             }
+
+
 
             if ( !bValidCourseName )
             {
@@ -438,10 +488,33 @@ StatusCode scheduler( std::vector<std::string> courseNames, ScheduleGroup & bufS
             std::cerr << "Unable to open csv file " << std::endl;
             return INVALID_FILE;
         }
+
+        courseList.push_back(course);
     } 
 
     Schedule schedule;
+
+    // std::cout << "Num Schedules Before: " << bufScheduleGroup.getNumSchedules() << std::endl;
+
+    // print(courseList);
+    // std::cout << std::endl;
+
     generateSchedules( courseList, 0, schedule, bufScheduleGroup );
+
+    // std::cout << "Num Schedules After: " << bufScheduleGroup.getNumSchedules() << std::endl;
+
+    for ( Schedule & s : bufScheduleGroup.getSchedules() ) // check for hour override
+    {
+        // s.print();
+        int hours = s.getSumCreditHours();
+
+        // std::cout << std::to_string(hours) << std::endl;
+        if ( hours < 12 || hours > 18 )
+        {
+            s.setOverride( true );
+            // std::cout << "setting override" << std::endl;
+        }
+    }
 
     return SUCCESS;
 }

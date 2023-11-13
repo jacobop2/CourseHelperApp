@@ -71,6 +71,10 @@ class Course
 
         void push_back( CourseSection & cs );
 
+        void printCourseSections();
+
+        void clearCourseSections();
+
     private:
 
         std::string szCourseName_;

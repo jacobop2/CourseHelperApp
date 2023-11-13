@@ -23,7 +23,7 @@ TEST_DIR := tests
 TEST_SOURCES := $(wildcard $(TEST_DIR)/*.cpp)
 
 # Test executable name
-TEST_EXECUTABLE := test_runner
+TEST_EXECUTABLE := test
 
 # Check the platform
 ifeq ($(OS),Windows_NT)

@@ -65,7 +65,7 @@ void Course::printCourseSections()
 {
     for ( CourseSection & cs : vCourseSections_ )
     {
-        std::cout << cs.getSectionCode() << ", ";
+        std::cout << cs.getSectionCode() << ": " << cs.getStartTime() << " - " << cs.getEndTime() << ", ";
     }
     std::cout << std::endl;
     return;

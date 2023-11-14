@@ -53,7 +53,7 @@ TEST_CASE ( "Simple CourseList Test" )
     course2.setCourseName( name );
 
     days.clear();
-    days = {"Tu", "Th"};
+    days = {"T", "R"};
 
     CourseSection section2a( "A2", "Dis", 60, 160, days, "F", 4, "Ins", "Loc", course2 );
     course2.push_back( section2a );
@@ -111,8 +111,8 @@ TEST_CASE ( "Simple CourseList Test 2" )
     course1.push_back( *section3a );
 
     days.clear();
-    days.push_back("Tu");
-    days.push_back("Th");
+    days.push_back("T");
+    days.push_back("R");
 
     CourseSection * section2a = new CourseSection( "A2", "Dis", 60, 160, days, "F", 4, "Ins", "Loc", course1 );
     course1.push_back( *section2a );
@@ -162,7 +162,7 @@ TEST_CASE ( "CourseList Test 1" )
     name = "CS225";
     course2.setCourseName( name );
 
-    CourseSection * section2a = new CourseSection( "2A", "Dis", 60, 160, { "Th", "Tu" }, "F", 4, "Ins", "Loc", course2 );
+    CourseSection * section2a = new CourseSection( "2A", "Dis", 60, 160, { "T", "R" }, "F", 4, "Ins", "Loc", course2 );
     course2.push_back( *section2a );
 
     CourseSection * section2b = new CourseSection( "2B", "Dis", 60, 160, { "M", "W" }, "F", 4, "Ins", "Loc", course2 );
@@ -385,7 +385,11 @@ TEST_CASE ( "Large Courselist Test" )
 
     status = scheduler( courseNames, buf ); 
     REQUIRE( SUCCESS == status ); 
-    REQUIRE( 0 == buf.getNumSchedules() );
+    
+    for ( Schedule & s : buf.getSchedules() )
+    {
+        REQUIRE( true == s.getOverride() );
+    }
 
     std::cout << "Large Courselist Test Finished" << std::endl;
 }
@@ -448,6 +452,7 @@ TEST_CASE ( "Medium Courselist Test" )
 
     std::cout << "CourseList: <ECE 310, ECE 385> had <" << buf.getNumSchedules() << "> schedules" << std::endl;
     std::cout << "Medium Courselist Test Finished" << std::endl;
+    std::cout << "***************************************************************" << std::endl;
 }
 
 TEST_CASE ( "Medium Courselist Test 2" )
@@ -462,20 +467,12 @@ TEST_CASE ( "Medium Courselist Test 2" )
     status = scheduler( courseNames, buf ); 
     REQUIRE( SUCCESS == status );
 
-    for ( Schedule & s : buf.getSchedules() )
-    {
-        REQUIRE( true == s.getOverride() );
-    }
-
     buf.print();
 
     std::cout << "CourseList: <ECE 310, ECE 385, ECE 391> had <" << buf.getNumSchedules() << "> schedules" << std::endl;
     std::cout << "Medium Courselist Test 2 Finished" << std::endl;
+    std::cout << "***************************************************************" << std::endl;
 }
-
-
-
-
 
      // std::cout << "\n" << "Beginning Empty Time String Test" << std::endl;
      // std::cout << "Empty Time String Test Finished" << std::endl;

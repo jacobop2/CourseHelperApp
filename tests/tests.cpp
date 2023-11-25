@@ -391,6 +391,7 @@ TEST_CASE ( "Large Courselist Test" )
         REQUIRE( true == s.getOverride() );
     }
 
+    std::cout << "CourseList: <Large Courselist> had <" << buf.getNumSchedules() << "> schedules" << std::endl;
     std::cout << "Large Courselist Test Finished" << std::endl;
 }
 

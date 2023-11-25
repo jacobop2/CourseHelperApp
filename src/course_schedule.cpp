@@ -483,7 +483,7 @@ StatusCode scheduler( std::vector<std::string> courseNames, ScheduleGroup & bufS
                                                     endTime, // end time
                                                     daysStringtoVec( fields[6] ),     //change to vec, section days
                                                     "full",                           // will need to update when fetch part of semester, part of semester
-                                                    std::stoi( Trim( fields[9] ) ),  // credit hours
+                                                    std::stoi( fields[9] ),  // credit hours, removed trim
                                                     fields[8],                        // Instructor
                                                     fields[7],                        // Location
                                                     course1                            // parent course

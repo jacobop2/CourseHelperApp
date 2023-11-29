@@ -12,7 +12,8 @@ class CourseSection
 
         CourseSection( std::string szSectionCode, std::string szSectionType, int iStartTime, 
                        int iEndTime, std::vector< std::string > vSectionDays, std::string szPartOfSemester,
-                       int iCreditHours, std::string szInstructor, std::string szLocation, Course & course ) :
+                       int iCreditHours, std::string szInstructor, std::string szLocation, std::string szCourseName,
+                       Course & course ) :
 
                         szSectionCode_ ( szSectionCode ), 
                         szSectionType_ ( szSectionType ), 
@@ -23,6 +24,7 @@ class CourseSection
                         iCreditHours_ ( iCreditHours ),
                         szInstructor_ ( szInstructor ),
                         szLocation_ ( szLocation ),
+                        szCourseName_ ( szCourseName ),
                         course_ ( course ) {}
 
         int getStartTime() const;
@@ -31,6 +33,7 @@ class CourseSection
         void print() const;
 
         std::string getSectionCode() const;
+        std::string getCourseName() const;
 
         std::vector< std::string > getSectionDays() const;
 
@@ -48,6 +51,8 @@ class CourseSection
 
         std::string szInstructor_;
         std::string szLocation_;
+
+        std::string szCourseName_;
 
         Course & course_;
 

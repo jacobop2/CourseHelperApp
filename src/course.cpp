@@ -38,6 +38,11 @@ void CourseSection::print() const
     return;
 }
 
+std::string CourseSection::getCourseName() const
+{
+    return szCourseName_;
+}
+
 
 std::vector< CourseSection > Course::getCourseSections() const
 {

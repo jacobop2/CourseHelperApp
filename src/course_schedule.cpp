@@ -60,6 +60,55 @@ void Schedule::print()
     std::cout << "\n" << "End of Schedule print" << "\n" << std::endl;
 }
 
+std::string Schedule::to_string()
+{
+    std::string rv;
+    rv = rv + "\n" + "Beginning of Schedule print, override = <" + std::to_string( bNeedOverride_ ) + ">" + "\n";
+
+        for( const std::string & weekDay : WEEKDAYS )
+        {
+            rv += weekDay + ": ";
+
+            for( const CourseSection & currSection : vCourseSections_ )
+            {
+                for( const std::string & day : currSection.getSectionDays() )
+                {
+                    if( day == weekDay )
+                    {
+                        rv += currSection.getCourseName() + "/" + 
+                        currSection.getSectionCode() + " (" +
+                        timeMinutestoString12( currSection.getStartTime() ) + "-" +
+                        timeMinutestoString12( currSection.getEndTime() ) + "), ";
+                        // std::to_string( currSection.getStartTime() ) << "-" <<
+                        // std::to_string( currSection.getEndTime() ) << "), ";
+                    }
+
+                }
+            }
+
+            rv += "\n";
+        }
+
+        rv += "NA: ";
+
+        for( const CourseSection & currSection : vCourseSections_ )
+        {
+            for( const std::string & day : currSection.getSectionDays() )
+            {
+                if( day == "NA" )
+                {
+                    rv += currSection.getCourseName() + "/" + 
+                    currSection.getSectionCode() + " (" + 
+                    timeMinutestoString12( currSection.getStartTime() ) + "-" +
+                    timeMinutestoString12( currSection.getEndTime() ) + "), ";
+                }
+
+            }
+        }
+
+    return rv;
+}
+
 void ScheduleGroup::push_back( Schedule & s )
 {
     vSchedules_.push_back( s );
@@ -75,9 +124,56 @@ int ScheduleGroup::getNumSchedules() const
     return vSchedules_.size();
 }
 
-std::vector<Schedule>& ScheduleGroup::getSchedules() 
+std::vector<Schedule> & ScheduleGroup::getSchedules() 
 {
     return vSchedules_;
+}
+
+std::string timeMinutestoString12( int time )
+{
+    if ( time == -2 )
+        return "ARRANGED";
+
+    // Account for time 0 being 8 am
+    time += 60*8;
+    int minutes = time % 60;
+    
+    int hours = time / 60;
+
+    std::string sh = std::to_string( hours % 12 );
+    std::string sm = std::to_string( minutes );
+
+    if ( sm == "0" )
+        sm = "00";
+    
+    if ( sh == "0" )
+        sh = "12";
+
+    std::string t = sh + ":" + sm + ( hours < 12 ? "AM" : "PM" );
+    return t;
+
+}
+
+std::string timeMinutestoString24( int time )
+{
+    if ( time == -2 )
+        return "ARRANGED";
+
+    // Account for time 0 being 8 am
+    time += 60*8;
+    int minutes = time % 60;
+    
+    int hours = time / 60;
+
+    std::string sh = std::to_string( hours );
+    std::string sm = std::to_string( minutes );
+
+    if ( sm == "0" )
+        sm = "00";
+
+    std::string t = sh + ":" + sm;
+    return t;
+
 }
 
 void ScheduleGroup::print() const
@@ -96,10 +192,12 @@ void ScheduleGroup::print() const
                 {
                     if( day == weekDay )
                     {
-                        std::cout << currSection.getCourse().getCourseName() << "/" << 
+                        std::cout << currSection.getCourseName() << "/" << 
                         currSection.getSectionCode() << " (" << 
-                        std::to_string( currSection.getStartTime() ) << "-" <<
-                        std::to_string( currSection.getEndTime() ) << "), ";
+                        timeMinutestoString12( currSection.getStartTime() ) << "-" <<
+                        timeMinutestoString12( currSection.getEndTime() ) << "), ";
+                        // std::to_string( currSection.getStartTime() ) << "-" <<
+                        // std::to_string( currSection.getEndTime() ) << "), ";
                     }
 
                 }
@@ -115,10 +213,10 @@ void ScheduleGroup::print() const
             {
                 if( day == "NA" )
                 {
-                    std::cout << currSection.getCourse().getCourseName() << "/" << 
+                    std::cout << currSection.getCourseName() << "/" << 
                     currSection.getSectionCode() << " (" << 
-                    std::to_string( currSection.getStartTime() ) << "-" <<
-                    std::to_string( currSection.getEndTime() ) << "), ";
+                    timeMinutestoString12( currSection.getStartTime() ) << "-" <<
+                    timeMinutestoString12( currSection.getEndTime() ) << "), ";
                 }
 
             }
@@ -128,6 +226,61 @@ void ScheduleGroup::print() const
     }
     return;
 }
+
+// std::vector< std::string > Break::getDays() const
+// {
+//     return vDays_;
+// }
+
+// int Break::getStartTime() const
+// {
+//     return iStartTime_;
+// }
+
+// int Break::getEndTime() const
+// {
+//     return iEndTime_;
+// }
+
+// class Break
+// {
+//     public:
+
+//         std::vector< std::string > getDays() const;
+//         int getStartTime() const;
+//         int getEndTime() const;
+
+//         void push_back( const std::string & s );
+//         void pop_back();
+
+//         bool empty() const;
+
+//     private:
+//         std::vector< std::string > vDays_;
+//         int iStartTime_;
+//         int iEndTime_;
+
+// };
+
+// void BreakGroup::push_back( Break & b )
+// {
+//     vBreaks_.push_back( b );
+// }
+
+// void BreakGroup::empty()
+// {
+//     vBreaks_.clear();
+// }
+
+// int BreakGroup::getNumBreaks() const
+// {
+//     return vBreaks_.size();
+// }
+
+// std::vector< Break > & BreakGroup::getBreaks()
+// {
+//     return vBreaks_;
+// }
 
 bool isTimeOverlap( const CourseSection & a, const CourseSection & b )
 {
@@ -187,7 +340,7 @@ int timeStringtoMinutes( std::string & time )
 
     if ( "ARRANGED" == time )
     {
-        return 0;
+        return -2;
     }
 
     std::string meridiem = time.substr( time.size() - 2 ); // fetches AM or PM
@@ -486,6 +639,7 @@ StatusCode scheduler( std::vector<std::string> courseNames, ScheduleGroup & bufS
                                                     std::stoi( fields[9] ),  // credit hours, removed trim
                                                     fields[8],                        // Instructor
                                                     fields[7],                        // Location
+                                                    fields[0],                         // parent course name
                                                     course1                            // parent course
                                                     );
 

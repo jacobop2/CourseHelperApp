@@ -45,7 +45,7 @@ TEST_CASE ( "Simple CourseList Test" )
 
     std::vector< std::string > days = {"M", "W", "F"};
 
-    CourseSection section1a( "A1", "Lec", 0, 50, days, "F", 3, "Ins", "Loc", course1 );
+    CourseSection section1a( "A1", "Lec", 0, 50, days, "F", 3, "Ins", "Loc", name, course1 );
     course1.push_back( section1a );
 
     Course course2;
@@ -55,7 +55,7 @@ TEST_CASE ( "Simple CourseList Test" )
     days.clear();
     days = {"T", "R"};
 
-    CourseSection section2a( "A2", "Dis", 60, 160, days, "F", 4, "Ins", "Loc", course2 );
+    CourseSection section2a( "A2", "Dis", 60, 160, days, "F", 4, "Ins", "Loc", name, course2 );
     course2.push_back( section2a );
 
     Course course3;
@@ -65,7 +65,7 @@ TEST_CASE ( "Simple CourseList Test" )
     days.clear();
     days = {"M", "F"};
 
-    CourseSection section3a( "A3", "Lab", 160, 210, days, "F", 3, "Ins", "Loc", course3 );
+    CourseSection section3a( "A3", "Lab", 160, 210, days, "F", 3, "Ins", "Loc", name, course3 );
     course3.push_back( section3a );
 
     Schedule schedule;
@@ -104,17 +104,17 @@ TEST_CASE ( "Simple CourseList Test 2" )
     days.push_back("W");
     days.push_back("F");
 
-    CourseSection * section1a = new CourseSection( "A1", "Lec", 0, 50, days, "F", 3, "Ins", "Loc", course1 );
+    CourseSection * section1a = new CourseSection( "A1", "Lec", 0, 50, days, "F", 3, "Ins", "Loc", name, course1 );
     course1.push_back( *section1a );
 
-    CourseSection * section3a = new CourseSection( "A3", "Lab", 160, 210, days, "F", 3, "Ins", "Loc", course1 );
+    CourseSection * section3a = new CourseSection( "A3", "Lab", 160, 210, days, "F", 3, "Ins", "Loc", name, course1 );
     course1.push_back( *section3a );
 
     days.clear();
     days.push_back("T");
     days.push_back("R");
 
-    CourseSection * section2a = new CourseSection( "A2", "Dis", 60, 160, days, "F", 4, "Ins", "Loc", course1 );
+    CourseSection * section2a = new CourseSection( "A2", "Dis", 60, 160, days, "F", 4, "Ins", "Loc", name, course1 );
     course1.push_back( *section2a );
 
     Schedule schedule;
@@ -152,27 +152,27 @@ TEST_CASE ( "CourseList Test 1" )
     Course course1;
     course1.setCourseName( name );
 
-    CourseSection * section1a = new CourseSection( "1A", "Lec", 0, 50, { "M", "W", "F" }, "F", 3, "Ins", "Loc", course1 );
+    CourseSection * section1a = new CourseSection( "1A", "Lec", 0, 50, { "M", "W", "F" }, "F", 3, "Ins", "Loc", name, course1 );
     course1.push_back( *section1a );
 
-    CourseSection * section1b = new CourseSection( "1B", "Lec", 160, 210, { "M", "W", "F" }, "F", 3, "Ins", "Loc", course1 );
+    CourseSection * section1b = new CourseSection( "1B", "Lec", 160, 210, { "M", "W", "F" }, "F", 3, "Ins", "Loc", name, course1 );
     course1.push_back( *section1b );
 
     Course course2;
     name = "CS225";
     course2.setCourseName( name );
 
-    CourseSection * section2a = new CourseSection( "2A", "Dis", 60, 160, { "T", "R" }, "F", 4, "Ins", "Loc", course2 );
+    CourseSection * section2a = new CourseSection( "2A", "Dis", 60, 160, { "T", "R" }, "F", 4, "Ins", "Loc", name, course2 );
     course2.push_back( *section2a );
 
-    CourseSection * section2b = new CourseSection( "2B", "Dis", 60, 160, { "M", "W" }, "F", 4, "Ins", "Loc", course2 );
+    CourseSection * section2b = new CourseSection( "2B", "Dis", 60, 160, { "M", "W" }, "F", 4, "Ins", "Loc", name, course2 );
     course2.push_back( *section2b );
 
     Course course3;
     name = "PHYS400";
     course3.setCourseName( name );
 
-    CourseSection * section3a = new CourseSection( "3A", "Lab", 160, 210, { "M", "F" }, "F", 3, "Ins", "Loc", course3 );
+    CourseSection * section3a = new CourseSection( "3A", "Lab", 160, 210, { "M", "F" }, "F", 3, "Ins", "Loc", name, course3 );
     course3.push_back( *section3a );
 
     Schedule schedule;
@@ -472,6 +472,26 @@ TEST_CASE ( "Medium Courselist Test 2" )
 
     std::cout << "CourseList: <ECE 310, ECE 385, ECE 391> had <" << buf.getNumSchedules() << "> schedules" << std::endl;
     std::cout << "Medium Courselist Test 2 Finished" << std::endl;
+    std::cout << "***************************************************************" << std::endl;
+}
+
+TEST_CASE ( "Schedule String Print Test" )
+{
+    std::cout << "\n" << "Beginning Schedule String Print Test" << std::endl;
+
+    std::vector<std::string> courseNames = { "ECE 310", "ECE 385", "ECE 391" }; 
+
+    ScheduleGroup buf;
+    StatusCode status;
+
+    status = scheduler( courseNames, buf ); 
+    REQUIRE( SUCCESS == status );
+
+    std::string s = buf.getSchedules()[0].to_string();
+
+    std::cout << s << std::endl;
+
+    std::cout << "Schedule String Print Test Finished" << std::endl;
     std::cout << "***************************************************************" << std::endl;
 }
 

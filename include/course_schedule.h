@@ -37,6 +37,7 @@ class Schedule
         int getNumSections() const;
 
         void print();
+        std::string to_string();
 
     private:
         std::vector< CourseSection > vCourseSections_;
@@ -53,18 +54,56 @@ class ScheduleGroup
 
         int getNumSchedules() const;
 
-        std::vector<Schedule>& getSchedules();
+        std::vector<Schedule> & getSchedules();
 
     private:
         std::vector<Schedule> vSchedules_;
 
 };
 
+// class Break
+// {
+//     public:
+
+//         std::vector< std::string > getDays() const;
+//         int getStartTime() const;
+//         int getEndTime() const;
+
+//         void push_back( const std::string & s );
+//         void pop_back();
+
+//         bool empty() const;
+
+//     private:
+//         std::vector< std::string > vDays_;
+//         int iStartTime_;
+//         int iEndTime_;
+
+// };
+
+// class BreakGroup
+// {
+//     public:
+//         void push_back( Break & b );
+//         bool empty() const;
+
+//         int getNumBreaks() const;
+
+//         std::vector<Break> & getBreaks();
+
+//     private:
+//         std::vector<Break> vBreaks_;
+
+// };
+
 bool isTimeOverlap( const CourseSection & a, const CourseSection & b );
 bool isDayOverlap( const CourseSection & a, const CourseSection & b );
 bool isConflict( const CourseSection & a, const CourseSection & b );
 
 int timeStringtoMinutes( std::string & time );
+std::string timeMinutestoString12( int time );
+std::string timeMinutestoString24( int time );
+
 std::vector<std::string> daysStringtoVec( std::string & days );
 
 void generateSchedules( const CourseList & courseList, unsigned int index, Schedule & currSchedule, ScheduleGroup & scheduleGroup );

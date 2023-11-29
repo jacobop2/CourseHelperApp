@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5132FCA3-363A-4206-8C71-0515D38E4E4B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6FE7C96-9FC4-4B63-B7B5-810036C5E23E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "setSchoolPopupButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62B3E82C-79E1-4AD0-8AF4-FF61F8FE6A2A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "cppFunc()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A014EA6E-538F-43F7-9592-088AFB7A8B61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "CppInit(fpath)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "A014EA6E-538F-43F7-9592-088AFB7A8B61 - 270db5ba9f93e9aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CppInit()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "A014EA6E-538F-43F7-9592-088AFB7A8B61 - 270db5ba9f93e9aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CppInit()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "A014EA6E-538F-43F7-9592-088AFB7A8B61 - 270db5ba9f93e9aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CppInit()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70932FBE-9320-43A3-ADFF-E66B97DAF8BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "AddCategory(dWeight)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A0E5FC2-B47B-415F-BFC0-FAAB372D11E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "AddGradeToCategory(dGrade)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78C7414C-E514-4C68-8664-C788A443E1B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "CompleteCategory()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EDD115C-114A-4B25-8A85-AE82460BB148"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "GetGrade()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9AC3062-D9D0-4C46-9293-29B9B8D2E291"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "AddCategory(dWeight)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "704B7967-2172-472D-9E8A-17ACC415E40F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "GetGrade()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C77B2E7-9C21-4553-9ACC-5297AD000442"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "getSchedules()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "7C77B2E7-9C21-4553-9ACC-5297AD000442 - 6061422e1fc38458"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getSchedules()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "7C77B2E7-9C21-4553-9ACC-5297AD000442 - 6061422e1fc387d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getSchedules()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C633661-30D1-4AC3-B9C1-6A86ED61636D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "getSchedules()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "4C633661-30D1-4AC3-B9C1-6A86ED61636D - 6061422e1fc38458"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getSchedules()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "4C633661-30D1-4AC3-B9C1-6A86ED61636D - 6061422e1fc387d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getSchedules()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "645ADF75-9149-421D-B098-4A04DC01CE01"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "getSchedules()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "645ADF75-9149-421D-B098-4A04DC01CE01 - 6061422e1fc387bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getSchedules()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "645ADF75-9149-421D-B098-4A04DC01CE01 - 6061422e1fc387d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getSchedules()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB59E960-6FAD-43DE-A531-8021C46C45F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "getSchedules()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "BB59E960-6FAD-43DE-A531-8021C46C45F5 - 6061422e1fc3879a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getSchedules()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "BB59E960-6FAD-43DE-A531-8021C46C45F5 - 6061422e1fc387d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getSchedules()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0BF5DF6-869D-40C2-9E5D-DF28A9BD7369"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "getSchedules()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F82F0FF-83EF-4BF3-AD55-7569C35C4866"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "370"
+            endingLineNumber = "370"
+            landmarkName = "generateSchedulesPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8F82F0FF-83EF-4BF3-AD55-7569C35C4866 - 2dde08bc0580c79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "271"
+                  endingLineNumber = "271"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "8F82F0FF-83EF-4BF3-AD55-7569C35C4866 - 2dde08bc0580c4e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "267"
+                  endingLineNumber = "267"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "8F82F0FF-83EF-4BF3-AD55-7569C35C4866 - 2dde08bc0580c79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "271"
+                  endingLineNumber = "271"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "8F82F0FF-83EF-4BF3-AD55-7569C35C4866 - 2dde08bc0580c79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "271"
+                  endingLineNumber = "271"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "8F82F0FF-83EF-4BF3-AD55-7569C35C4866 - 2dde08bc0580c7bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "272"
+                  endingLineNumber = "272"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87488482-7C7B-49BB-9E2D-7B4E0B2E66DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "372"
+            endingLineNumber = "372"
+            landmarkName = "generateSchedulesPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "87488482-7C7B-49BB-9E2D-7B4E0B2E66DD - 2dde08bc0580c79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "271"
+                  endingLineNumber = "271"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "87488482-7C7B-49BB-9E2D-7B4E0B2E66DD - 2dde08bc0580c43f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "964">
+               </Location>
+               <Location
+                  uuid = "87488482-7C7B-49BB-9E2D-7B4E0B2E66DD - 2dde08bc0580c79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "271"
+                  endingLineNumber = "271"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "87488482-7C7B-49BB-9E2D-7B4E0B2E66DD - 2dde08bc0580c79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "271"
+                  endingLineNumber = "271"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "87488482-7C7B-49BB-9E2D-7B4E0B2E66DD - 2dde08bc0580c7bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "272"
+                  endingLineNumber = "272"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "87488482-7C7B-49BB-9E2D-7B4E0B2E66DD - 2dde08bc058033dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "366"
+                  endingLineNumber = "366"
+                  offsetFromSymbolStart = "968">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7E44641-7CE6-47D6-8C06-3CF56A5D5BBE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "374"
+            endingLineNumber = "374"
+            landmarkName = "generateSchedulesPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E7E44641-7CE6-47D6-8C06-3CF56A5D5BBE - 2dde08bc0580c79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "271"
+                  endingLineNumber = "271"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "E7E44641-7CE6-47D6-8C06-3CF56A5D5BBE - 2dde08bc0580c45e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "269"
+                  endingLineNumber = "269"
+                  offsetFromSymbolStart = "984">
+               </Location>
+               <Location
+                  uuid = "E7E44641-7CE6-47D6-8C06-3CF56A5D5BBE - 2dde08bc0580c79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "271"
+                  endingLineNumber = "271"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "E7E44641-7CE6-47D6-8C06-3CF56A5D5BBE - 2dde08bc0580c79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "271"
+                  endingLineNumber = "271"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "E7E44641-7CE6-47D6-8C06-3CF56A5D5BBE - 2dde08bc0580c7bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "272"
+                  endingLineNumber = "272"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "626EDE7E-2BD4-4A16-8B34-C2063BD917E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "375"
+            endingLineNumber = "375"
+            landmarkName = "generateSchedulesPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "626EDE7E-2BD4-4A16-8B34-C2063BD917E4 - 2dde08bc0580c79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "271"
+                  endingLineNumber = "271"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "626EDE7E-2BD4-4A16-8B34-C2063BD917E4 - 2dde08bc0580c47d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "270"
+                  endingLineNumber = "270"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+               <Location
+                  uuid = "626EDE7E-2BD4-4A16-8B34-C2063BD917E4 - 2dde08bc0580c79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "271"
+                  endingLineNumber = "271"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "626EDE7E-2BD4-4A16-8B34-C2063BD917E4 - 2dde08bc0580c79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "271"
+                  endingLineNumber = "271"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "626EDE7E-2BD4-4A16-8B34-C2063BD917E4 - 2dde08bc0580c7bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.ScheduleGeneratorViewController.generateSchedulesPressed(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "272"
+                  endingLineNumber = "272"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99F76358-0404-44D6-A1D5-377583203EB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "638"
+            endingLineNumber = "638"
+            landmarkName = "backP(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6585DBA1-FB27-4459-8388-6A46B79A977D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "642"
+            endingLineNumber = "642"
+            landmarkName = "backP(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4721AAFE-649C-4AD1-9213-1983B148B0C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "pContinue(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4721AAFE-649C-4AD1-9213-1983B148B0C8 - 4e787d26c37c9017"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.homePageViewController.pContinue(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "4721AAFE-649C-4AD1-9213-1983B148B0C8 - 4e787d26c37c9017"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ECE397_Project.homePageViewController.pContinue(Any) -&gt; ()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "568">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80833206-9DEB-4DD1-ABAD-AA673BCDA9BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "CppInit(fpath)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "80833206-9DEB-4DD1-ABAD-AA673BCDA9BD - 526a4b0c77176990"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CppInit(char const*)"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "80833206-9DEB-4DD1-ABAD-AA673BCDA9BD - 270db5ba9f93e9aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CppInit()"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "80833206-9DEB-4DD1-ABAD-AA673BCDA9BD - 526a4b0c77176990"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CppInit(char const*)"
+                  moduleName = "ECE397-Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meredithnaylor/Desktop/Fall%202023/Independent%20Study/ECE397-Project/ECE397-Project/TestCPP.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8815BFD-718A-4936-AF57-DA313EC5A118"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECE397-Project/TestCPP.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "getScheduleNext()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

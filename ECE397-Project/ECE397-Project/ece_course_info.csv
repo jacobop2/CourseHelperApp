@@ -1,0 +1,1294 @@
+Course Name,CRN,Type,Section,Time,Day,Location,Instructor
+ECE 101,45173,Laboratory,ABA,11:00AM,12:50PM,F,3081 Electrical & Computer Eng Bldg,Basu. S Chakravarty. A,3
+ECE 101,45176,Laboratory,ABD,01:00PM,02:50PM,F,Location Pending,Basu. S Chakravarty. A,3
+ECE 101,45172,Lecture,AL,11:00AM,11:50AM,MW,3081 Electrical & Computer Eng Bldg,Chakravarty. A,3
+ECE 110,36785,Laboratory,AB0,06:00PM,08:50PM,M,1001 Electrical & Computer Eng Bldg,Yuan. C Zhang. Z,3
+ECE 110,36788,Laboratory,AB1,09:00AM,11:50AM,W,1001 Electrical & Computer Eng Bldg,Yu. A Zhang. F,3
+ECE 110,36780,Laboratory,AB2,09:00AM,11:50AM,R,1001 Electrical & Computer Eng Bldg,Fuss. D Zhao. Y,3
+ECE 110,36801,Laboratory,AB3,09:00AM,11:50AM,F,1001 Electrical & Computer Eng Bldg,Yu. A Zhang. F,3
+ECE 110,36794,Laboratory,AB4,12:00PM,02:50PM,M,1001 Electrical & Computer Eng Bldg,Havens. B Naik. A,3
+ECE 110,55569,Laboratory,AB5,12:00PM,02:50PM,T,1001 Electrical & Computer Eng Bldg,Dai. B Li. P,3
+ECE 110,36798,Laboratory,AB6,12:00PM,02:50PM,W,1001 Electrical & Computer Eng Bldg,You. P Zhang. Z,3
+ECE 110,55155,Laboratory,AB7,12:00PM,02:50PM,R,1001 Electrical & Computer Eng Bldg,Li. P Li. Y,3
+ECE 110,36781,Laboratory,AB8,12:00PM,02:50PM,F,1001 Electrical & Computer Eng Bldg,Naik. A Porwal. V,3
+ECE 110,55156,Laboratory,AB9,03:00PM,05:50PM,M,1001 Electrical & Computer Eng Bldg,Yuan. C,3
+ECE 110,36778,Laboratory,ABA,03:00PM,05:50PM,T,1001 Electrical & Computer Eng Bldg,Li. L Zhao. Y,3
+ECE 110,36800,Laboratory,ABB,03:00PM,05:50PM,W,1001 Electrical & Computer Eng Bldg,Naik. A Porwal. V,3
+ECE 110,36792,Laboratory,ABC,03:00PM,05:50PM,R,1001 Electrical & Computer Eng Bldg,Katakam. S Li. L,3
+ECE 110,36783,Laboratory,ABD,09:00AM,11:50AM,M,1001 Electrical & Computer Eng Bldg,Katakam. S,3
+ECE 110,36796,Laboratory,ABE,09:00AM,11:50AM,T,1001 Electrical & Computer Eng Bldg,Fuss. D Hutson. J,3
+ECE 110,62483,Laboratory,ABF,06:00PM,08:50PM,W,1001 Electrical & Computer Eng Bldg,Li. Y You. P,3
+ECE 110,55568,Lecture,AL1,10:00AM,10:50AM,MW,1002 Electrical & Computer Eng Bldg,Choi. H Schuh. J,3
+ECE 110,36790,Lecture,AL2,04:00PM,04:50PM,MW,1013 Electrical & Computer Eng Bldg,Kim. K Schuh. J,3
+ECE 110,36789,Online,AL3,02:00PM,02:50PM,MW,n.a.,Gilbert. M Schuh. J,3
+ECE 110,62844,Lecture,AL4,09:00AM,09:50AM,MW,1013 Electrical & Computer Eng Bldg,Schuh. J,3
+ECE 110,59864,Laboratory,BB0,06:00PM,08:50PM,M,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59865,Laboratory,BB1,09:00AM,11:50AM,W,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59866,Laboratory,BB2,09:00AM,11:50AM,R,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59867,Laboratory,BB3,09:00AM,11:50AM,F,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59868,Laboratory,BB4,12:00PM,02:50PM,M,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59869,Laboratory,BB5,12:00PM,02:50PM,T,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59870,Laboratory,BB6,12:00PM,02:50PM,W,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59871,Laboratory,BB7,12:00PM,02:50PM,R,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59872,Laboratory,BB8,12:00PM,02:50PM,F,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59873,Laboratory,BB9,03:00PM,05:50PM,M,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59875,Laboratory,BBA,03:00PM,05:50PM,T,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59876,Laboratory,BBB,03:00PM,05:50PM,W,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59878,Laboratory,BBC,03:00PM,05:50PM,R,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59879,Laboratory,BBD,09:00AM,11:50AM,M,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,59880,Laboratory,BBE,09:00AM,11:50AM,T,1001 Electrical & Computer Eng Bldg,,3
+ECE 110,62509,Laboratory,BBF,06:00PM,08:50PM,W,1001 Electrical & Computer Eng Bldg,,3
+ECE 120,64596,Discussion/ Recitation,AD1,11:00AM,11:50AM,R,1013 Electrical & Computer Eng Bldg,Sen. P,4
+ECE 120,64597,Discussion/ Recitation,AD2,12:00PM,12:50PM,R,1013 Electrical & Computer Eng Bldg,Sen. P,4
+ECE 120,64598,Discussion/ Recitation,AD3,01:00PM,01:50PM,R,2013 Electrical & Computer Eng Bldg,Cho. J,4
+ECE 120,64599,Discussion/ Recitation,AD4,02:00PM,02:50PM,R,2013 Electrical & Computer Eng Bldg,Shelke. A,4
+ECE 120,65253,Discussion/ Recitation,AD5,03:00PM,03:50PM,R,3081 Electrical & Computer Eng Bldg,Gisi. A,4
+ECE 120,65254,Discussion/ Recitation,AD6,04:00PM,04:50PM,R,2013 Electrical & Computer Eng Bldg,Liu. Y,4
+ECE 120,65255,Discussion/ Recitation,AD7,05:00PM,05:50PM,R,2013 Electrical & Computer Eng Bldg,Ayar. N,4
+ECE 120,65256,Discussion/ Recitation,AD8,11:00AM,11:50AM,R,3015 Electrical & Computer Eng Bldg,Tu. J,4
+ECE 120,65257,Discussion/ Recitation,AD9,12:00PM,12:50PM,R,2015 Electrical & Computer Eng Bldg,Bongale. R,4
+ECE 120,65258,Discussion/ Recitation,ADA,01:00PM,01:50PM,R,2015 Electrical & Computer Eng Bldg,Lakkidi. P,4
+ECE 120,65260,Discussion/ Recitation,ADB,02:00PM,02:50PM,R,3081 Electrical & Computer Eng Bldg,Tu. J,4
+ECE 120,65261,Discussion/ Recitation,ADC,03:00PM,03:50PM,R,4070 Electrical & Computer Eng Bldg,Shelke. A,4
+ECE 120,66763,Discussion/ Recitation,ADD,04:00PM,04:50PM,R,3081 Electrical & Computer Eng Bldg,Ryu. C,4
+ECE 120,64595,Lecture,AL1,09:00AM,09:50AM,MWF,3081 Electrical & Computer Eng Bldg,Zhang. H,4
+ECE 120,65733,Online,AL2,11:00AM,11:50AM,MWF,n.a.,Bhat. S,4
+ECE 120,65734,Lecture,AL3,01:00PM,01:50PM,MWF,1002 Electrical & Computer Eng Bldg,Aggarwal. A,4
+ECE 120,75613,Lecture,AL5,03:00PM,03:50PM,MWF,3039 Campus Instructional Facility,Bhowmik. U,4
+ECE 198,63630,Laboratory,JS1,06:00PM,07:50PM,T,1001 Electrical & Computer Eng Bldg,Dayalan. V Schmitz. C Wandke. K,3
+ECE 198,62921,Laboratory,JS2,06:00PM,07:50PM,R,1001 Electrical & Computer Eng Bldg,Dayalan. V Schmitz. C Wandke. K,3
+ECE 199,69256,Discussion/ Recitation,110,11:00AM,11:50AM,TR,0036 Campus Instructional Facility,Havens. B Schmitz. C,3
+ECE 199,69258,Discussion/ Recitation,120,03:00PM,03:50PM,TR,ARR Digital Computer Laboratory,Schmitz. C Snyder. C,3
+ECE 200,29836,Lecture,SH,05:00PM,06:50PM,W,1002 Electrical & Computer Eng Bldg,Kudeki. E,0
+ECE 205,68303,Laboratory,AB2,10:00AM,11:50AM,M,4074 Electrical & Computer Eng Bldg,Kim. H,3
+ECE 205,68304,Laboratory,AB3,03:00PM,04:50PM,M,4074 Electrical & Computer Eng Bldg,Wang. T Xiong. Y,3
+ECE 205,68305,Laboratory,AB4,05:00PM,06:50PM,M,4074 Electrical & Computer Eng Bldg,Wang. T,3
+ECE 205,68307,Laboratory,AB6,10:00AM,11:50AM,W,4074 Electrical & Computer Eng Bldg,Ashok. S Kapadia. N,3
+ECE 205,68308,Laboratory,AB7,03:00PM,04:50PM,W,4074 Electrical & Computer Eng Bldg,Huang. P Orsel. O,3
+ECE 205,68309,Laboratory,AB8,05:00PM,06:50PM,W,4074 Electrical & Computer Eng Bldg,Orsel. O Su. D,3
+ECE 205,68310,Laboratory,AB9,08:00AM,09:50AM,R,4074 Electrical & Computer Eng Bldg,Kapadia. N Udayachandran. K,3
+ECE 205,68311,Laboratory,ABA,05:00PM,06:50PM,R,4074 Electrical & Computer Eng Bldg,Kim. H Su. D,3
+ECE 205,68312,Laboratory,ABB,10:00AM,11:50AM,F,4074 Electrical & Computer Eng Bldg,Ng. A,3
+ECE 205,68313,Laboratory,ABC,03:00PM,04:50PM,F,4074 Electrical & Computer Eng Bldg,Ashok. S Huang. P,3
+ECE 205,60609,Lecture,AL,12:00PM,12:50PM,MWF,1002 Electrical & Computer Eng Bldg,Ravaioli. U,3
+ECE 206,36694,Laboratory,F1,12:00PM,01:50PM,M,4074 Electrical & Computer Eng Bldg,Link. S Radhakrishnan. C Wang. H,1
+ECE 206,36831,Laboratory,F2,08:00AM,09:50AM,T,4074 Electrical & Computer Eng Bldg,Kang. J Link. S Radhakrishnan. C,1
+ECE 206,36830,Laboratory,F3,12:00PM,01:50PM,W,4074 Electrical & Computer Eng Bldg,Radhakrishnan. C Wang. H Wolstenholme. I,1
+ECE 206,36828,Laboratory,F4,08:00AM,09:50AM,F,4074 Electrical & Computer Eng Bldg,Han. M Radhakrishnan. C,1
+ECE 206,36827,Laboratory,F5,12:00PM,01:50PM,F,4074 Electrical & Computer Eng Bldg,Radhakrishnan. C Wolstenholme. I Wu. H,1
+ECE 206,36825,Laboratory,F6,07:00PM,08:50PM,M,4074 Electrical & Computer Eng Bldg,Han. M Radhakrishnan. C,1
+ECE 210,36863,Laboratory,AB1,12:00PM,01:50PM,W,4072 Electrical & Computer Eng Bldg,Aoun. T Irvin. R,4
+ECE 210,36891,Laboratory,AB2,12:00PM,01:50PM,W,4072 Electrical & Computer Eng Bldg,Aoun. T Irvin. R,4
+ECE 210,36867,Laboratory,AB3,02:00PM,03:50PM,W,4072 Electrical & Computer Eng Bldg,Wu. Y Yang. S,4
+ECE 210,36874,Laboratory,AB4,02:00PM,03:50PM,W,4072 Electrical & Computer Eng Bldg,Wu. Y Yang. S,4
+ECE 210,36875,Laboratory,AB5,04:00PM,05:50PM,W,4072 Electrical & Computer Eng Bldg,Chavez. J Tian. M,4
+ECE 210,36881,Laboratory,AB6,04:00PM,05:50PM,W,4072 Electrical & Computer Eng Bldg,Chavez. J Tian. M,4
+ECE 210,36878,Laboratory,AB7,10:00AM,11:50AM,R,4072 Electrical & Computer Eng Bldg,Aoun. T Tian. M,4
+ECE 210,36888,Laboratory,AB8,10:00AM,11:50AM,R,4072 Electrical & Computer Eng Bldg,Aoun. T Tian. M,4
+ECE 210,36883,Laboratory,AB9,12:00PM,01:50PM,R,4072 Electrical & Computer Eng Bldg,Chavez. J Irvin. R,4
+ECE 210,36709,Laboratory,ABA,12:00PM,01:50PM,R,4072 Electrical & Computer Eng Bldg,Chavez. J Irvin. R,4
+ECE 210,36717,Laboratory,ABB,02:00PM,03:50PM,R,4072 Electrical & Computer Eng Bldg,Wang. B Wu. Y,4
+ECE 210,56612,Laboratory,ABC,02:00PM,03:50PM,R,4072 Electrical & Computer Eng Bldg,Wang. B Wu. Y,4
+ECE 210,36696,Lecture,AL1,10:00AM,10:50AM,MTWF,1013 Electrical & Computer Eng Bldg,Shao. Y,4
+ECE 210,36702,Lecture,AL2,11:00AM,11:50AM,MTWF,1013 Electrical & Computer Eng Bldg,Alvarez. J,4
+ECE 210,36706,Lecture,AL3,12:00PM,12:50PM,MTWF,1013 Electrical & Computer Eng Bldg,He. W,4
+ECE 210,57718,Lecture,AL4,02:00PM,02:50PM,MTWF,1013 Electrical & Computer Eng Bldg,Schuh. J,4
+ECE 211,31722,Lecture,B,10:00AM,10:50AM,MTWF,1013 Electrical & Computer Eng Bldg,Shao. Y,2
+ECE 211,31723,Lecture,C,11:00AM,11:50AM,MTWF,1013 Electrical & Computer Eng Bldg,Alvarez. J,2
+ECE 211,31725,Lecture,E,12:00PM,12:50PM,MTWF,1013 Electrical & Computer Eng Bldg,He. W,2
+ECE 211,57719,Lecture,F,02:00PM,02:50PM,MTWF,1013 Electrical & Computer Eng Bldg,Schuh. J,2
+ECE 220,64602,Discussion/ Recitation,BD2,09:00AM,09:50AM,F,2022 Electrical & Computer Eng Bldg,Yamsani. S,4
+ECE 220,64603,Discussion/ Recitation,BD3,10:00AM,10:50AM,F,2022 Electrical & Computer Eng Bldg,Mai. A,4
+ECE 220,64604,Discussion/ Recitation,BD4,11:00AM,11:50AM,F,2022 Electrical & Computer Eng Bldg,Shen. E,4
+ECE 220,64605,Discussion/ Recitation,BD5,12:00PM,12:50PM,F,2022 Electrical & Computer Eng Bldg,Shen. E,4
+ECE 220,64606,Discussion/ Recitation,BD6,01:00PM,01:50PM,F,2022 Electrical & Computer Eng Bldg,Mai. A,4
+ECE 220,64607,Discussion/ Recitation,BD7,02:00PM,02:50PM,F,2022 Electrical & Computer Eng Bldg,Zhang. M,4
+ECE 220,64608,Discussion/ Recitation,BD8,03:00PM,03:50PM,F,2022 Electrical & Computer Eng Bldg,Zhang. M,4
+ECE 220,64610,Discussion/ Recitation,BD9,04:00PM,04:50PM,F,2022 Electrical & Computer Eng Bldg,Franceschini. N,4
+ECE 220,64600,Lecture,BL1,12:30PM,01:50PM,TR,1002 Electrical & Computer Eng Bldg,Chen. Y,4
+ECE 220,66373,Lecture,BL2,11:00AM,12:20PM,TR,2017 Electrical & Computer Eng Bldg,Abraham. I,4
+ECE 220,66374,Lecture,BL3,09:30AM,10:50AM,TR,3081 Electrical & Computer Eng Bldg,Kindratenko. V,4
+ECE 298,72439,Lecture,ABS,03:00PM,03:50PM,F,2015 Electrical & Computer Eng Bldg,Banerjee. A,3
+ECE 298,76513,Lecture,RR,04:00PM,04:50PM,T,1013 Electrical & Computer Eng Bldg,Liu. S Rakheja. S Ravaioli. U,3
+ECE 310,70543,Lecture,CCS,12:00PM,12:50PM,MWF,3017 Electrical & Computer Eng Bldg,Kim. C Snyder. C,3
+ECE 310,70430,Lecture,CSP,06:00PM,07:15PM,TR,Location Pending,Do. M,3
+ECE 310,58210,Lecture,E,03:00PM,03:50PM,MWF,3017 Electrical & Computer Eng Bldg,Moustakides. G,3
+ECE 310,58213,Lecture,G,09:00AM,09:50AM,MWF,3017 Electrical & Computer Eng Bldg,Do. M,3
+ECE 311,58591,Laboratory,A,09:00AM,10:50AM,T,2022 Electrical & Computer Eng Bldg,Do. M Okubo. R,1
+ECE 311,58592,Laboratory,B,11:00AM,12:50PM,T,2022 Electrical & Computer Eng Bldg,Do. M Okubo. R,1
+ECE 311,58593,Laboratory,C,05:00PM,06:50PM,T,2022 Electrical & Computer Eng Bldg,Do. M Kim. C,1
+ECE 311,70544,Laboratory,CCS,02:00PM,03:50PM,T,2022 Electrical & Computer Eng Bldg,Do. M Kim. C,1
+ECE 313,49975,Discussion/ Recitation,A,02:00PM,03:20PM,TR,3013 Electrical & Computer Eng Bldg,Chen. X,3
+ECE 313,64886,Discussion/ Recitation,B,10:00AM,10:50AM,MWF,3017 Electrical & Computer Eng Bldg,Chitambar. E,3
+ECE 313,49976,Discussion/ Recitation,C,11:00AM,11:50AM,MWF,3017 Electrical & Computer Eng Bldg,Katselis. D,3
+ECE 313,52208,Discussion/ Recitation,D,01:00PM,01:50PM,MWF,3017 Electrical & Computer Eng Bldg,Varshney. L,3
+ECE 313,61390,Discussion/ Recitation,E,02:00PM,02:50PM,MWF,Location Pending,Varshney. L,3
+ECE 313,70434,Discussion/ Recitation,F,05:00PM,05:50PM,MWF,3017 Electrical & Computer Eng Bldg,Bastopcu. M,3
+ECE 314,66503,Laboratory,A,11:00AM,11:50AM,W,2013 Electrical & Computer Eng Bldg,Hajek. B Levick. K,1
+ECE 314,66505,Laboratory,B,02:00PM,02:50PM,W,2013 Electrical & Computer Eng Bldg,Hajek. B Levick. K,1
+ECE 316,36862,Lecture,E1,11:00AM,12:20PM,TR,329 Gregory Hall,Hillmer. P,3
+ECE 316,36869,Lecture,E2,02:00PM,03:20PM,TR,329 Gregory Hall,Hillmer. P,3
+ECE 329,31727,Discussion/ Recitation,C,10:00AM,10:50AM,MWF,2013 Electrical & Computer Eng Bldg,Heller. L Ilie. R,3
+ECE 329,31729,Discussion/ Recitation,E,01:00PM,01:50PM,MWF,1015 Electrical & Computer Eng Bldg,Goddard. L Heller. L,3
+ECE 329,31732,Discussion/ Recitation,X,12:00PM,12:50PM,MWF,2017 Electrical & Computer Eng Bldg,Heller. L Zhao. Y,3
+ECE 330,58237,Discussion/ Recitation,C,09:00AM,09:50AM,MWF,1015 Electrical & Computer Eng Bldg,Mironenko. O,3
+ECE 330,58238,Discussion/ Recitation,N,02:00PM,02:50PM,MWF,3017 Electrical & Computer Eng Bldg,Zhang. R,3
+ECE 333,54415,Lecture,A,09:30AM,10:50AM,TR,1015 Electrical & Computer Eng Bldg,Stillwell. A,3
+ECE 340,59020,Discussion/ Recitation,A,12:00PM,12:50PM,MWF,1015 Electrical & Computer Eng Bldg,Vlasov. Y,3
+ECE 340,58224,Discussion/ Recitation,B,10:00AM,10:50AM,MWF,3013 Electrical & Computer Eng Bldg,He. W,3
+ECE 340,58225,Discussion/ Recitation,D,11:00AM,11:50AM,MWF,2017 Electrical & Computer Eng Bldg,Zhu. W,3
+ECE 342,58228,Lecture,D,11:00AM,11:50AM,MWF,3013 Electrical & Computer Eng Bldg,Radhakrishnan. C,3
+ECE 342,62848,Lecture,F,01:00PM,01:50PM,MWF,2013 Electrical & Computer Eng Bldg,Shanbhag. N,3
+ECE 343,58230,Laboratory,N,11:00AM,01:50PM,T,4074 Electrical & Computer Eng Bldg,Liu. J Radhakrishnan. C Shi. J,1
+ECE 343,58231,Laboratory,O,02:00PM,04:50PM,T,4074 Electrical & Computer Eng Bldg,Radhakrishnan. C Shi. J Zhang. Y,1
+ECE 343,58233,Laboratory,Q,05:00PM,07:50PM,T,4074 Electrical & Computer Eng Bldg,Liu. J Radhakrishnan. C,1
+ECE 343,61458,Laboratory,R,11:00AM,01:50PM,R,4074 Electrical & Computer Eng Bldg,Li. Y Patel. S Radhakrishnan. C,1
+ECE 343,61459,Laboratory,S,02:00PM,04:50PM,R,4074 Electrical & Computer Eng Bldg,Li. Y Radhakrishnan. C Zhang. Y,1
+ECE 350,58235,Discussion/ Recitation,X,12:00PM,12:50PM,MWF,2015 Electrical & Computer Eng Bldg,Kudeki. E,3
+ECE 374,70647,Discussion/ Recitation,ADA,09:00AM,09:50AM,WF,1304 Siebel Center for Comp Sci,,4
+ECE 374,70648,Discussion/ Recitation,ADB,10:00AM,10:50AM,WF,106B3 Engineering Hall,,4
+ECE 374,70649,Discussion/ Recitation,ADC,11:00AM,11:50AM,WF,4101 Materials Science & Eng Bld,,4
+ECE 374,72093,Discussion/ Recitation,ADD,12:00PM,12:50PM,WF,1304 Siebel Center for Comp Sci,,4
+ECE 374,72095,Discussion/ Recitation,ADE,01:00PM,01:50PM,WF,1304 Siebel Center for Comp Sci,,4
+ECE 374,66548,Discussion/ Recitation,ADF,02:00PM,02:50PM,WF,106B3 Engineering Hall,,4
+ECE 374,72202,Discussion/ Recitation,ADG,03:00PM,03:50PM,WF,4101 Materials Science & Eng Bld,,4
+ECE 374,66550,Discussion/ Recitation,ADH,04:00PM,04:50PM,WF,1304 Siebel Center for Comp Sci,,4
+ECE 374,66553,Discussion/ Recitation,ADK,05:00PM,05:50PM,WF,1304 Siebel Center for Comp Sci,,4
+ECE 374,75940,Discussion/ Recitation,ADL,06:00PM,06:50PM,WF,1304 Siebel Center for Comp Sci,,4
+ECE 374,66542,Lecture,AL1,11:00AM,12:15PM,TR,0027/1025 Campus Instructional Facility,Erickson. J,4
+ECE 374,70642,Lecture,BL1,12:30PM,01:45PM,TR,0027/1025 Campus Instructional Facility,Kani. N Umrawal. A,4
+ECE 374,72199,Lecture,BLZ,12:30PM,01:45PM,TR,0027/1025 Campus Instructional Facility,Kani. N Umrawal. A,4
+ECE 374,66543,Discussion/ Recitation,BYA,09:00AM,09:50AM,WF,2017 Electrical & Computer Eng Bldg,Chen. J Kani. N Shen. Y Umrawal. A,4
+ECE 374,66544,Discussion/ Recitation,BYB,10:00AM,10:50AM,WF,0216 Siebel Center for Comp Sci,Kani. N Umrawal. A You. H,4
+ECE 374,66545,Discussion/ Recitation,BYC,11:00AM,11:50AM,WF,4070 Electrical & Computer Eng Bldg,Kani. N Umrawal. A Vydana. S,4
+ECE 374,66546,Discussion/ Recitation,BYD,12:00PM,12:50PM,WF,4070 Electrical & Computer Eng Bldg,Kani. N Perumenki. S Umrawal. A,4
+ECE 374,66547,Discussion/ Recitation,BYE,01:00PM,01:50PM,WF,4070 Electrical & Computer Eng Bldg,Kani. N Umrawal. A Vemuganti. S Wang. W,4
+ECE 374,66549,Discussion/ Recitation,BYF,02:00PM,02:50PM,WF,4070 Electrical & Computer Eng Bldg,Jeon. S Kani. N Umrawal. A,4
+ECE 374,72091,Online Lab,CSP,09:00AM,09:50AM,WF,2017 Electrical & Computer Eng Bldg,Kani. N Umrawal. A,4
+ECE 385,36843,Laboratory,AB1,ARRANGED,ARRANGED,n.a.,Location Pending,,3
+ECE 385,36720,Lecture,AL1,04:00PM,04:50PM,MW,1002 Electrical & Computer Eng Bldg,Cheng. Z,3
+ECE 391,50239,Discussion/ Recitation,AD1,02:00PM,02:50PM,W,3026 Electrical & Computer Eng Bldg,Yu. D Yuan. Y,4
+ECE 391,50240,Discussion/ Recitation,AD2,11:00AM,11:50AM,W,3026 Electrical & Computer Eng Bldg,Feinberg. E,4
+ECE 391,50241,Discussion/ Recitation,AD3,01:00PM,01:50PM,W,3026 Electrical & Computer Eng Bldg,Zhang. L,4
+ECE 391,59766,Discussion/ Recitation,AD4,03:00PM,03:50PM,W,3026 Electrical & Computer Eng Bldg,Yuan. Y Zhu. Z,4
+ECE 391,61939,Discussion/ Recitation,AD5,10:00AM,10:50AM,W,3026 Electrical & Computer Eng Bldg,Liu. H,4
+ECE 391,47766,Discussion/ Recitation,AD6,12:00PM,12:50PM,W,3026 Electrical & Computer Eng Bldg,,4
+ECE 391,66995,Discussion/ Recitation,AD7,09:00AM,09:50AM,W,3026 Electrical & Computer Eng Bldg,,4
+ECE 391,70441,Discussion/ Recitation,ADC,04:00PM,04:50PM,W,3026 Electrical & Computer Eng Bldg,Liu. H,4
+ECE 391,47765,Lecture,AL,02:00PM,03:20PM,TR,1002 Electrical & Computer Eng Bldg,Kalbarczyk. Z Lumetta. S,4
+ECE 396,10013,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+ECE 397,10010,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+ECE 398,47492,Lecture,KF,03:30PM,04:50PM,TR,3015 Electrical & Computer Eng Bldg,Fang. K,3
+ECE 398,48732,Laboratory,RI1,03:00PM,03:50PM,W,3014 Electrical & Computer Eng Bldg,Ilie. R Oliveira Carvalho Da Silva. P,3
+ECE 398,31737,Laboratory,RI2,02:00PM,02:50PM,W,3014 Electrical & Computer Eng Bldg,Ilie. R Oliveira Carvalho Da Silva. P,3
+ECE 398,31738,Laboratory,RI3,04:00PM,04:50PM,W,Location Pending,Ilie. R Oliveira Carvalho Da Silva. P,3
+ECE 402,66381,Laboratory,AB,ARRANGED,ARRANGED,n.a.,Location Pending,Cheng. Z,3
+ECE 402,29932,Discussion/ Recitation,AD,08:00AM,09:20AM,TR,3081 Electrical & Computer Eng Bldg,Cheng. Z,3
+ECE 407,75631,Lecture,A,04:00PM,04:50PM,MWF,2013 Electrical & Computer Eng Bldg,Heath. D,3
+ECE 408,58791,Laboratory,AB,ARRANGED,ARRANGED,n.a.,Location Pending,Kindratenko. V Patel. S,4
+ECE 408,76323,Lecture,AL1,02:00PM,03:20PM,TR,1320 Digital Computer Laboratory,Kindratenko. V,4
+ECE 408,67069,Lecture,AL2,09:30AM,10:50AM,TR,1002 Electrical & Computer Eng Bldg,Patel. S,4
+ECE 410,77869,Lecture,NS,03:00PM,03:50PM,MWF,2017 Electrical & Computer Eng Bldg,Allen. J Ellis-Mohr. A,3
+ECE 410,77870,Lecture,NS4,03:00PM,03:50PM,MWF,2017 Electrical & Computer Eng Bldg,Allen. J Ellis-Mohr. A,3
+ECE 411,29937,Laboratory,AB1,ARRANGED,ARRANGED,n.a.,Location Pending,,4
+ECE 411,72393,Laboratory,ABC,ARRANGED,ARRANGED,n.a.,Location Pending,Kumar. R,4
+ECE 411,29942,Discussion/ Recitation,AD1,02:00PM,03:20PM,TR,1015 Electrical & Computer Eng Bldg,Huang. J,4
+ECE 411,72394,Discussion/ Recitation,ADC,02:00PM,03:20PM,TR,Location Pending,Kumar. R,4
+ECE 414,63208,Lecture,B,11:00AM,11:50AM,MWF,1306 Everitt Laboratory,Irudayaraj. J Sands. M,3
+ECE 415,63212,Laboratory,AB2,04:00PM,06:50PM,W,0201 Everitt Laboratory,Reck. R,2
+ECE 415,63211,Laboratory,AB3,04:00PM,06:50PM,M,0201 Everitt Laboratory,Morshed. M Reck. R,2
+ECE 415,63210,Laboratory,AB4,01:00PM,03:50PM,W,0201 Everitt Laboratory,Kodimela. V Reck. R,2
+ECE 415,63209,Lecture,AL1,12:00PM,12:50PM,M,1306 Everitt Laboratory,Reck. R,2
+ECE 420,31821,Laboratory,AB1,02:30PM,04:20PM,T,5072 Electrical & Computer Eng Bldg,Gotsis. D Moon. T,2
+ECE 420,31826,Laboratory,AB2,02:00PM,03:50PM,W,5072 Electrical & Computer Eng Bldg,Li. Y Moon. T,2
+ECE 420,31829,Laboratory,AB3,09:00AM,10:50AM,W,5072 Electrical & Computer Eng Bldg,Li. Y Moon. T,2
+ECE 420,31833,Laboratory,AB4,03:00PM,04:40PM,F,5072 Electrical & Computer Eng Bldg,Gotsis. D Moon. T,2
+ECE 420,31840,Lecture,AL1,02:00PM,02:50PM,M,3015 Electrical & Computer Eng Bldg,Moon. T,2
+ECE 422,69017,Discussion/ Recitation,ADA,10:00AM,10:50AM,W,2406 Siebel Center for Comp Sci,Chandrasekaran. V,4
+ECE 422,69018,Discussion/ Recitation,ADB,11:00AM,11:50AM,W,2406 Siebel Center for Comp Sci,Chandrasekaran. V,4
+ECE 422,69022,Discussion/ Recitation,ADD,01:00PM,01:50PM,W,2406 Siebel Center for Comp Sci,Chandrasekaran. V,4
+ECE 422,66982,Discussion/ Recitation,ADE,02:00PM,02:50PM,W,1214 Siebel Center for Comp Sci,Chandrasekaran. V,4
+ECE 422,66984,Discussion/ Recitation,ADH,03:00PM,03:50PM,W,1214 Siebel Center for Comp Sci,Chandrasekaran. V,4
+ECE 422,49549,Lecture,AL4,12:30PM,01:45PM,TR,1320 Digital Computer Laboratory,Chandrasekaran. V Levchenko. K,4
+ECE 422,72176,Lecture,ALG,12:30PM,01:45PM,TR,1320 Digital Computer Laboratory,Chandrasekaran. V Levchenko. K,4
+ECE 428,67400,Online,DSO,ARRANGED,ARRANGED,n.a.,n.a.,Gupta. I,3
+ECE 428,62176,Online,MCS,ARRANGED,ARRANGED,n.a.,n.a.,Ganesan. A Gupta. I,3
+ECE 428,57771,Lecture-Discussion,SG,02:00PM,03:15PM,WF,1002 Electrical & Computer Eng Bldg,Ganesan. A Gupta. I,3
+ECE 428,36102,Lecture-Discussion,SU,02:00PM,03:15PM,WF,1002 Electrical & Computer Eng Bldg,Ganesan. A Gupta. I,3
+ECE 428,72170,Lecture-Discussion,SU4,02:00PM,03:15PM,WF,1002 Electrical & Computer Eng Bldg,Ganesan. A Gupta. I,3
+ECE 438,77935,Online,ONL,03:30PM,04:45PM,MW,n.a.,Roy Choudhury. R,3
+ECE 438,36066,Lecture-Discussion,X3,03:30PM,04:45PM,MW,1320 Digital Computer Laboratory,Roy Choudhury. R,3
+ECE 438,57774,Lecture-Discussion,X4,03:30PM,04:45PM,MW,1320 Digital Computer Laboratory,Roy Choudhury. R,3
+ECE 444,36808,Laboratory,AB1,02:00PM,04:50PM,F,ARR Micro & Nanotechnology Lab,Kim. B,4
+ECE 444,36809,Laboratory,AB2,08:00AM,10:50AM,T,ARR Micro & Nanotechnology Lab,Kolagotla. N,4
+ECE 444,36819,Laboratory,AB3,12:00PM,02:50PM,T,ARR Micro & Nanotechnology Lab,,4
+ECE 444,36817,Laboratory,AB4,02:00PM,04:50PM,W,ARR Micro & Nanotechnology Lab,Kim. B,4
+ECE 444,36816,Laboratory,AB5,09:00AM,11:50AM,R,ARR Micro & Nanotechnology Lab,Kolaczkowski. S,4
+ECE 444,36814,Laboratory,AB6,02:00PM,04:50PM,M,ARR Micro & Nanotechnology Lab,Wang. H,4
+ECE 444,41682,Laboratory,AB7,02:00PM,04:50PM,R,ARR Micro & Nanotechnology Lab,Berg. A,4
+ECE 444,36813,Discussion/ Recitation,AD1,09:00AM,09:50AM,MWF,3015 Electrical & Computer Eng Bldg,Froeter. P,4
+ECE 444,36811,Discussion/ Recitation,AD2,10:00AM,10:50AM,MWF,3015 Electrical & Computer Eng Bldg,Lee. M,4
+ECE 445,29951,Laboratory,H,04:00PM,05:50PM,T,1002 Electrical & Computer Eng Bldg,Chyczewski. S Fliflet. A Mironenko. O Shao. Y,4
+ECE 448,67006,Lecture,R3,09:00AM,09:50AM,MWF,0027/1025 Campus Instructional Facility,Fleck. M,3
+ECE 448,67010,Lecture,R4,09:00AM,09:50AM,MWF,0027/1025 Campus Instructional Facility,Fleck. M,3
+ECE 449,73595,Lecture-Discussion,B3,12:30PM,01:45PM,WF,1404 Siebel Center for Comp Sci,Gui. L Wang. S,3
+ECE 449,73597,Lecture-Discussion,B4,12:30PM,01:45PM,WF,1404 Siebel Center for Comp Sci,Gui. L Wang. S,3
+ECE 470,36913,Laboratory,AB1,09:00AM,10:50AM,T,3071 Electrical & Computer Eng Bldg,Hong. J,4
+ECE 470,36943,Laboratory,AB2,09:00AM,10:50AM,R,3071 Electrical & Computer Eng Bldg,Lou. H,4
+ECE 470,41536,Laboratory,AB3,03:00PM,04:50PM,T,3071 Electrical & Computer Eng Bldg,,4
+ECE 470,59290,Laboratory,AB4,03:00PM,04:50PM,R,3071 Electrical & Computer Eng Bldg,,4
+ECE 470,63483,Laboratory,AB5,02:00PM,03:50PM,W,3071 Electrical & Computer Eng Bldg,Hong. J,4
+ECE 470,69204,Laboratory,AB6,09:00AM,10:50AM,W,3071 Electrical & Computer Eng Bldg,Tao. C,4
+ECE 470,70610,Laboratory,AB7,09:00AM,10:50AM,M,3071 Electrical & Computer Eng Bldg,Tao. C,4
+ECE 470,36956,Lecture,AL1,12:30PM,01:50PM,TR,1015 Electrical & Computer Eng Bldg,Belabbas. M Kim. J,4
+ECE 484,77730,Laboratory,AB1,10:00AM,10:50AM,F,5072 Electrical & Computer Eng Bldg,Mun. Y,4
+ECE 484,77731,Laboratory,AB2,11:00AM,11:50AM,F,5072 Electrical & Computer Eng Bldg,Miao. Y,4
+ECE 484,77732,Laboratory,AB3,05:00PM,05:50PM,F,5072 Electrical & Computer Eng Bldg,Pohovey. J,4
+ECE 484,77733,Laboratory,AB4,06:00PM,06:50PM,F,5072 Electrical & Computer Eng Bldg,Li. H,4
+ECE 484,77734,Laboratory,AB5,07:00PM,07:50PM,F,5072 Electrical & Computer Eng Bldg,Li. H,4
+ECE 484,77453,Lecture,AL1,11:00AM,12:20PM,TR,1015 Electrical & Computer Eng Bldg,Bhowmik. U Mitra. S,4
+ECE 486,31775,Laboratory,AB1,02:00PM,04:50PM,R,3077 Electrical & Computer Eng Bldg,Chang. Y,4
+ECE 486,31777,Laboratory,AB2,09:00AM,11:50AM,T,3077 Electrical & Computer Eng Bldg,Syed. U,4
+ECE 486,31778,Laboratory,AB3,02:00PM,04:50PM,T,3077 Electrical & Computer Eng Bldg,Chang. Y,4
+ECE 486,61864,Laboratory,AB4,09:00AM,11:50AM,R,3077 Electrical & Computer Eng Bldg,Syed. U,4
+ECE 486,66456,Laboratory,AB5,09:00AM,11:50AM,W,3077 Electrical & Computer Eng Bldg,Manjunath. S,4
+ECE 486,69131,Laboratory,AB6,02:00PM,04:50PM,W,3077 Electrical & Computer Eng Bldg,Manjunath. S,4
+ECE 486,31772,Discussion/ Recitation,AD1,12:30PM,01:50PM,TR,3017 Electrical & Computer Eng Bldg,Liberzon. D,4
+ECE 490,70863,Discussion/ Recitation,P3,11:00AM,12:20PM,TR,3081 Electrical & Computer Eng Bldg,Srikant. R,3
+ECE 490,70864,Discussion/ Recitation,P4,11:00AM,12:20PM,TR,3081 Electrical & Computer Eng Bldg,Srikant. R,3
+ECE 491,36027,Lecture-Discussion,BL1,11:00AM,12:15PM,TR,1320 Digital Computer Laboratory,Kloeckner. A,3
+ECE 491,36036,Lecture-Discussion,BL2,11:00AM,12:15PM,TR,1320 Digital Computer Laboratory,Kloeckner. A,3
+ECE 491,72460,Online,DSO,ARRANGED,ARRANGED,n.a.,n.a.,,3
+ECE 496,58246,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,2
+ECE 498,52146,Lecture,SB3,10:00AM,10:50AM,MWF,3081 Electrical & Computer Eng Bldg,Bogdanov. S,3
+ECE 498,49449,Lecture,SB4,10:00AM,10:50AM,MWF,3081 Electrical & Computer Eng Bldg,Bogdanov. S,3
+ECE 499,10018,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,2
+ECE 500,41517,Lecture,U2,04:00PM,04:50PM,R,1002 Electrical & Computer Eng Bldg,Veeravalli. V,0
+ECE 500,41518,Lecture,U3,04:00PM,04:50PM,R,1002 Electrical & Computer Eng Bldg,Veeravalli. V,0
+ECE 515,29983,Discussion/ Recitation,N,02:00PM,03:20PM,TR,3017 Electrical & Computer Eng Bldg,Raginsky. M,4
+ECE 534,29989,Discussion/ Recitation,C,09:30AM,10:50AM,TR,3017 Electrical & Computer Eng Bldg,Katselis. D,4
+ECE 549,37131,Lecture-Discussion,A,11:00AM,12:15PM,MW,1404 Siebel Center for Comp Sci,Forsyth. D,4
+ECE 590,36946,Lecture,BRL,04:00PM,04:50PM,T,2013 Electrical & Computer Eng Bldg,Oelze. M,3
+ECE 590,37015,Lecture-Discussion,CAP,04:00PM,05:00PM,T,Location Pending,Ghose. S,3
+ECE 590,36953,Lecture,I,03:00PM,03:50PM,M,4070 Electrical & Computer Eng Bldg,Gross. G,3
+ECE 590,76488,Lecture,K,11:00AM,11:50AM,T,Location Pending,Driggs-Campbell. K,3
+ECE 590,71131,Lecture,SIP,11:00AM,11:50AM,M,1015 Electrical & Computer Eng Bldg,Hasegawa-Johnson. M,3
+ECE 590,72440,Lecture-Discussion,TL,11:00AM,11:50AM,F,1002 Electrical & Computer Eng Bldg,Beckman. M Chen. Y Johnson. B,3
+ECE 596,10020,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+ECE 597,10023,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+ECE 598,51575,Lecture,BC,12:30PM,01:50PM,TR,3013 Electrical & Computer Eng Bldg,Cunningham. B,3
+ECE 598,55808,Lecture,GM,02:00PM,03:20PM,TR,3015 Electrical & Computer Eng Bldg,Moustakides. G,3
+ECE 598,72474,Lecture,HPN,01:00PM,02:20PM,WF,2015 Electrical & Computer Eng Bldg,Mittal. R,3
+ECE 598,56288,Lecture,HRI,03:30PM,04:50PM,TR,3013 Electrical & Computer Eng Bldg,Driggs-Campbell. K Huang. Z,3
+ECE 598,47910,Lecture,PH1,09:30AM,10:50AM,TR,2017 Electrical & Computer Eng Bldg,Hanumolu. P,3
+ECE 598,73943,Lecture,RKI,12:30PM,01:50PM,TR,4070 Electrical & Computer Eng Bldg,Iyer. R,3
+ECE 598,54453,Lecture,YPZ,05:00PM,06:20PM,TR,2015 Electrical & Computer Eng Bldg,Zhang. Y,3
+ECE 599,10025,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+CS 101,35879,Lecture-Discussion,AL1,10:00AM,10:50AM,MW,AUD Foellinger Auditorium,Beckman. M,3
+CS 101,35886,Laboratory-Discussion,AYA,01:00PM,02:50PM,M,L416 Digital Computer Laboratory,Beckman. M Yoder. C,3
+CS 101,35889,Laboratory-Discussion,AYB,03:00PM,04:50PM,M,L416 Digital Computer Laboratory,Beckman. M Yoder. C,3
+CS 101,35893,Laboratory-Discussion,AYD,09:00AM,10:50AM,T,L416 Digital Computer Laboratory,Beckman. M Wu. Q,3
+CS 101,61077,Laboratory-Discussion,AYE,11:00AM,12:50PM,T,L416 Digital Computer Laboratory,Beckman. M Butler. L,3
+CS 101,35915,Laboratory-Discussion,AYF,01:00PM,02:50PM,T,L416 Digital Computer Laboratory,Beckman. M Pan. C,3
+CS 101,35896,Laboratory-Discussion,AYG,03:00PM,04:50PM,T,L416 Digital Computer Laboratory,Beckman. M Dutta. R,3
+CS 101,35902,Laboratory-Discussion,AYH,01:00PM,02:50PM,W,L416 Digital Computer Laboratory,Beckman. M Fulfagar. H,3
+CS 101,35907,Laboratory-Discussion,AYI,03:00PM,04:50PM,W,L416 Digital Computer Laboratory,Beckman. M Pan. C,3
+CS 101,35918,Laboratory-Discussion,AYK,09:00AM,10:50AM,R,L416 Digital Computer Laboratory,Beckman. M Dutta. R,3
+CS 101,61078,Laboratory-Discussion,AYL,11:00AM,12:50PM,R,L416 Digital Computer Laboratory,Beckman. M Wu. Q,3
+CS 101,35913,Laboratory-Discussion,AYN,03:00PM,04:50PM,R,L416 Digital Computer Laboratory,Beckman. M Jiang. W,3
+CS 101,62683,Laboratory-Discussion,AYP,09:00AM,10:50AM,F,L416 Digital Computer Laboratory,Beckman. M Jiang. W,3
+CS 101,62913,Laboratory-Discussion,AYQ,11:00AM,12:50PM,F,L416 Digital Computer Laboratory,Beckman. M Fulfagar. H,3
+CS 101,62914,Laboratory-Discussion,AYR,01:00PM,02:50PM,F,L416 Digital Computer Laboratory,Beckman. M Butler. L,3
+CS 105,35823,Lecture,AL1,04:00PM,05:45PM,R,AUD Foellinger Auditorium,Zilles. C,3
+CS 105,47174,Laboratory-Discussion,AYA,09:00AM,10:20AM,M,101 901 W Oregon,Lambert. C Mohasel Arjomandi. H Zilles. C,3
+CS 105,35827,Laboratory-Discussion,AYB,11:00AM,12:20PM,M,101 901 W Oregon,Lambert. C Mohasel Arjomandi. H Zilles. C,3
+CS 105,35828,Laboratory-Discussion,AYC,01:00PM,02:20PM,M,101 901 W Oregon,Lambert. C Wang. S Zilles. C,3
+CS 105,35847,Laboratory-Discussion,AYD,03:00PM,04:20PM,M,101 901 W Oregon,Halsi. A Wang. S Zilles. C,3
+CS 105,35831,Laboratory-Discussion,AYE,05:00PM,06:20PM,M,101 901 W Oregon,Wang. S Zilles. C,3
+CS 105,35833,Laboratory-Discussion,AYG,09:00AM,10:20AM,T,101 901 W Oregon,Chan. J Kirtane. N Zilles. C,3
+CS 105,35835,Laboratory-Discussion,AYH,11:00AM,12:20PM,T,101 901 W Oregon,Chan. J Halsi. A Zilles. C,3
+CS 105,35836,Laboratory-Discussion,AYI,01:00PM,02:20PM,T,101 901 W Oregon,Balasubramanian. N Kirtane. N Zilles. C,3
+CS 105,35837,Laboratory-Discussion,AYJ,03:00PM,04:20PM,T,101 901 W Oregon,Balasubramanian. N Kirtane. N Zilles. C,3
+CS 105,35838,Laboratory-Discussion,AYK,05:00PM,06:20PM,T,101 901 W Oregon,Balasubramanian. N Zilles. C,3
+CS 105,35843,Laboratory-Discussion,AYM,09:00AM,10:20AM,W,101 901 W Oregon,Chan. J Tsai. Y Zilles. C,3
+CS 105,47175,Laboratory-Discussion,AYN,11:00AM,12:20PM,W,101 901 W Oregon,Flygare. L Tsai. Y Zilles. C,3
+CS 105,35854,Laboratory-Discussion,AYP,01:00PM,02:20PM,W,101 901 W Oregon,Flygare. L Tsai. Y Zilles. C,3
+CS 105,35856,Laboratory-Discussion,AYQ,03:00PM,04:20PM,W,101 901 W Oregon,Flygare. L Mohasel Arjomandi. H Zilles. C,3
+CS 107,71813,Lecture,L1,11:00AM,11:50AM,MWF,THEAT Lincoln Hall,Fagen-Ulmschneider. W Flanagan. K,4
+CS 107,78226,Lecture,L2,09:00AM,09:50AM,MWF,AUD Foellinger Auditorium,Fagen-Ulmschneider. W Flanagan. K,4
+CS 107,71814,Laboratory-Discussion,Y01,12:30PM,01:50PM,W,0018 Campus Instructional Facility,Yang. X,4
+CS 107,71815,Laboratory-Discussion,Y02,12:30PM,01:50PM,W,3117 Everitt Laboratory,Zhang. S,4
+CS 107,71816,Laboratory-Discussion,Y03,02:00PM,03:20PM,W,0018 Campus Instructional Facility,Gurjar. O,4
+CS 107,71817,Laboratory-Discussion,Y04,02:00PM,03:20PM,W,3117 Everitt Laboratory,Tiwari. A,4
+CS 107,71818,Laboratory-Discussion,Y05,03:30PM,04:50PM,W,0018 Campus Instructional Facility,Tiwari. A,4
+CS 107,71819,Laboratory-Discussion,Y06,03:30PM,04:50PM,W,3117 Everitt Laboratory,Nielsen. C,4
+CS 107,71820,Laboratory-Discussion,Y07,05:00PM,06:20PM,W,0018 Campus Instructional Facility,Tsiamalos. E,4
+CS 107,71821,Laboratory-Discussion,Y08,05:00PM,06:20PM,W,3117 Everitt Laboratory,Klostermann. M,4
+CS 107,71822,Laboratory-Discussion,Y09,09:30AM,10:50AM,R,29 Psychology Building,Wang. C,4
+CS 107,71823,Laboratory-Discussion,Y10,09:30AM,10:50AM,R,125 David Kinley Hall,Tsiamalos. E,4
+CS 107,71824,Laboratory-Discussion,Y11,11:00AM,12:20PM,R,0018 Campus Instructional Facility,Zhang. S,4
+CS 107,71825,Laboratory-Discussion,Y12,11:00AM,12:20PM,R,3038 Campus Instructional Facility,Xu. P,4
+CS 107,77320,Laboratory-Discussion,Y13,12:30PM,01:50PM,R,29 Psychology Building,Gurjar. O,4
+CS 107,77321,Laboratory-Discussion,Y14,12:30PM,01:50PM,R,209 Huff Hall,Bhanushali. U,4
+CS 107,77322,Laboratory-Discussion,Y15,02:00PM,03:20PM,R,209 Huff Hall,Liu. H,4
+CS 107,77323,Laboratory-Discussion,Y16,02:00PM,03:20PM,R,29 Psychology Building,Umashankar. M,4
+CS 107,77324,Laboratory-Discussion,Y17,03:30PM,04:50PM,R,209 Huff Hall,Aakriti. A,4
+CS 107,77325,Laboratory-Discussion,Y18,03:30PM,04:50PM,R,11 Psychology Building,Umashankar. M,4
+CS 107,77326,Laboratory-Discussion,Y19,12:30PM,01:50PM,W,1038 Campus Instructional Facility,Bhanushali. U,4
+CS 107,77327,Laboratory-Discussion,Y20,12:30PM,01:50PM,W,1035 Campus Instructional Facility,Chen. Y,4
+CS 107,78680,Laboratory-Discussion,Y21,02:00PM,03:20PM,W,206 David Kinley Hall,Xu. P,4
+CS 107,78682,Laboratory-Discussion,Y22,02:00PM,03:20PM,W,1035 Campus Instructional Facility,Yang. X,4
+CS 107,78684,Laboratory-Discussion,Y23,03:30PM,04:50PM,W,1038 Campus Instructional Facility,Jin. Z,4
+CS 107,78686,Laboratory-Discussion,Y24,03:30PM,04:50PM,W,1035 Campus Instructional Facility,Wang. C,4
+CS 107,78688,Laboratory-Discussion,Y25,02:00PM,03:20PM,W,111 David Kinley Hall,Chen. Y,4
+CS 107,78690,Laboratory-Discussion,Y26,02:00PM,03:20PM,W,222 David Kinley Hall,Chakraborty. A,4
+CS 107,78693,Laboratory-Discussion,Y27,03:30PM,04:50PM,W,2018 Campus Instructional Facility,Akash. P,4
+CS 107,78695,Laboratory-Discussion,Y28,03:30PM,04:50PM,W,166 Education Building,Liu. H,4
+CS 107,78697,Laboratory-Discussion,Y29,02:00PM,03:20PM,F,1038 Campus Instructional Facility,Akash. P,4
+CS 107,78699,Laboratory-Discussion,Y30,03:30PM,04:50PM,F,1038 Campus Instructional Facility,Jin. Z,4
+CS 107,78727,Laboratory-Discussion,Y31,12:30PM,01:50PM,F,1047 Sidney Lu Mech Engr Bldg,Aakriti. A,4
+CS 107,78730,Laboratory-Discussion,Y32,12:30PM,01:50PM,F,3038 Campus Instructional Facility,Klostermann. M,4
+CS 107,78733,Laboratory-Discussion,Y33,02:00PM,03:20PM,F,139 Loomis Laboratory,Nielsen. C,4
+CS 107,78736,Laboratory-Discussion,Y34,03:30PM,04:50PM,F,139 Loomis Laboratory,Maddox. K,4
+CS 107,78772,Laboratory-Discussion,Y35,05:00PM,06:20PM,W,221 Gregory Hall,Chakraborty. A,4
+CS 107,78775,Laboratory-Discussion,Y36,05:00PM,06:20PM,W,214 Davenport Hall,Maddox. K,4
+CS 124,74477,Online Lecture,AL1,ARRANGED,ARRANGED,n.a.,n.a.,Challen. G,3
+CS 124,75242,Online Lecture,AL2,ARRANGED,ARRANGED,n.a.,n.a.,Challen. G,3
+CS 124,74481,Laboratory-Discussion,QBA,10:00AM,10:50AM,T,4025 Campus Instructional Facility,Challen. G,3
+CS 124,74482,Laboratory-Discussion,QBB,10:00AM,10:50AM,T,4029 Campus Instructional Facility,Challen. G,3
+CS 124,74490,Laboratory-Discussion,QBC,11:00AM,11:50AM,T,4025 Campus Instructional Facility,Challen. G,3
+CS 124,74491,Laboratory-Discussion,QBD,11:00AM,11:50AM,T,4029 Campus Instructional Facility,Challen. G,3
+CS 124,74492,Laboratory-Discussion,QBE,01:00PM,01:50PM,T,4025 Campus Instructional Facility,Challen. G,3
+CS 124,74493,Laboratory-Discussion,QBF,01:00PM,01:50PM,T,4029 Campus Instructional Facility,Challen. G,3
+CS 124,74494,Laboratory-Discussion,QBG,02:00PM,02:50PM,T,4025 Campus Instructional Facility,Challen. G,3
+CS 124,74495,Laboratory-Discussion,QBH,02:00PM,02:50PM,T,4029 Campus Instructional Facility,Challen. G,3
+CS 124,74496,Laboratory-Discussion,QBI,03:00PM,03:50PM,T,4025 Campus Instructional Facility,Challen. G,3
+CS 124,74497,Laboratory-Discussion,QBJ,03:00PM,03:50PM,T,4029 Campus Instructional Facility,Challen. G,3
+CS 124,74498,Laboratory-Discussion,QBK,04:00PM,04:50PM,T,4025 Campus Instructional Facility,Challen. G,3
+CS 124,74499,Laboratory-Discussion,QBL,04:00PM,04:50PM,T,4029 Campus Instructional Facility,Challen. G,3
+CS 124,74500,Laboratory-Discussion,QBM,05:00PM,05:50PM,T,4025 Campus Instructional Facility,Challen. G,3
+CS 124,74501,Laboratory-Discussion,QBN,05:00PM,05:50PM,T,4029 Campus Instructional Facility,Challen. G,3
+CS 128,74479,Laboratory-Discussion,ADA,09:30AM,10:45AM,F,1035 Campus Instructional Facility,Nowak. M Park. M Schatz. J,3
+CS 128,74480,Laboratory-Discussion,ADB,11:00AM,12:15PM,F,1035 Campus Instructional Facility,Nowak. M Park. M Schatz. J,3
+CS 128,74508,Laboratory-Discussion,ADC,12:30PM,01:45PM,F,1035 Campus Instructional Facility,Chatikyan. E Nowak. M Schatz. J,3
+CS 128,74509,Laboratory-Discussion,ADD,02:00PM,03:15PM,F,1035 Campus Instructional Facility,Chatikyan. E Nowak. M Schatz. J,3
+CS 128,74510,Laboratory-Discussion,ADE,03:30PM,04:45PM,F,1035 Campus Instructional Facility,Go. G Nowak. M Schatz. J,3
+CS 128,74511,Laboratory-Discussion,ADF,05:00PM,06:15PM,F,2039 Campus Instructional Facility,Krishnasamy. S Nowak. M Patel. K Schatz. J,3
+CS 128,74512,Laboratory-Discussion,ADG,09:30AM,10:45AM,F,4039 Campus Instructional Facility,Abdul Qadir. F Nowak. M Schatz. J,3
+CS 128,74513,Laboratory-Discussion,ADH,11:00AM,12:15PM,F,4039 Campus Instructional Facility,Abdul Qadir. F Nowak. M Schatz. J,3
+CS 128,74514,Laboratory-Discussion,ADI,12:30PM,01:45PM,F,2101 Everitt Laboratory,Chen. A Nowak. M Schatz. J,3
+CS 128,74515,Laboratory-Discussion,ADJ,02:00PM,03:15PM,F,2101 Everitt Laboratory,Chen. A Krishnan. A Nowak. M Schatz. J,3
+CS 128,75285,Laboratory-Discussion,ADK,03:30PM,04:45PM,F,2101 Everitt Laboratory,Nowak. M Schatz. J Shah. R,3
+CS 128,75286,Laboratory-Discussion,ADL,05:00PM,06:15PM,F,2101 Everitt Laboratory,Nowak. M Schatz. J Shah. R,3
+CS 128,75287,Laboratory-Discussion,ADM,09:30AM,10:45AM,F,136 Loomis Laboratory,Nowak. M Patel. K Schatz. J,3
+CS 128,75288,Laboratory-Discussion,ADN,11:00AM,12:15PM,F,101 Transportation Building,Krishnasamy. S Nowak. M Schatz. J,3
+CS 128,75289,Laboratory-Discussion,ADO,12:30PM,01:45PM,F,2200 Sidney Lu Mech Engr Bldg,Krishnan. A Nowak. M Schatz. J,3
+CS 128,74478,Online Lecture,AL1,ARRANGED,ARRANGED,n.a.,n.a.,Nowak. M Schatz. J,3
+CS 128,75244,Online Lecture,AL2,ARRANGED,ARRANGED,n.a.,n.a.,Nowak. M Schatz. J,3
+CS 173,30102,Lecture,AL1,09:30AM,10:45AM,TR,3039 Campus Instructional Facility,Cosman. B Delgosha. P,3
+CS 173,72280,Lecture,AL2,09:30AM,10:45AM,TR,3039 Campus Instructional Facility,Cosman. B Delgosha. P,3
+CS 173,40083,Lecture,BL1,03:30PM,04:45PM,TR,1320 Digital Computer Laboratory,Cosman. B Delgosha. P,3
+CS 173,72281,Lecture,BL2,03:30PM,04:45PM,TR,1320 Digital Computer Laboratory,Cosman. B Delgosha. P,3
+CS 173,51495,Lecture,CL1,12:30PM,01:45PM,TR,3039 Campus Instructional Facility,Cosman. B Delgosha. P,3
+CS 173,51497,Lecture,CL2,12:30PM,01:45PM,TR,3039 Campus Instructional Facility,Cosman. B Delgosha. P,3
+CS 199,70754,Online,12,ARRANGED,ARRANGED,n.a.,n.a.,Challen. G,3
+CS 199,67084,Online,124,ARRANGED,ARRANGED,n.a.,n.a.,Challen. G,3
+CS 199,56131,Online,128,ARRANGED,ARRANGED,n.a.,n.a.,Nowak. M,3
+CS 199,55189,Online,173,ARRANGED,ARRANGED,n.a.,n.a.,Cosman. B,3
+CS 199,69687,Online,196,ARRANGED,ARRANGED,n.a.,n.a.,Challen. G,3
+CS 199,40944,Lecture,225,05:00PM,05:50PM,M,4025 Campus Instructional Facility,Evans. C,3
+CS 199,69686,Online,25,ARRANGED,ARRANGED,n.a.,n.a.,Challen. G,3
+CS 199,69688,Online,341,07:00PM,08:50PM,T,n.a.,Angrave. L,3
+CS 199,63523,Online,CAO,ARRANGED,ARRANGED,n.a.,n.a.,Lewis. C,3
+CS 199,55186,Online,EMP,ARRANGED,ARRANGED,n.a.,n.a.,Challen. G,3
+CS 199,31511,Lecture,STR,05:00PM,06:00PM,W,0216 Siebel Center for Comp Sci,Amato. N,3
+CS 210,31516,Lecture-Discussion,AE1,03:00PM,03:50PM,MW,1404 Siebel Center for Comp Sci,Cunningham. R,2
+CS 211,77707,Online,CSP,03:00PM,03:50PM,F,n.a.,Winter. G,3
+CS 211,74483,Lecture-Discussion,EA1,03:00PM,03:50PM,MWF,1404 Siebel Center for Comp Sci,Cunningham. R,3
+CS 222,74484,Lecture-Discussion,SL1,02:00PM,02:50PM,F,0027/1025 Campus Instructional Facility,Woodley. M,1
+CS 225,65054,Laboratory-Discussion,ABA,09:00AM,10:50AM,R,4025 Campus Instructional Facility,Evans. C Patel. J Sinha. A Solomon. B Trika. S,4
+CS 225,61264,Laboratory-Discussion,ABB,09:00AM,10:50AM,R,4029 Campus Instructional Facility,Adiga. R Adrakatti. V Evans. C Kakarla. U Solomon. B,4
+CS 225,35926,Laboratory-Discussion,ABC,11:00AM,12:50PM,R,4025 Campus Instructional Facility,Evans. C Patel. J Potluri. A Sinha. A Solomon. B,4
+CS 225,35923,Laboratory-Discussion,ABD,11:00AM,12:50PM,R,4029 Campus Instructional Facility,Adiga. R Adrakatti. V Chen. M Evans. C Solomon. B,4
+CS 225,35944,Laboratory-Discussion,ABE,01:00PM,02:50PM,R,4025 Campus Instructional Facility,Evans. C Huang. A Lu. Y Roddur. M Solomon. B,4
+CS 225,58757,Laboratory-Discussion,ABF,01:00PM,02:50PM,R,4029 Campus Instructional Facility,Chen. M Evans. C Potluri. A Shrivastava. M Solomon. B,4
+CS 225,62137,Laboratory-Discussion,ABG,03:00PM,04:50PM,R,4025 Campus Instructional Facility,Evans. C Hill. B Huang. A Roddur. M Solomon. B,4
+CS 225,58758,Laboratory-Discussion,ABH,03:00PM,04:50PM,R,4029 Campus Instructional Facility,Evans. C Lu. Y Solomon. B,4
+CS 225,35947,Laboratory-Discussion,ABI,05:00PM,06:50PM,R,4025 Campus Instructional Facility,Evans. C Hill. B Shrivastava. M Solomon. B Tian. T,4
+CS 225,35954,Laboratory-Discussion,ABJ,05:00PM,06:50PM,R,4029 Campus Instructional Facility,Arya. A Evans. C Solomon. B Trika. S,4
+CS 225,35917,Lecture,AL1,11:00AM,11:50AM,MWF,AUD Foellinger Auditorium,Evans. C Solomon. B,4
+CS 225,72271,Lecture,AL2,11:00AM,11:50AM,MWF,AUD Foellinger Auditorium,Evans. C Solomon. B,4
+CS 233,63733,Lecture-Discussion,AL1,09:00AM,10:50AM,TR,0035 Campus Instructional Facility,Herman. G,4
+CS 233,72275,Lecture-Discussion,AL2,09:00AM,10:50AM,TR,0035 Campus Instructional Facility,Herman. G,4
+CS 233,64548,Laboratory-Discussion,HD,10:00AM,10:50AM,F,2406 Siebel Center for Comp Sci,Herman. G Wong. R,4
+CS 233,64547,Lecture,HL1,02:00PM,03:15PM,TR,1043 Sidney Lu Mech Engr Bldg,Herman. G Wong. R,4
+CS 233,63740,Lecture,HL2,02:00PM,03:15PM,TR,1043 Sidney Lu Mech Engr Bldg,Herman. G Wong. R,4
+CS 233,64513,Online Lecture,OL1,09:00AM,10:50AM,TR,n.a.,Herman. G,4
+CS 233,72276,Online Lecture,OL2,09:00AM,10:50AM,TR,n.a.,Herman. G,4
+CS 307,77587,Discussion/ Recitation,D1,09:30AM,10:45AM,F,1302 Everitt Laboratory,Dalpiaz. D,4
+CS 307,77586,Lecture,MLD,09:30AM,10:45AM,MW,1302 Everitt Laboratory,Dalpiaz. D,4
+CS 340,77096,Lecture,ICS,02:00PM,03:15PM,TR,1404 Siebel Center for Comp Sci,Evans. C,3
+CS 341,76768,Laboratory-Discussion,ADA,09:30AM,10:50AM,R,2406 Siebel Center for Comp Sci,Angrave. L Civjan. B,4
+CS 341,76769,Laboratory-Discussion,ADB,11:00AM,12:20PM,R,2406 Siebel Center for Comp Sci,Angrave. L Xie. Y,4
+CS 341,76770,Laboratory-Discussion,ADC,12:30PM,01:50PM,R,2406 Siebel Center for Comp Sci,Angrave. L He. L,4
+CS 341,76771,Laboratory-Discussion,ADD,02:00PM,03:20PM,R,2406 Siebel Center for Comp Sci,Angrave. L Schuler. J,4
+CS 341,76772,Laboratory-Discussion,ADE,03:30PM,04:50PM,R,2406 Siebel Center for Comp Sci,Angrave. L Menezes. R,4
+CS 341,76773,Laboratory-Discussion,ADF,05:00PM,06:20PM,R,2406 Siebel Center for Comp Sci,Angrave. L Tao. T,4
+CS 341,76775,Laboratory-Discussion,ADH,06:30PM,07:50PM,R,2406 Siebel Center for Comp Sci,Angrave. L Tao. T,4
+CS 341,76776,Laboratory-Discussion,ADI,02:00PM,03:20PM,W,2406 Siebel Center for Comp Sci,Angrave. L Schuler. J,4
+CS 341,76777,Laboratory-Discussion,ADJ,03:30PM,04:50PM,W,2406 Siebel Center for Comp Sci,Angrave. L Singh. A,4
+CS 341,76778,Laboratory-Discussion,ADK,05:00PM,06:20PM,W,2406 Siebel Center for Comp Sci,Angrave. L Menezes. R,4
+CS 341,76767,Lecture,AL1,10:00AM,10:50AM,MWF,0027/1025 Campus Instructional Facility,Angrave. L,4
+CS 341,77652,Online Lab,CSP,02:00PM,03:20PM,R,n.a.,Angrave. L,4
+CS 357,78708,Online,CHI,12:30PM,01:45PM,TR,n.a.,Silva. M,3
+CS 357,63536,Online Lecture,M,12:30PM,01:45PM,TR,n.a.,Silva. M,3
+CS 357,53280,Lecture-Discussion,N,12:30PM,01:45PM,TR,3031 Campus Instructional Facility,Silva. M,3
+CS 361,72361,Discussion/ Recitation,ADA,09:00AM,09:50AM,M,2406 Siebel Center for Comp Sci,Cho. I Liu. H,3
+CS 361,66306,Discussion/ Recitation,ADB,10:00AM,10:50AM,M,2406 Siebel Center for Comp Sci,Cho. I Liu. H,3
+CS 361,66307,Discussion/ Recitation,ADC,11:00AM,11:50AM,M,2406 Siebel Center for Comp Sci,Li. W Liu. H,3
+CS 361,66303,Discussion/ Recitation,ADD,12:00PM,12:50PM,M,2406 Siebel Center for Comp Sci,Kiv. D Liu. H,3
+CS 361,66304,Discussion/ Recitation,ADE,01:00PM,01:50PM,M,2406 Siebel Center for Comp Sci,Karan. A Liu. H,3
+CS 361,66305,Discussion/ Recitation,ADF,02:00PM,02:50PM,M,2406 Siebel Center for Comp Sci,Liu. H Vu. T,3
+CS 361,76052,Discussion/ Recitation,ADG,03:00PM,03:50PM,M,2406 Siebel Center for Comp Sci,Cui. H Liu. H,3
+CS 361,76054,Discussion/ Recitation,ADH,04:00PM,04:50PM,M,2406 Siebel Center for Comp Sci,Liu. H Xu. Y,3
+CS 361,66298,Lecture,AL1,11:00AM,12:15PM,TR,1002 Electrical & Computer Eng Bldg,Liu. H,3
+CS 374,70643,Discussion/ Recitation,ADA,09:00AM,09:50AM,WF,1304 Siebel Center for Comp Sci,Erickson. J Gilani. A,4
+CS 374,70644,Discussion/ Recitation,ADB,10:00AM,10:50AM,WF,106B3 Engineering Hall,Erickson. J Yammanuru. A,4
+CS 374,70645,Discussion/ Recitation,ADC,11:00AM,11:50AM,WF,4101 Materials Science & Eng Bld,Erickson. J Hulett. J,4
+CS 374,72092,Discussion/ Recitation,ADD,12:00PM,12:50PM,WF,1304 Siebel Center for Comp Sci,Erickson. J Merchia. S,4
+CS 374,72094,Discussion/ Recitation,ADE,01:00PM,01:50PM,WF,1304 Siebel Center for Comp Sci,Erickson. J Huang. Z,4
+CS 374,66451,Discussion/ Recitation,ADF,02:00PM,02:50PM,WF,106B3 Engineering Hall,Erickson. J Zuo. S,4
+CS 374,72201,Discussion/ Recitation,ADG,03:00PM,03:50PM,WF,4101 Materials Science & Eng Bld,Erickson. J Murta. V,4
+CS 374,66453,Discussion/ Recitation,ADH,04:00PM,04:50PM,WF,1304 Siebel Center for Comp Sci,Erickson. J Harb. E,4
+CS 374,66455,Discussion/ Recitation,ADK,05:00PM,05:50PM,WF,1304 Siebel Center for Comp Sci,Erickson. J Harb. E,4
+CS 374,75939,Discussion/ Recitation,ADL,06:00PM,06:50PM,WF,1304 Siebel Center for Comp Sci,Desjardins. A Erickson. J,4
+CS 374,66445,Lecture,AL1,11:00AM,12:15PM,TR,0027/1025 Campus Instructional Facility,Erickson. J,4
+CS 374,70641,Lecture,BL1,12:30PM,01:45PM,TR,0027/1025 Campus Instructional Facility,Kani. N Umrawal. A,4
+CS 374,66446,Discussion/ Recitation,BYA,09:00AM,09:50AM,WF,2017 Electrical & Computer Eng Bldg,Chen. J Kani. N Shen. Y Umrawal. A,4
+CS 374,66447,Discussion/ Recitation,BYB,10:00AM,10:50AM,WF,0216 Siebel Center for Comp Sci,Kani. N Umrawal. A You. H,4
+CS 374,66448,Discussion/ Recitation,BYC,11:00AM,11:50AM,WF,4070 Electrical & Computer Eng Bldg,Kani. N Umrawal. A Vydana. S,4
+CS 374,66449,Discussion/ Recitation,BYD,12:00PM,12:50PM,WF,4070 Electrical & Computer Eng Bldg,Kani. N Perumenki. S Umrawal. A,4
+CS 374,66450,Discussion/ Recitation,BYE,01:00PM,01:50PM,WF,4070 Electrical & Computer Eng Bldg,Kani. N Umrawal. A Vemuganti. S Wang. W,4
+CS 374,66452,Discussion/ Recitation,BYF,02:00PM,02:50PM,WF,4070 Electrical & Computer Eng Bldg,Jeon. S Kani. N Umrawal. A,4
+CS 374,72090,Online Lab Online Lecture,CSP CSP,09:00AM,09:50AM 12:30PM,WF TR,2017 Electrical & Computer Eng Bldg n.a.,Kani. N Umrawal. A Kani. N Umrawal. A,4
+CS 397,14855,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+CS 407,76149,Lecture,A,04:00PM,04:50PM,MWF,2013 Electrical & Computer Eng Bldg,Heath. D,3
+CS 410,67393,Online,DSO,ARRANGED,ARRANGED,n.a.,n.a.,Zhai. C,3
+CS 410,78821,Lecture,TGR,09:30AM,10:45AM,TR,0216 Siebel Center for Comp Sci,Robles Granda. P,3
+CS 410,73825,Online,TIG,ARRANGED,ARRANGED,n.a.,n.a.,Zhai. C,3
+CS 410,73824,Online,TIU,ARRANGED,ARRANGED,n.a.,n.a.,Zhai. C,3
+CS 410,78820,Lecture,TUG,09:30AM,10:45AM,TR,0216 Siebel Center for Comp Sci,Robles Granda. P,3
+CS 411,72358,Online,CHI,ARRANGED,ARRANGED,n.a.,n.a.,Alawini. A,3
+CS 411,40086,Lecture,QG,02:00PM,03:15PM,MW,0027/1025 Campus Instructional Facility,Alawini. A,3
+CS 411,30109,Lecture,QU,02:00PM,03:15PM,MW,0027/1025 Campus Instructional Facility,Alawini. A,3
+CS 412,43358,Lecture-Discussion,PG,11:00AM,12:15PM,TR,1404 Siebel Center for Comp Sci,Banerjee. A Tahboub. R,3
+CS 412,43357,Lecture-Discussion,PU,11:00AM,12:15PM,TR,1404 Siebel Center for Comp Sci,Banerjee. A Tahboub. R,3
+CS 413,33540,Lecture-Discussion,X13,12:00PM,12:50PM,MWF,3101 Sidney Lu Mech Engr Bldg,,3
+CS 413,39196,Lecture-Discussion,X14,12:00PM,12:50PM,MWF,3101 Sidney Lu Mech Engr Bldg,,3
+CS 415,77100,Online Lecture,GG,11:00AM,12:15PM,T,n.a.,Shaffer. E,3
+CS 415,77099,Online Lecture,GU,11:00AM,12:15PM,T,n.a.,Shaffer. E,3
+CS 421,65907,Lecture-Discussion,CG,12:30PM,01:45PM,TR,3025 Campus Instructional Facility,Ringer. T,3
+CS 421,72203,Online,CHI,ARRANGED,ARRANGED,n.a.,n.a.,Gunter. E,3
+CS 421,65906,Lecture-Discussion,CU,12:30PM,01:45PM,TR,3025 Campus Instructional Facility,Ringer. T,3
+CS 421,40087,Lecture-Discussion,DG,02:00PM,03:15PM,TR,3039 Campus Instructional Facility,Gunter. E,3
+CS 421,30128,Lecture-Discussion,DU,02:00PM,03:15PM,TR,3039 Campus Instructional Facility,Gunter. E,3
+CS 425,67394,Online,DSO,ARRANGED,ARRANGED,n.a.,n.a.,Gupta. I,3
+CS 425,62170,Online,MCS,ARRANGED,ARRANGED,n.a.,n.a.,Ganesan. A Gupta. I,3
+CS 425,57769,Lecture-Discussion,SG,02:00PM,03:15PM,WF,1002 Electrical & Computer Eng Bldg,Ganesan. A Gupta. I,3
+CS 425,36091,Lecture-Discussion,SU,02:00PM,03:15PM,WF,1002 Electrical & Computer Eng Bldg,Ganesan. A Gupta. I,3
+CS 425,72128,Lecture-Discussion,SU4,02:00PM,03:15PM,WF,1002 Electrical & Computer Eng Bldg,Ganesan. A Gupta. I,3
+CS 433,36069,Lecture-Discussion,T3,12:30PM,01:45PM,TR,1000 Lincoln Hall,Ghose. S,3
+CS 433,43363,Lecture-Discussion,T4,12:30PM,01:45PM,TR,1000 Lincoln Hall,Ghose. S,3
+CS 437,75719,Online,DSO,ARRANGED,ARRANGED,n.a.,n.a.,Caesar. M,3
+CS 437,75715,Lecture-Discussion,EKS,02:00PM,03:15PM,TR,1214 Siebel Center for Comp Sci,Soltanaghai. E,3
+CS 437,78710,Online,IOT,ARRANGED,ARRANGED,n.a.,n.a.,Caesar. M,3
+CS 437,78803,Online,MCS,ARRANGED,ARRANGED,n.a.,n.a.,Caesar. M,3
+CS 438,36061,Lecture-Discussion,X3,03:30PM,04:45PM,MW,1320 Digital Computer Laboratory,Roy Choudhury. R,3
+CS 438,57772,Lecture-Discussion,X4,03:30PM,04:45PM,MW,1320 Digital Computer Laboratory,Roy Choudhury. R,3
+CS 440,67003,Lecture,R3,09:00AM,09:50AM,MWF,0027/1025 Campus Instructional Facility,Fleck. M,3
+CS 440,67004,Lecture,R4,09:00AM,09:50AM,MWF,0027/1025 Campus Instructional Facility,Fleck. M,3
+CS 441,74468,Online Lecture,AMG,ARRANGED,ARRANGED,n.a.,n.a.,Morales Aguirre. M,3
+CS 441,74467,Online Lecture,AMU,ARRANGED,ARRANGED,n.a.,n.a.,Morales Aguirre. M,3
+CS 441,74471,Online,DSO,ARRANGED,ARRANGED,n.a.,n.a.,Morales Aguirre. M,3
+CS 444,78419,Lecture-Discussion,CVG,11:00AM,12:15PM,WF,1310 Digital Computer Laboratory,Gupta. S,3
+CS 444,77548,Lecture-Discussion,CVU,11:00AM,12:15PM,WF,1310 Digital Computer Laboratory,Gupta. S,3
+CS 445,65087,Online,CG,ARRANGED,ARRANGED,n.a.,n.a.,Hoiem. D,3
+CS 445,65086,Online,CU,ARRANGED,ARRANGED,n.a.,n.a.,Hoiem. D,3
+CS 445,73794,Online,DSO,ARRANGED,ARRANGED,n.a.,n.a.,Hoiem. D,3
+CS 446,46792,Lecture-Discussion,B3,12:30PM,01:45PM,WF,1404 Siebel Center for Comp Sci,Gui. L Wang. S,3
+CS 446,46793,Lecture-Discussion,B4,12:30PM,01:45PM,WF,1404 Siebel Center for Comp Sci,Gui. L Wang. S,3
+CS 450,36016,Lecture-Discussion,BL1,11:00AM,12:15PM,TR,1320 Digital Computer Laboratory,Kloeckner. A,3
+CS 450,36020,Lecture-Discussion,BL2,11:00AM,12:15PM,TR,1320 Digital Computer Laboratory,Kloeckner. A,3
+CS 450,72454,Online,DSO,ARRANGED,ARRANGED,n.a.,n.a.,Kloeckner. A,3
+CS 461,69008,Discussion/ Recitation,ADA,10:00AM,10:50AM,W,2406 Siebel Center for Comp Sci,Levchenko. K,4
+CS 461,69009,Discussion/ Recitation,ADB,11:00AM,11:50AM,W,2406 Siebel Center for Comp Sci,Levchenko. K,4
+CS 461,69013,Discussion/ Recitation,ADD,01:00PM,01:50PM,W,2406 Siebel Center for Comp Sci,Levchenko. K,4
+CS 461,66966,Discussion/ Recitation,ADE,02:00PM,02:50PM,W,1214 Siebel Center for Comp Sci,Levchenko. K,4
+CS 461,66969,Discussion/ Recitation,ADH,03:00PM,03:50PM,W,1214 Siebel Center for Comp Sci,Levchenko. K,4
+CS 461,49547,Lecture,AL4,12:30PM,01:45PM,TR,1320 Digital Computer Laboratory,Chandrasekaran. V Levchenko. K,4
+CS 461,72159,Lecture,ALG,12:30PM,01:45PM,TR,1320 Digital Computer Laboratory,Chandrasekaran. V Levchenko. K,4
+CS 468,67895,Lecture-Discussion,A,09:00AM,10:50AM,TR,31 Gregory Hall,Maslowska. E,3
+CS 473,70159,Lecture-Discussion,S4,02:00PM,03:15PM,TR,2079 Natural History Building,Har-Peled. S,4
+CS 473,72165,Lecture-Discussion,S4G,02:00PM,03:15PM,TR,2079 Natural History Building,Har-Peled. S,4
+CS 483,58793,Laboratory,AB,ARRANGED,ARRANGED,n.a.,Location Pending,Patel. S,4
+CS 483,76324,Lecture,AL1,02:00PM,03:20PM,TR,1320 Digital Computer Laboratory,Kindratenko. V,4
+CS 483,67070,Lecture,AL2,09:30AM,10:50AM,TR,1002 Electrical & Computer Eng Bldg,Patel. S,4
+CS 491,65816,Laboratory,CAP,03:30PM,04:20PM,MWF,140 Burrill Hall,Beckman. M,3
+CS 491,54321,Lecture,CB,05:00PM,06:00PM,T,141 Coordinated Science Lab,Bashir. M Levchenko. K,3
+CS 491,67520,Online,ECO,01:00PM,02:15PM,F,n.a.,Gertner. Y Williams. T,3
+CS 491,40557,Lecture-Discussion,EIT,11:00AM,11:50AM,W,2036 Campus Instructional Facility,Lewis. C,3
+CS 497,72830,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+CS 498,61482,Lecture,GC3,03:30PM,04:45PM,WF,0216 Siebel Center for Comp Sci,Chowdhary. G,3
+CS 498,47171,Lecture,GCG,03:30PM,04:45PM,WF,0216 Siebel Center for Comp Sci,Chowdhary. G,3
+CS 498,40094,Lecture,GCU,03:30PM,04:45PM,WF,0216 Siebel Center for Comp Sci,Chowdhary. G,3
+CS 498,40092,Lecture,GS3,09:30AM,10:45AM,TR,1214 Siebel Center for Comp Sci,Yuan. W,3
+CS 498,40093,Lecture,GSG,09:30AM,10:45AM,TR,1214 Siebel Center for Comp Sci,Yuan. W,3
+CS 498,40091,Lecture,GSU,09:30AM,10:45AM,TR,1214 Siebel Center for Comp Sci,Yuan. W,3
+CS 498,72155,Lecture,QC3,03:30PM,04:45PM,TR,3101 Sidney Lu Mech Engr Bldg,Khurana. D Sinha. M,3
+CS 498,58241,Lecture,QCG,03:30PM,04:45PM,TR,3101 Sidney Lu Mech Engr Bldg,Khurana. D Sinha. M,3
+CS 498,72154,Lecture,QCU,03:30PM,04:45PM,TR,3101 Sidney Lu Mech Engr Bldg,Khurana. D Sinha. M,3
+CS 498,49838,Lecture,RC1,02:00PM,03:15PM,TR,124 Burrill Hall,Cunningham. R,3
+CS 498,31535,Lecture,RC2,02:00PM,03:15PM,TR,124 Burrill Hall,Cunningham. R,3
+CS 499,10465,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+CS 500,75409,Lecture-Discussion,ECS,09:30AM,10:45AM,TR,Location Pending,,4
+CS 511,50497,Lecture-Discussion,DM,02:00PM,03:15PM,TR,103 Transportation Building,Park. Y,4
+CS 512,77189,Lecture-Discussion,DMP,09:30AM,10:45AM,TR,1404 Siebel Center for Comp Sci,Han. J,4
+CS 521,77187,Lecture-Discussion,TPS,09:30AM,10:45AM,TR,2233 Everitt Laboratory,Parthasarathy. M Singh. G,4
+CS 527,35912,Lecture-Discussion,S,03:30PM,04:45PM,TR,0216 Siebel Center for Comp Sci,Marinov. D,4
+CS 543,37132,Lecture-Discussion,A,11:00AM,12:15PM,MW,1404 Siebel Center for Comp Sci,Forsyth. D,4
+CS 562,75418,Lecture-Discussion,SML,03:30PM,04:45PM,TR,1310 Digital Computer Laboratory,Wang. G,4
+CS 591,35941,Lecture-Discussion,ACT,04:30PM,05:30PM,M,ARR Siebel Center for Comp Sci,Adve. V Mendis. C,3
+CS 591,35945,Lecture-Discussion,CAP,04:00PM,05:00PM,T,ARR Siebel Center for Comp Sci,Ghose. S,3
+CS 591,35958,Lecture-Discussion,CS,03:30PM,04:45PM,MW,ARR Siebel Center for Comp Sci,Amato. N Rauchwerger. L,3
+CS 591,35939,Online,DAF,02:00PM,03:00PM,T,n.a.,Forsyth. D,3
+CS 591,35980,Lecture-Discussion,DEI,ARRANGED,ARRANGED,n.a.,Location Pending,Lewis. C Wright. A,3
+CS 591,46417,Lecture-Discussion,FMG,02:00PM,03:30PM,W,1302 Siebel Center for Comp Sci,Parthasarathy. M,3
+CS 591,43828,Lecture-Discussion,IG,04:00PM,04:50PM,W,Location Pending,Gupta. I,3
+CS 591,58740,Lecture-Discussion,LRS,12:30PM,01:45PM,TR,2018 Campus Instructional Facility,Sha. L,3
+CS 591,35957,Lecture-Discussion,MH,ARRANGED,ARRANGED,n.a.,ARR Siebel Center for Comp Sci,Kloeckner. A Olson. L,3
+CS 591,48709,Lecture-Discussion,MLR,02:00PM,03:00PM,F,2406 Siebel Center for Comp Sci,Banerjee. A Zhao. H,3
+CS 591,41977,Lecture,PHD,11:00AM,11:50AM,M,1320 Digital Computer Laboratory,Amato. N Kravets. R Marinov. D,3
+CS 591,35961,Lecture-Discussion,SCH,03:30PM,04:20PM,F,1302 Siebel Center for Comp Sci,Marinov. D,3
+CS 591,49716,Lecture-Discussion,SE,ARRANGED,ARRANGED,n.a.,ARR Siebel Center for Comp Sci,Jabbarvand Behrouz. R Misailovic. S Xu. T Zhang. L,3
+CS 591,46060,Lecture-Discussion,SN,04:00PM,04:50PM,F,2406 Siebel Center for Comp Sci,Alagappan. R Ganesan. A Gupta. I Xu. T,3
+CS 591,41195,Lecture-Discussion,SP,01:00PM,02:00PM,F,2406 Siebel Center for Comp Sci,Chandrasekaran. V Heath. D Ren. L,3
+CS 591,35986,Lecture-Discussion,TA,11:00AM,11:50AM,F,1002 Electrical & Computer Eng Bldg,Beckman. M Chen. Y Johnson. B,3
+CS 597,76765,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+CS 597,78893,Independent Study,SFS,ARRANGED,ARRANGED,n.a.,n.a.,Sultana. S,3
+CS 598,69375,Online,AO2,ARRANGED,ARRANGED,n.a.,n.a.,Willis. C,3
+CS 598,49221,Online,CC1,ARRANGED,ARRANGED,n.a.,n.a.,Farivar. R,3
+CS 598,42377,Lecture,CG,11:00AM,12:15PM,TR,1214 Siebel Center for Comp Sci,Gunter. C,3
+CS 598,46988,Lecture-Discussion,CM,09:30AM,10:45AM,TR,1043 Sidney Lu Mech Engr Bldg,Mendis. C,3
+CS 598,70734,Lecture,DEL,03:30PM,04:45PM,TR,Location Pending,Delgosha. P,3
+CS 598,49222,Lecture-Discussion,HPN,01:00PM,02:20PM,WF,2015 Electrical & Computer Eng Bldg,Mittal. R,3
+CS 598,36002,Lecture-Discussion,KCC,02:00PM,03:15PM,TR,1302 Siebel Center for Comp Sci,Chang. K Huang. J,3
+CS 598,72124,Lecture-Discussion,KKH,09:30AM,10:45AM,MW,2039 Campus Instructional Facility,Hauser. K,3
+CS 598,62086,Lecture-Discussion,KMC,11:00AM,12:15PM,TR,1302 Siebel Center for Comp Sci,Cunningham. K Lewis. C,3
+CS 598,35989,Lecture-Discussion,KPH,11:00AM,12:15PM,TR,1302 Siebel Center for Comp Sci,Cunningham. K Lewis. C,3
+CS 598,55647,Online,KSA,09:30AM,10:45AM,TR,n.a.,Saha. K,3
+CS 598,70361,Lecture-Discussion,LAZ,11:00AM,12:15PM,WF,1320 Digital Computer Laboratory,Lazebnik. S,3
+CS 598,57715,Lecture-Discussion,MS,11:00AM,12:15PM,TR,1310 Digital Computer Laboratory,Kang. D,3
+CS 598,46983,Lecture-Discussion,PEN,09:30AM,10:45AM,TR,158 Loomis Laboratory,Peng. H,3
+CS 598,55918,Lecture,PPM,12:30PM,01:45PM,TR,2233 Everitt Laboratory,Rauchwerger. L,3
+CS 598,70683,Online,PSO,ARRANGED,ARRANGED,n.a.,n.a.,Liang. F,3
+CS 598,49224,Lecture,RAP,12:30PM,01:45PM,WF,1302 Siebel Center for Comp Sci,Alagappan. R,3
+CS 598,40106,Lecture-Discussion,SFS,03:30PM,04:45PM,TR,1304 Siebel Center for Comp Sci,Sultana. S,3
+CS 598,73072,Lecture-Discussion,SMC,12:30PM,01:45PM,TR,3018 Campus Instructional Facility,Chandrasekharan. E Cheng. T Cobb. C Sterman. S,3
+CS 598,43668,Lecture-Discussion,SML,11:00AM,12:15PM,MW,1214 Siebel Center for Comp Sci,Olson. L West. M,3
+CS 598,49828,Lecture-Discussion,SPH,12:30PM,01:45PM,TR,3018 Campus Instructional Facility,Chandrasekharan. E Cheng. T Cobb. C Sterman. S,3
+CS 598,70199,Lecture-Discussion,TMC,11:00AM,12:15PM,WF,136 Loomis Laboratory,Chan. T,3
+CS 598,42393,Lecture-Discussion,WSI,12:30PM,01:45PM,WF,1214 Siebel Center for Comp Sci,Vasisht. D,3
+CS 598,43669,Lecture-Discussion,YL,02:00PM,03:15PM,WF,2233 Everitt Laboratory,Li. Y,3
+CS 599,76764,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+MATH 103,32048,Laboratory,AB2,12:00PM,12:50PM,F,313 Davenport Hall,McCoy. G,4
+MATH 103,32065,Laboratory,AB3,01:00PM,01:50PM,R,242 Armory,Ye. K,4
+MATH 103,32051,Laboratory,AB4,02:00PM,02:50PM,R,243 Armory,Saari. M,4
+MATH 103,43834,Laboratory,AB5,01:00PM,01:50PM,F,113 Davenport Hall,McCoy. G,4
+MATH 103,32067,Lecture,AL1,09:30AM,10:50AM,TR,2 Education Building,Dobbs. T,4
+MATH 112,65466,Discussion/ Recitation,EDA,09:00AM,09:50AM,R,223 David Kinley Hall,Cai. J,3
+MATH 112,65472,Discussion/ Recitation,EDB,10:00AM,10:50AM,R,325 David Kinley Hall,Cai. J,3
+MATH 112,65473,Discussion/ Recitation,EDC,11:00AM,11:50AM,R,322 David Kinley Hall,Xie. L,3
+MATH 112,65474,Discussion/ Recitation,EDD,12:00PM,12:50PM,R,315 Gregory Hall,Ye. K,3
+MATH 112,65475,Discussion/ Recitation,EDE,10:00AM,10:50AM,F,212 Davenport Hall,Xie. L,3
+MATH 112,65476,Discussion/ Recitation,EDF,11:00AM,11:50AM,F,312 Davenport Hall,Arbelo Ramos. J,3
+MATH 112,65477,Discussion/ Recitation,EDG,12:00PM,12:50PM,F,312 Davenport Hall,Arbelo Ramos. J,3
+MATH 112,65478,Discussion/ Recitation,EDH,01:00PM,01:50PM,F,313 Davenport Hall,Cai. J,3
+MATH 112,65597,Discussion/ Recitation,EDI,09:00AM,09:50AM,F,312 Davenport Hall,Zhang. Y,3
+MATH 112,65624,Discussion/ Recitation,EDK,01:00PM,01:50PM,R,115 David Kinley Hall,Zhang. Y,3
+MATH 112,65802,Discussion/ Recitation,EDL,02:00PM,02:50PM,F,312 Davenport Hall,McCoy. G,3
+MATH 112,67298,Discussion/ Recitation,EDM,03:00PM,03:50PM,R,"G30 Literatures, Cultures, & Ling",Rotter. J,3
+MATH 112,67300,Discussion/ Recitation,EDO,02:00PM,02:50PM,R,322 David Kinley Hall,Xie. L,3
+MATH 112,71633,Discussion/ Recitation,EDQ,03:00PM,03:50PM,R,108 David Kinley Hall,Xie. L,3
+MATH 112,71634,Discussion/ Recitation,EDR,04:00PM,04:50PM,R,325 David Kinley Hall,Cai. J,3
+MATH 112,71636,Discussion/ Recitation,EDT,08:00AM,08:50AM,R,223 David Kinley Hall,Richardson. C,3
+MATH 112,72102,Discussion/ Recitation,EDZ,09:00AM,10:50AM,R,219 David Kinley Hall,Arbelo Ramos. J,3
+MATH 112,64759,Lecture,EL1,08:00AM,08:50AM,MW,112 Gregory Hall,Dobbs. T,3
+MATH 112,65465,Lecture,EL2,09:00AM,09:50AM,MW,100 Gregory Hall,Dobbs. T,3
+MATH 115,68446,Discussion/ Recitation,ADC,11:00AM,11:50AM,R,312 Davenport Hall,Altangerel. A,3
+MATH 115,68447,Discussion/ Recitation,ADD,12:00PM,12:50PM,R,"G24 Literatures, Cultures, & Ling",Goldman-Nagel. A,3
+MATH 115,68448,Discussion/ Recitation,ADE,01:00PM,01:50PM,R,312 David Kinley Hall,Ocokoljic. P,3
+MATH 115,68449,Discussion/ Recitation,ADF,02:00PM,02:50PM,R,212 Davenport Hall,Schwieger. I,3
+MATH 115,68464,Discussion/ Recitation,ADG,09:00AM,09:50AM,R,212 Davenport Hall,Bachhausen. J,3
+MATH 115,68465,Discussion/ Recitation,ADH,10:00AM,10:50AM,R,111 David Kinley Hall,Goldman-Nagel. A,3
+MATH 115,68466,Discussion/ Recitation,ADI,03:00PM,03:50PM,R,222 David Kinley Hall,Ocokoljic. P,3
+MATH 115,68467,Discussion/ Recitation,ADJ,04:00PM,04:50PM,R,"G32 Literatures, Cultures, & Ling",Dressler. J,3
+MATH 115,68469,Discussion/ Recitation,ADL,08:00AM,08:50AM,R,"G36 Literatures, Cultures, & Ling",Bachhausen. J,3
+MATH 115,68642,Discussion/ Recitation,ADM,12:00PM,12:50PM,R,326 David Kinley Hall,Halladay. Z,3
+MATH 115,68643,Discussion/ Recitation,ADN,01:00PM,01:50PM,R,164 Noyes Laboratory,Altangerel. A,3
+MATH 115,68644,Discussion/ Recitation,ADO,02:00PM,02:50PM,R,164 Noyes Laboratory,Altangerel. A,3
+MATH 115,68645,Discussion/ Recitation,ADP,08:00AM,08:50AM,R,"G46 Literatures, Cultures, & Ling",Halladay. Z,3
+MATH 115,68650,Discussion/ Recitation,ADQ,04:00PM,04:50PM,R,301 Noyes Laboratory,Acheampong. D,3
+MATH 115,49795,Discussion/ Recitation,ADR,11:00AM,11:50AM,R,"1128 Literatures, Cultures, & Ling",Schwieger. I,3
+MATH 115,72532,Discussion/ Recitation,ADU,09:00AM,09:50AM,R,"G32 Literatures, Cultures, & Ling",Halladay. Z,3
+MATH 115,49797,Discussion/ Recitation,ADV,04:00PM,04:50PM,R,"1030 Literatures, Cultures, & Ling",Halladay. Z,3
+MATH 115,49216,Discussion/ Recitation,ADW,05:00PM,05:50PM,R,"G46 Literatures, Cultures, & Ling",Schwieger. I,3
+MATH 115,49212,Lecture,AL1,10:00AM,10:50AM,MWF,103 Mumford Hall,Placzek. L,3
+MATH 115,58801,Lecture,AL2,11:00AM,11:50AM,MWF,103 Mumford Hall,Placzek. L,3
+MATH 115,49213,Lecture,AL3,01:00PM,01:50PM,MWF,100 Gregory Hall,Placzek. L,3
+MATH 124,32038,Lecture-Discussion,N1,10:00AM,10:50AM,TR,136 Burrill Hall,Lense. D,3
+MATH 124,32040,Lecture-Discussion,P1,11:00AM,11:50AM,TR,136 Burrill Hall,Lense. D,3
+MATH 124,32036,Lecture-Discussion,R1,01:00PM,01:50PM,TR,132 Davenport Hall,Gregory. D,3
+MATH 124,58743,Lecture-Discussion,S1,02:00PM,02:50PM,TR,132 Davenport Hall,Gregory. D,3
+MATH 124,68284,Lecture-Discussion,T1,03:00PM,03:50PM,TR,393 Bevier Hall,Lense. D,3
+MATH 199,10551,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+MATH 199,61726,Online,112,ARRANGED,ARRANGED,n.a.,n.a.,Reddy. A,3
+MATH 199,50627,Online,115,ARRANGED,ARRANGED,n.a.,n.a.,Reddy. A,3
+MATH 199,78823,Online,220,ARRANGED,ARRANGED,n.a.,n.a.,Reddy. A,3
+MATH 199,54467,Discussion/ Recitation,DE1,11:00AM,12:50PM,R,1043 Sidney Lu Mech Engr Bldg,Kang. W,3
+MATH 199,22231,Independent Study,JM1,ARRANGED,ARRANGED,n.a.,n.a.,McNeilly. J,3
+MATH 199,22099,Discussion/ Recitation,PC1,11:00AM,12:50PM,T,3038 Campus Instructional Facility,Goldman-Nagel. A,3
+MATH 199,39026,Discussion/ Recitation,PC2,01:00PM,02:50PM,T,2090 Natural History Building,Ritter. M,3
+MATH 199,51989,Discussion/ Recitation,PC3,03:00PM,04:50PM,T,7 Burrill Hall,Villalobos. V,3
+MATH 199,65503,Discussion/ Recitation,PC4,09:00AM,10:50AM,T,7 Burrill Hall,Garg. M,3
+MATH 199,72045,Discussion/ Recitation,PC5,11:00AM,12:50PM,T,7 Burrill Hall,Villalobos. V,3
+MATH 213,32072,Lecture-Discussion,D1,11:00AM,11:50AM,MWF,106B1 Engineering Hall,Wigal. M,3
+MATH 213,32076,Lecture-Discussion,X1,12:00PM,12:50PM,MWF,106B1 Engineering Hall,Wigal. M,3
+MATH 220,34509,Discussion/ Recitation,AD1,11:00AM,12:50PM,TR,2036 Campus Instructional Facility,Lahey. L,5
+MATH 220,35101,Discussion/ Recitation,AD2,09:00AM,10:50AM,TR,2090 Natural History Building,Perez. Y,5
+MATH 220,59544,Discussion/ Recitation,ADA,08:00AM,08:50AM,TR,140 Henry Administration Bldg,Pierce. M,5
+MATH 220,59545,Discussion/ Recitation,ADB,09:00AM,09:50AM,TR,140 Henry Administration Bldg,Sun. Q,5
+MATH 220,59546,Discussion/ Recitation,ADC,10:00AM,10:50AM,TR,140 Henry Administration Bldg,Sun. Q,5
+MATH 220,59547,Discussion/ Recitation,ADD,11:00AM,11:50AM,TR,140 Henry Administration Bldg,Ho. K,5
+MATH 220,59548,Discussion/ Recitation,ADE,12:00PM,12:50PM,TR,140 Henry Administration Bldg,Le Blanc. S,5
+MATH 220,59549,Discussion/ Recitation,ADF,01:00PM,01:50PM,TR,140 Henry Administration Bldg,Gupta. R,5
+MATH 220,59550,Discussion/ Recitation,ADG,02:00PM,02:50PM,TR,140 Henry Administration Bldg,Bondelli. J,5
+MATH 220,59551,Discussion/ Recitation,ADH,03:00PM,03:50PM,TR,140 Henry Administration Bldg,Barranco. E,5
+MATH 220,59552,Discussion/ Recitation,ADI,04:00PM,04:50PM,TR,140 Henry Administration Bldg,Barranco. E,5
+MATH 220,59122,Discussion/ Recitation,ADJ,10:00AM,10:50AM,TR,329 Davenport Hall,Bondelli. J,5
+MATH 220,59562,Discussion/ Recitation,ADR,09:00AM,09:50AM,TR,162 Noyes Laboratory,Pierce. M,5
+MATH 220,59564,Discussion/ Recitation,ADS,12:00PM,12:50PM,TR,137 Henry Administration Bldg,Fan. Q,5
+MATH 220,40135,Discussion/ Recitation,ADX,01:00PM,01:50PM,TR,137 Henry Administration Bldg,Fan. Q,5
+MATH 220,34494,Lecture,AL1,10:00AM,10:50AM,MWF,114 David Kinley Hall,Srikant. J,5
+MATH 220,35108,Lecture,AL2,11:00AM,11:50AM,MWF,114 David Kinley Hall,Hoffmeister. A,5
+MATH 220,33443,Discussion/ Recitation,BD1,01:00PM,02:50PM,TR,2036 Campus Instructional Facility,Price. A,5
+MATH 220,40141,Discussion/ Recitation,BD2,03:00PM,04:50PM,TR,314 Davenport Hall,Bhartia. A,5
+MATH 220,34440,Discussion/ Recitation,BD@,09:00AM,09:50AM,TR,40 Allen Residence Hall,Ho. K,5
+MATH 220,59560,Discussion/ Recitation,BDA,08:00AM,08:50AM,TR,143 Henry Administration Bldg,Peng. D,5
+MATH 220,59554,Discussion/ Recitation,BDB,09:00AM,09:50AM,TR,143 Henry Administration Bldg,Peng. D,5
+MATH 220,59555,Discussion/ Recitation,BDC,10:00AM,10:50AM,TR,143 Henry Administration Bldg,Gupta. R,5
+MATH 220,59556,Discussion/ Recitation,BDD,11:00AM,11:50AM,TR,143 Henry Administration Bldg,Le Blanc. S,5
+MATH 220,59557,Discussion/ Recitation,BDE,12:00PM,12:50PM,TR,143 Henry Administration Bldg,Tan. J,5
+MATH 220,59558,Discussion/ Recitation,BDF,01:00PM,01:50PM,TR,143 Henry Administration Bldg,Tan. J,5
+MATH 220,59559,Discussion/ Recitation,BDG,02:00PM,02:50PM,TR,143 Henry Administration Bldg,Musleh. O,5
+MATH 220,59561,Discussion/ Recitation,BDH,03:00PM,03:50PM,TR,143 Henry Administration Bldg,Musleh. O,5
+MATH 220,67362,Discussion/ Recitation,BDL,10:00AM,10:50AM,TR,219 Gregory Hall,Pourmotabbed. S,5
+MATH 220,59565,Discussion/ Recitation,BDP,02:00PM,02:50PM,TR,162 Noyes Laboratory,Eckert. A,5
+MATH 220,59566,Discussion/ Recitation,BDQ,03:00PM,03:50PM,TR,136 Davenport Hall,Eckert. A,5
+MATH 220,33431,Lecture,BL1,01:00PM,01:50PM,MWF,100 Materials Science & Eng Bld,Whittlesey. K,5
+MATH 220,35170,Lecture,BL2,02:00PM,02:50PM,MWF,100 Materials Science & Eng Bld,Whittlesey. K,5
+MATH 225,55844,Lecture-Discussion,SL1,03:00PM,03:50PM,TR,141 Wohlers Hall,Bradlow. S,2
+MATH 231,49232,Discussion/ Recitation,AD1,03:00PM,04:50PM,TR,2090 Natural History Building,Liu. B,3
+MATH 231,46907,Discussion/ Recitation,AD2,09:00AM,10:50AM,TR,1038 Campus Instructional Facility,Vu. T,3
+MATH 231,49238,Discussion/ Recitation,AD3,01:00PM,02:50PM,TR,314 Davenport Hall,Hayes. N,3
+MATH 231,46844,Discussion/ Recitation,ADA,08:00AM,08:50AM,TR,164 Noyes Laboratory,Pinto. A,3
+MATH 231,46849,Discussion/ Recitation,ADB,09:00AM,09:50AM,TR,207 Gregory Hall,Altizio. D,3
+MATH 231,46851,Discussion/ Recitation,ADC,10:00AM,10:50AM,TR,207 Gregory Hall,Altizio. D,3
+MATH 231,46858,Discussion/ Recitation,ADD,11:00AM,11:50AM,TR,104 English Building,Lamaster. K,3
+MATH 231,58983,Discussion/ Recitation,ADE,12:00PM,12:50PM,TR,104 English Building,McConnell. R,3
+MATH 231,46853,Discussion/ Recitation,ADF,01:00PM,01:50PM,TR,104 English Building,Ellefsen. B,3
+MATH 231,46856,Discussion/ Recitation,ADG,02:00PM,02:50PM,TR,1051 Lincoln Hall,Ellefsen. B,3
+MATH 231,58982,Discussion/ Recitation,ADH,03:00PM,03:50PM,TR,132 Davenport Hall,Redgate. R,3
+MATH 231,58984,Discussion/ Recitation,ADI,09:00AM,09:50AM,TR,307 David Kinley Hall,Fu. W,3
+MATH 231,58985,Discussion/ Recitation,ADJ,10:00AM,10:50AM,TR,104 English Building,Fu. W,3
+MATH 231,46899,Discussion/ Recitation,ADK,10:00AM,10:50AM,TR,169 Davenport Hall,Toller. R,3
+MATH 231,46905,Discussion/ Recitation,ADN,02:00PM,02:50PM,TR,144 Armory,Jin. K,3
+MATH 231,58986,Discussion/ Recitation,ADP,08:00AM,08:50AM,TR,104 English Building,Toller. R,3
+MATH 231,56755,Discussion/ Recitation,ADT,01:00PM,01:50PM,TR,144 Armory,Redgate. R,3
+MATH 231,56986,Discussion/ Recitation,ADU,03:00PM,03:50PM,TR,144 Armory,Jin. K,3
+MATH 231,46860,Lecture,AL1,09:00AM,09:50AM,MW,180 Bevier Hall,Bahreini Esfahani. M,3
+MATH 231,46908,Lecture,AL2,10:00AM,10:50AM,MW,180 Bevier Hall,Bahreini Esfahani. M,3
+MATH 231,56751,Lecture,AL3,11:00AM,11:50AM,MW,180 Bevier Hall,Bahreini Esfahani. M,3
+MATH 231,58987,Discussion/ Recitation,BDA,08:00AM,08:50AM,TR,327 Gregory Hall,Si. A,3
+MATH 231,48130,Discussion/ Recitation,BDB,09:00AM,09:50AM,TR,327 Gregory Hall,Si. A,3
+MATH 231,56757,Discussion/ Recitation,BDS,02:00PM,02:50PM,TR,106 David Kinley Hall,Leite Vilela Doliveira. A,3
+MATH 231,52789,Discussion/ Recitation,BDT,03:00PM,03:50PM,TR,106 David Kinley Hall,Leite Vilela Doliveira. A,3
+MATH 231,46898,Discussion/ Recitation,BDU,04:00PM,04:50PM,TR,106 David Kinley Hall,Pinto. A,3
+MATH 231,46865,Lecture,BL1,12:00PM,12:50PM,MW,66 Library,Wu. X,3
+MATH 231,46881,Discussion/ Recitation,EDA,08:00AM,08:50AM,TR,"1030 Literatures, Cultures, & Ling",Rathod. P,3
+MATH 231,46861,Discussion/ Recitation,EDB,09:00AM,09:50AM,TR,104 English Building,Rathod. P,3
+MATH 231,46862,Discussion/ Recitation,EDC,10:00AM,10:50AM,TR,"G32 Literatures, Cultures, & Ling",Vasudeva. S,3
+MATH 231,50605,Discussion/ Recitation,EDD,11:00AM,11:50AM,TR,144 Armory,Ellis. M,3
+MATH 231,49233,Discussion/ Recitation,EDF,01:00PM,01:50PM,TR,113 Gregory Hall,Wen. R,3
+MATH 231,46868,Discussion/ Recitation,EDG,02:00PM,02:50PM,TR,"G32 Literatures, Cultures, & Ling",Nashar. S,3
+MATH 231,46877,Discussion/ Recitation,EDH,03:00PM,03:50PM,TR,"G32 Literatures, Cultures, & Ling",Nashar. S,3
+MATH 231,46882,Discussion/ Recitation,EDJ,10:00AM,10:50AM,TR,113 Gregory Hall,Karajgikar. V,3
+MATH 231,46864,Discussion/ Recitation,EDK,11:00AM,11:50AM,TR,113 Gregory Hall,Karajgikar. V,3
+MATH 231,50606,Discussion/ Recitation,EDL,12:00PM,12:50PM,TR,144 Armory,Wen. R,3
+MATH 231,46888,Discussion/ Recitation,EDM,01:00PM,01:50PM,TR,327 Gregory Hall,Vasudeva. S,3
+MATH 231,46883,Discussion/ Recitation,EDN,02:00PM,02:50PM,TR,113 Gregory Hall,Ellis. M,3
+MATH 231,46889,Discussion/ Recitation,EDP,04:00PM,04:50PM,TR,307 David Kinley Hall,Govindarajan. A,3
+MATH 231,59727,Discussion/ Recitation,EDT,09:00AM,09:50AM,TR,313 Gregory Hall,Li. H,3
+MATH 231,49991,Discussion/ Recitation,EDW,10:00AM,10:50AM,TR,313 Gregory Hall,Li. H,3
+MATH 231,46880,Lecture,EL1,09:00AM,09:50AM,MWF,141 Wohlers Hall,La Nave. G,3
+MATH 231,46897,Lecture,EL2,10:00AM,10:50AM,MWF,141 Wohlers Hall,La Nave. G,3
+MATH 241,47037,Discussion/ Recitation,ADA,08:00AM,08:50AM,T,1057 Lincoln Hall,Xiang. Z,4
+MATH 241,47038,Discussion/ Recitation,ADB,09:00AM,09:50AM,T,312 David Kinley Hall,Xiang. Z,4
+MATH 241,52590,Discussion/ Recitation,ADC,10:00AM,10:50AM,T,111 David Kinley Hall,Jayasinghe. G,4
+MATH 241,56592,Discussion/ Recitation,ADD,11:00AM,11:50AM,T,310 David Kinley Hall,Jayasinghe. G,4
+MATH 241,47040,Discussion/ Recitation,ADE,12:00PM,12:50PM,T,307 David Kinley Hall,Adhikari. N,4
+MATH 241,56594,Discussion/ Recitation,ADF,01:00PM,01:50PM,T,325 David Kinley Hall,Adhikari. N,4
+MATH 241,47057,Discussion/ Recitation,ADG,02:00PM,02:50PM,T,312 David Kinley Hall,Xiao. S,4
+MATH 241,47041,Discussion/ Recitation,ADH,03:00PM,03:50PM,T,322 David Kinley Hall,Xiao. S,4
+MATH 241,47056,Discussion/ Recitation,ADI,04:00PM,04:50PM,T,104 English Building,Qu. Z,4
+MATH 241,51398,Discussion/ Recitation,ADJ,08:00AM,08:50AM,R,322 David Kinley Hall,Xiang. Z,4
+MATH 241,47045,Discussion/ Recitation,ADK,09:00AM,09:50AM,R,326 David Kinley Hall,Xiang. Z,4
+MATH 241,56590,Discussion/ Recitation,ADL,10:00AM,10:50AM,R,111 Gregory Hall,Jayasinghe. G,4
+MATH 241,49246,Discussion/ Recitation,ADM,11:00AM,11:50AM,R,223 David Kinley Hall,Jayasinghe. G,4
+MATH 241,59744,Discussion/ Recitation,ADN,12:00PM,12:50PM,R,108 David Kinley Hall,Adhikari. N,4
+MATH 241,49249,Discussion/ Recitation,ADO,01:00PM,01:50PM,R,111 Gregory Hall,Adhikari. N,4
+MATH 241,62214,Discussion/ Recitation,ADP,02:00PM,02:50PM,R,223 David Kinley Hall,Qu. Z,4
+MATH 241,51400,Discussion/ Recitation,ADQ,09:00AM,09:50AM,T,113 Gregory Hall,Pacun. A,4
+MATH 241,64920,Discussion/ Recitation,ADR,09:00AM,09:50AM,R,325 David Kinley Hall,Kundu. A,4
+MATH 241,50756,Discussion/ Recitation,ADS,10:00AM,10:50AM,R,331 Gregory Hall,Higgins. J,4
+MATH 241,64921,Discussion/ Recitation,ADT,01:00PM,01:50PM,R,217 Gregory Hall,Xiao. S,4
+MATH 241,68121,Discussion/ Recitation,ADU,12:00PM,12:50PM,R,331 Gregory Hall,Xiao. S,4
+MATH 241,62212,Discussion/ Recitation,ADV,03:00PM,03:50PM,R,113 Gregory Hall,Kundu. A,4
+MATH 241,47050,Discussion/ Recitation,ADX,03:00PM,03:50PM,R,3117 Everitt Laboratory,Xu. J,4
+MATH 241,59328,Lecture,AL1,08:00AM,08:50AM,MWF,1002 Electrical & Computer Eng Bldg,Russell. M,4
+MATH 241,47036,Lecture,AL2,09:00AM,09:50AM,MWF,1002 Electrical & Computer Eng Bldg,Russell. M,4
+MATH 241,50384,Discussion/ Recitation,BD1,11:00AM,12:50PM,TR,314 Davenport Hall,McCourt. G,4
+MATH 241,47042,Discussion/ Recitation,BD2,09:00AM,10:50AM,TR,314 Davenport Hall,Yeo. J,4
+MATH 241,51991,Discussion/ Recitation,BD3,03:00PM,04:50PM,TR,0036 Campus Instructional Facility,Grady. C,4
+MATH 241,47039,Discussion/ Recitation,BDA,08:00AM,08:50AM,T,113 Gregory Hall,Hui. L,4
+MATH 241,49247,Discussion/ Recitation,BDB,09:00AM,09:50AM,T,310 David Kinley Hall,Hui. L,4
+MATH 241,51402,Discussion/ Recitation,BDC,10:00AM,10:50AM,T,223 David Kinley Hall,Shin. W,4
+MATH 241,59729,Discussion/ Recitation,BDD,11:00AM,11:50AM,T,322 David Kinley Hall,Shin. W,4
+MATH 241,59728,Discussion/ Recitation,BDE,12:00PM,12:50PM,T,325 David Kinley Hall,Hsiao. T,4
+MATH 241,59730,Discussion/ Recitation,BDF,01:00PM,01:50PM,T,312 David Kinley Hall,Hsiao. T,4
+MATH 241,59731,Discussion/ Recitation,BDG,02:00PM,02:50PM,T,326 David Kinley Hall,Zwaan. L,4
+MATH 241,59732,Discussion/ Recitation,BDH,03:00PM,03:50PM,T,206 David Kinley Hall,Zwaan. L,4
+MATH 241,50549,Discussion/ Recitation,BDI,04:00PM,04:50PM,T,207 Gregory Hall,Hsiao. T,4
+MATH 241,51403,Discussion/ Recitation,BDL,10:00AM,10:50AM,R,217 Gregory Hall,Shin. W,4
+MATH 241,59733,Discussion/ Recitation,BDM,11:00AM,11:50AM,R,219 David Kinley Hall,Shin. W,4
+MATH 241,59736,Discussion/ Recitation,BDN,02:00PM,02:50PM,R,217 Gregory Hall,Zwaan. L,4
+MATH 241,59737,Discussion/ Recitation,BDO,03:00PM,03:50PM,R,325 David Kinley Hall,Hsiao. T,4
+MATH 241,59742,Discussion/ Recitation,BDX,12:00PM,12:50PM,R,169 Davenport Hall,Kundu. A,4
+MATH 241,49251,Lecture,BL1,12:00PM,12:50PM,MWF,3039 Campus Instructional Facility,Heller. J,4
+MATH 241,47058,Lecture,BL2,11:00AM,11:50AM,MWF,3039 Campus Instructional Facility,Heller. J,4
+MATH 241,52589,Discussion/ Recitation,CD@,11:00AM,11:50AM,T,151 Allen Residence Hall,Xu. J,4
+MATH 241,47052,Discussion/ Recitation,CDA,08:00AM,08:50AM,T,69 English Building,Kundu. A,4
+MATH 241,47055,Discussion/ Recitation,CDB,09:00AM,09:50AM,T,326 David Kinley Hall,Smilde. W,4
+MATH 241,59739,Discussion/ Recitation,CDC,10:00AM,10:50AM,T,315 Gregory Hall,Smilde. W,4
+MATH 241,59741,Discussion/ Recitation,CDE,12:00PM,12:50PM,T,113 Gregory Hall,Pacun. A,4
+MATH 241,49248,Discussion/ Recitation,CDF,01:00PM,01:50PM,T,310 David Kinley Hall,Higgins. J,4
+MATH 241,47048,Discussion/ Recitation,CDG,02:00PM,02:50PM,T,310 David Kinley Hall,Higgins. J,4
+MATH 241,47672,Discussion/ Recitation,CDH,03:00PM,03:50PM,T,325 David Kinley Hall,O'Neill. C,4
+MATH 241,49250,Discussion/ Recitation,CDI,04:00PM,04:50PM,T,312 David Kinley Hall,O'Neill. C,4
+MATH 241,56593,Discussion/ Recitation,CDJ,08:00AM,08:50AM,R,113 Gregory Hall,Hui. L,4
+MATH 241,51401,Discussion/ Recitation,CDK,09:00AM,09:50AM,R,111 David Kinley Hall,Hui. L,4
+MATH 241,51399,Discussion/ Recitation,CDL,10:00AM,10:50AM,R,223 David Kinley Hall,Smilde. W,4
+MATH 241,59740,Discussion/ Recitation,CDM,11:00AM,11:50AM,R,108 David Kinley Hall,Smilde. W,4
+MATH 241,59735,Discussion/ Recitation,CDO,01:00PM,01:50PM,R,106B6 Engineering Hall,Higgins. J,4
+MATH 241,47046,Discussion/ Recitation,CDP,02:00PM,02:50PM,R,108 David Kinley Hall,O'Neill. C,4
+MATH 241,62213,Discussion/ Recitation,CDQ,03:00PM,03:50PM,R,217 Gregory Hall,O'Neill. C,4
+MATH 241,47043,Lecture,CL1,02:00PM,02:50PM,MWF,114 David Kinley Hall,Cavey. I,4
+MATH 241,51397,Lecture,CL2,03:00PM,03:50PM,MWF,114 David Kinley Hall,Cavey. I,4
+MATH 241,68120,Discussion/ Recitation,HD1,11:00AM,11:50AM,R,310 David Kinley Hall,Nguyen. A,4
+MATH 241,68122,Discussion/ Recitation,HD2,01:00PM,01:50PM,R,108 David Kinley Hall,Nguyen. A,4
+MATH 241,68123,Discussion/ Recitation,HD3,02:00PM,02:50PM,R,310 David Kinley Hall,Nguyen. A,4
+MATH 241,50501,Lecture,HL1,01:00PM,01:50PM,MWF,119 Materials Science & Eng Bld,Rezk. C,4
+MATH 257,74605,Lecture,A1,09:00AM,09:50AM,MW,3039 Campus Instructional Facility,Chuang. J,3
+MATH 257,74606,Lecture,A2,01:00PM,01:50PM,MW,3039 Campus Instructional Facility,Chuang. J,3
+MATH 257,74607,Lecture,A3,02:00PM,02:50PM,MW,3039 Campus Instructional Facility,Srikant. J,3
+MATH 257,74651,Discussion/ Recitation,D1A,08:00AM,08:50AM,T,106B6 Engineering Hall,Roach. R,3
+MATH 257,74643,Discussion/ Recitation,D1B,09:00AM,09:50AM,T,106B6 Engineering Hall,Roach. R,3
+MATH 257,74644,Discussion/ Recitation,D1C,10:00AM,10:50AM,T,106B6 Engineering Hall,Park. J,3
+MATH 257,77914,Discussion/ Recitation,D1D,11:00AM,11:50AM,T,"G36 Literatures, Cultures, & Ling",Feng. T,3
+MATH 257,74647,Discussion/ Recitation,D1E,01:00PM,01:50PM,T,203 Transportation Building,Lee. Y,3
+MATH 257,76217,Discussion/ Recitation,D1F,02:00PM,02:50PM,T,206 David Kinley Hall,Feng. T,3
+MATH 257,76219,Discussion/ Recitation,D1G,03:00PM,03:50PM,T,162 Noyes Laboratory,Lee. Y,3
+MATH 257,74650,Discussion/ Recitation,D1H,04:00PM,04:50PM,T,106B6 Engineering Hall,Simpson. S,3
+MATH 257,74646,Discussion/ Recitation,D1N,12:00PM,12:50PM,T,203 Transportation Building,Park. J,3
+MATH 257,74642,Discussion/ Recitation,D2A,08:00AM,08:50AM,R,137 Loomis Laboratory,Roach. R,3
+MATH 257,74652,Discussion/ Recitation,D2B,09:00AM,09:50AM,R,139 Loomis Laboratory,Roach. R,3
+MATH 257,74654,Discussion/ Recitation,D2D,11:00AM,11:50AM,R,106B6 Engineering Hall,Feng. T,3
+MATH 257,76216,Discussion/ Recitation,D2E,01:00PM,01:50PM,R,2078 Natural History Building,Lee. Y,3
+MATH 257,76218,Discussion/ Recitation,D2F,02:00PM,02:50PM,R,136 Davenport Hall,Feng. T,3
+MATH 257,76220,Discussion/ Recitation,D2G,03:00PM,03:50PM,R,162 Noyes Laboratory,Lee. Y,3
+MATH 257,75434,Discussion/ Recitation,D2N,12:00PM,12:50PM,R,106B6 Engineering Hall,Park. J,3
+MATH 257,74645,Discussion/ Recitation,D3D,11:00AM,11:50AM,T,207 Gregory Hall,Yang. J,3
+MATH 257,74614,Discussion/ Recitation,D3E,01:00PM,01:50PM,T,307 David Kinley Hall,Ye. Z,3
+MATH 257,74648,Discussion/ Recitation,D3F,02:00PM,02:50PM,T,322 David Kinley Hall,Raghavan. A,3
+MATH 257,74649,Discussion/ Recitation,D3G,03:00PM,03:50PM,T,312 David Kinley Hall,Raghavan. A,3
+MATH 257,75433,Discussion/ Recitation,D3N,12:00PM,12:50PM,T,326 David Kinley Hall,Ye. Z,3
+MATH 257,74653,Discussion/ Recitation,D4C,10:00AM,10:50AM,R,212 David Kinley Hall,Park. J,3
+MATH 257,77915,Discussion/ Recitation,D4D,11:00AM,11:50AM,R,"G36 Literatures, Cultures, & Ling",Simpson. S,3
+MATH 257,74656,Discussion/ Recitation,D4E,01:00PM,01:50PM,R,223 David Kinley Hall,Ye. Z,3
+MATH 257,74657,Discussion/ Recitation,D4F,02:00PM,02:50PM,R,326 David Kinley Hall,Raghavan. A,3
+MATH 257,74658,Discussion/ Recitation,D4G,03:00PM,03:50PM,R,326 David Kinley Hall,Raghavan. A,3
+MATH 257,74659,Discussion/ Recitation,D4H,04:00PM,04:50PM,R,206 David Kinley Hall,Yang. J,3
+MATH 257,74655,Discussion/ Recitation,D4N,12:00PM,12:50PM,R,111 Gregory Hall,Ye. Z,3
+MATH 257,74609,Online Lab,LB,09:00AM,09:50AM,F,n.a.,Bavisetty. V Kuehster. W Vasu. K,3
+MATH 257,74613,Online Lab,LC,10:00AM,10:50AM,F,n.a.,Bavisetty. V Kuehster. W Vasu. K,3
+MATH 257,74611,Online Lab,LE,01:00PM,01:50PM,F,n.a.,Bavisetty. V Kuehster. W Vasu. K,3
+MATH 257,74612,Online Lab,LF,02:00PM,02:50PM,F,n.a.,Bavisetty. V Kuehster. W Vasu. K,3
+MATH 285,51206,Lecture-Discussion,C1,09:00AM,09:50AM,MWF,114 David Kinley Hall,Manfroi. A,3
+MATH 285,51208,Lecture-Discussion,D1,11:00AM,11:50AM,MWF,0027/1025 Campus Instructional Facility,Manfroi. A,3
+MATH 285,51209,Lecture-Discussion,F1,02:00PM,02:50PM,MWF,100 Noyes Laboratory,Manfroi. A,3
+MATH 347,34498,Lecture-Discussion,B1,09:00AM,09:50AM,MWF,313 Davenport Hall,Janda. F,3
+MATH 347,34448,Lecture-Discussion,C1,10:00AM,10:50AM,MWF,312 Davenport Hall,Janda. F,3
+MATH 347,66654,Lecture-Discussion Lecture-Discussion,C2M C2M,09:00AM,10:50AM 10:00AM,T MWF,4004 Natural History Building 325 David Kinley Hall,Farris. M Ahlgren. S,3
+MATH 347,65074,Lecture-Discussion,D1,11:00AM,11:50AM,MWF,3038 Campus Instructional Facility,Liu. Y,3
+MATH 347,34450,Lecture-Discussion,E1,01:00PM,01:50PM,MWF,312 Davenport Hall,Fernando. R,3
+MATH 347,34383,Lecture-Discussion,F1,02:00PM,02:50PM,MWF,329 Davenport Hall,Kutzarova-Ford. D,3
+MATH 347,34395,Lecture-Discussion,G1,03:00PM,03:50PM,MWF,329 Davenport Hall,Kutzarova-Ford. D,3
+MATH 347,68430,Lecture-Discussion,G1H,03:00PM,03:50PM,MWF,"1022 Literatures, Cultures, & Ling",Ford. K,3
+MATH 347,34444,Lecture-Discussion,X1,12:00PM,12:50PM,MWF,3217 Everitt Laboratory,Jiang. Y,3
+MATH 357,63537,Online Lecture,M,12:30PM,01:45PM,TR,n.a.,Silva. M,3
+MATH 357,53281,Lecture-Discussion,N,12:30PM,01:45PM,TR,3031 Campus Instructional Facility,Silva. M,3
+MATH 362,54661,Discussion/ Recitation,A,02:00PM,03:20PM,TR,3013 Electrical & Computer Eng Bldg,Chen. X,3
+MATH 362,64889,Discussion/ Recitation,B,10:00AM,10:50AM,MWF,3017 Electrical & Computer Eng Bldg,Chitambar. E,3
+MATH 362,54663,Discussion/ Recitation,C,11:00AM,11:50AM,MWF,3017 Electrical & Computer Eng Bldg,Katselis. D,3
+MATH 362,54664,Discussion/ Recitation,D,01:00PM,01:50PM,MWF,3017 Electrical & Computer Eng Bldg,Varshney. L,3
+MATH 362,61648,Discussion/ Recitation,E,02:00PM,02:50PM,MWF,Location Pending,Do. M,3
+MATH 362,70436,Discussion/ Recitation,F,05:00PM,05:50PM,MWF,3017 Electrical & Computer Eng Bldg,,3
+MATH 390,10553,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+MATH 399,59202,Internship,M,ARRANGED,ARRANGED,n.a.,Location Pending,DeVille. L,0
+MATH 402,32099,Lecture-Discussion,Q13,12:30PM,01:50PM,TR,1035 Campus Instructional Facility,Mortensen. K,3
+MATH 402,39112,Lecture-Discussion,Q14,12:30PM,01:50PM,TR,1035 Campus Instructional Facility,Mortensen. K,3
+MATH 403,30344,Lecture-Discussion,E13,11:00AM,11:50AM,MWF,132 Davenport Hall,Guo. M,3
+MATH 403,39114,Lecture-Discussion,E14,11:00AM,11:50AM,MWF,132 Davenport Hall,Guo. M,3
+MATH 412,30348,Lecture-Discussion,C13,10:00AM,10:50AM,MWF,156 Henry Administration Bldg,Hardt. A,3
+MATH 412,39116,Lecture-Discussion,C14,10:00AM,10:50AM,MWF,156 Henry Administration Bldg,Hardt. A,3
+MATH 413,33533,Lecture-Discussion,D13,11:00AM,11:50AM,MWF,3101 Sidney Lu Mech Engr Bldg,Dias Mattos. L,3
+MATH 413,39117,Lecture-Discussion,D14,11:00AM,11:50AM,MWF,3101 Sidney Lu Mech Engr Bldg,Dias Mattos. L,3
+MATH 413,62937,Lecture-Discussion,X13,12:00PM,12:50PM,MWF,3101 Sidney Lu Mech Engr Bldg,Dias Mattos. L,3
+MATH 413,62938,Lecture-Discussion,X14,12:00PM,12:50PM,MWF,3101 Sidney Lu Mech Engr Bldg,Dias Mattos. L,3
+MATH 415,63037,Lecture-Discussion,A,11:00AM,11:50AM,MWF,141 Loomis Laboratory,Gabdullin. M,3
+MATH 415,34447,Lecture-Discussion,N13,12:30PM,01:50PM,TR,"G36 Literatures, Cultures, & Ling",Haboush. W,3
+MATH 416,54464,Online,B13,09:00AM,09:50AM,MWF,n.a.,Albin. P,3
+MATH 416,54465,Online,B14,09:00AM,09:50AM,MWF,n.a.,Albin. P,3
+MATH 416,57836,Online,C13,10:00AM,10:50AM,MWF,n.a.,Albin. P,3
+MATH 416,57837,Online,C14,10:00AM,10:50AM,MWF,n.a.,Albin. P,3
+MATH 416,51390,Lecture-Discussion,C3H,10:00AM,10:50AM,MWF,310 David Kinley Hall,Dodd. C,3
+MATH 416,55159,Lecture-Discussion,E13,01:00PM,01:50PM,MWF,136 Davenport Hall,Na. X,3
+MATH 416,69245,Lecture-Discussion,E14,01:00PM,01:50PM,MWF,136 Davenport Hall,Na. X,3
+MATH 416,67250,Lecture-Discussion,F13,02:00PM,02:50PM,MWF,312 David Kinley Hall,Luecke. K,3
+MATH 416,67251,Lecture-Discussion,F14,02:00PM,02:50PM,MWF,312 David Kinley Hall,Luecke. K,3
+MATH 416,55582,Lecture-Discussion,M13,09:30AM,10:50AM,TR,149 Henry Administration Bldg,Tumanov. A,3
+MATH 416,55583,Lecture-Discussion,M14,09:30AM,10:50AM,TR,149 Henry Administration Bldg,Tumanov. A,3
+MATH 417,32108,Lecture-Discussion,C13,10:00AM,10:50AM,MWF,149 Henry Administration Bldg,Berwick Evans. D,3
+MATH 417,32110,Lecture-Discussion,C14,10:00AM,10:50AM,MWF,149 Henry Administration Bldg,Berwick Evans. D,3
+MATH 417,32112,Lecture-Discussion,D13,11:00AM,11:50AM,MWF,169 Davenport Hall,Pascaleff. J,3
+MATH 417,32114,Lecture-Discussion,D14,11:00AM,11:50AM,MWF,169 Davenport Hall,Pascaleff. J,3
+MATH 417,72897,Lecture-Discussion,E13,01:00PM,01:50PM,MWF,307 David Kinley Hall,Rasmussen. J,3
+MATH 417,65076,Lecture-Discussion,E14,01:00PM,01:50PM,MWF,307 David Kinley Hall,Rasmussen. J,3
+MATH 417,32103,Lecture-Discussion,M13,09:30AM,10:50AM,TR,150 English Building,Dutta. S,3
+MATH 417,32106,Lecture-Discussion,M14,09:30AM,10:50AM,TR,150 English Building,Dutta. S,3
+MATH 424,47761,Lecture-Discussion,D,11:00AM,11:50AM,MWF,"1030 Literatures, Cultures, & Ling",Oikhberg. T,3
+MATH 441,32116,Lecture-Discussion,B13,09:00AM,09:50AM,MWF,1065 Lincoln Hall,Rapti. Z,3
+MATH 441,32118,Lecture-Discussion,B14,09:00AM,09:50AM,MWF,1065 Lincoln Hall,Rapti. Z,3
+MATH 441,32120,Lecture-Discussion,C13,10:00AM,10:50AM,MWF,1065 Lincoln Hall,Rapti. Z,3
+MATH 441,32123,Lecture-Discussion,C14,10:00AM,10:50AM,MWF,1065 Lincoln Hall,Rapti. Z,3
+MATH 441,78651,Lecture-Discussion,D13,11:00AM,11:50AM,MWF,310 David Kinley Hall,Tzirakis. N,3
+MATH 441,78652,Lecture-Discussion,D14,11:00AM,11:50AM,MWF,310 David Kinley Hall,Tzirakis. N,3
+MATH 441,57793,Lecture-Discussion,E13,01:00PM,01:50PM,MWF,1022 Lincoln Hall,Cooney. D,3
+MATH 441,57794,Lecture-Discussion,E14,01:00PM,01:50PM,MWF,1022 Lincoln Hall,Cooney. D,3
+MATH 441,62941,Lecture-Discussion,F13,02:00PM,02:50PM,MWF,1027 Lincoln Hall,Liu. Y,3
+MATH 441,62942,Lecture-Discussion,F14,02:00PM,02:50PM,MWF,1027 Lincoln Hall,Liu. Y,3
+MATH 442,59619,Lecture-Discussion,F13,02:00PM,02:50PM,MWF,4039 Campus Instructional Facility,Hung. P,3
+MATH 442,59620,Lecture-Discussion,F14,02:00PM,02:50PM,MWF,4039 Campus Instructional Facility,Hung. P,3
+MATH 444,66403,Lecture-Discussion,B13,09:00AM,09:50AM,MWF,326 David Kinley Hall,Nath. K,3
+MATH 444,66404,Lecture-Discussion,B14,09:00AM,09:50AM,MWF,326 David Kinley Hall,Nath. K,3
+MATH 444,32125,Lecture-Discussion,C13,01:00PM,01:50PM,MWF,162 Noyes Laboratory,Zhang. H,3
+MATH 444,32127,Lecture-Discussion,C14,01:00PM,01:50PM,MWF,162 Noyes Laboratory,Zhang. H,3
+MATH 444,32132,Lecture-Discussion,M13,11:00AM,12:20PM,TR,1066 Lincoln Hall,Hinkkanen. A,3
+MATH 444,32134,Lecture-Discussion,M14,11:00AM,12:20PM,TR,1066 Lincoln Hall,Hinkkanen. A,3
+MATH 444,32129,Lecture-Discussion,X13,12:00PM,12:50PM,MWF,1060 Lincoln Hall,Cho. S,3
+MATH 444,32130,Lecture-Discussion,X14,12:00PM,12:50PM,MWF,1060 Lincoln Hall,Cho. S,3
+MATH 446,59648,Lecture-Discussion,C13,10:00AM,10:50AM,MWF,3025 Campus Instructional Facility,Nikolaev. I,3
+MATH 446,59650,Lecture-Discussion,C14,10:00AM,10:50AM,MWF,3025 Campus Instructional Facility,Nikolaev. I,3
+MATH 446,30355,Lecture-Discussion,F13,01:00PM,01:50PM,MWF,3025 Campus Instructional Facility,Nikolaev. I,3
+MATH 446,39130,Lecture-Discussion,F14,01:00PM,01:50PM,MWF,3025 Campus Instructional Facility,Nikolaev. I,3
+MATH 447,32136,Lecture-Discussion,D13,11:00AM,11:50AM,MWF,163 Noyes Laboratory,Li. X,3
+MATH 447,32137,Lecture-Discussion,D14,11:00AM,11:50AM,MWF,163 Noyes Laboratory,Li. X,3
+MATH 447,32138,Lecture-Discussion,F13,02:00PM,02:50PM,MWF,322 David Kinley Hall,Young. A,3
+MATH 447,32139,Lecture-Discussion,F14,02:00PM,02:50PM,MWF,322 David Kinley Hall,Young. A,3
+MATH 448,30356,Lecture-Discussion,M13,11:00AM,12:20PM,TR,2078 Natural History Building,Tumanov. A,3
+MATH 448,39131,Lecture-Discussion,M14,11:00AM,12:20PM,TR,2078 Natural History Building,Tumanov. A,3
+MATH 450,36039,Lecture-Discussion,BL1,11:00AM,12:15PM,TR,1320 Digital Computer Laboratory,Kloeckner. A,3
+MATH 450,36042,Lecture-Discussion,BL2,11:00AM,12:15PM,TR,1320 Digital Computer Laboratory,Kloeckner. A,3
+MATH 450,72461,Online,DSO,ARRANGED,ARRANGED,n.a.,n.a.,,3
+MATH 453,32140,Lecture-Discussion,D13,02:00PM,02:50PM,MWF,1024 Lincoln Hall,Ford. K,3
+MATH 453,32144,Lecture-Discussion,D14,02:00PM,02:50PM,MWF,1024 Lincoln Hall,Ford. K,3
+MATH 453,32147,Lecture-Discussion,M13,01:00PM,01:50PM,MWF,325 David Kinley Hall,Ahlgren. S,3
+MATH 453,32150,Lecture-Discussion,M14,01:00PM,01:50PM,MWF,325 David Kinley Hall,Ahlgren. S,3
+MATH 461,39200,Lecture-Discussion,P13,11:00AM,12:20PM,TR,311 Gregory Hall,Dey. P,3
+MATH 461,39201,Lecture-Discussion,P14,11:00AM,12:20PM,TR,311 Gregory Hall,Dey. P,3
+MATH 463,35018,Discussion/ Recitation,UD1,01:00PM,02:20PM,W,384 Armory,Yan. S,4
+MATH 463,63083,Discussion/ Recitation,UD2,02:00PM,03:20PM,W,370 Armory,Gao. H,4
+MATH 463,49237,Discussion/ Recitation,UD3,03:00PM,04:20PM,W,384 Armory,Yan. S,4
+MATH 463,49242,Discussion/ Recitation,UD4,04:00PM,05:20PM,W,370 Armory,Gao. H,4
+MATH 463,65037,Discussion/ Recitation,UD5,01:00PM,02:20PM,W,386 Armory,Chakravarti. A,4
+MATH 463,65039,Discussion/ Recitation,UD6,02:00PM,03:20PM,W,432 Armory,Zhang. Y,4
+MATH 463,77398,Discussion/ Recitation,UD7,03:00PM,04:20PM,W,386 Armory,Chakravarti. A,4
+MATH 463,77400,Discussion/ Recitation,UD8,04:00PM,05:20PM,W,432 Armory,Zhang. Y,4
+MATH 463,46965,Lecture,UL1,10:00AM,10:50AM,MWF,0035 Campus Instructional Facility,Unger. D,4
+MATH 463,49235,Lecture,UL2,11:00AM,11:50AM,MWF,100 Materials Science & Eng Bld,Unger. D,4
+MATH 463,33413,Discussion/ Recitation,YD1,09:00AM,10:20AM,W,386 Armory,Yao. R,4
+MATH 463,49240,Discussion/ Recitation,YD2,10:00AM,11:20AM,W,146 Armory,Xu. T,4
+MATH 463,33376,Discussion/ Recitation,YD3,11:00AM,12:20PM,W,384 Armory,Das. A,4
+MATH 463,33474,Discussion/ Recitation,YD4,12:00PM,01:20PM,W,333 Armory,Yao. R,4
+MATH 463,35036,Discussion/ Recitation,YD5,01:00PM,02:20PM,W,2200 Sidney Lu Mech Engr Bldg,Xu. T,4
+MATH 463,35029,Discussion/ Recitation,YD6,02:00PM,03:20PM,W,114 Transportation Building,Huang. L,4
+MATH 463,35042,Discussion/ Recitation,YD7,03:00PM,04:20PM,W,1027 Lincoln Hall,Das. A,4
+MATH 463,35014,Discussion/ Recitation,YD8,04:00PM,05:20PM,W,333 Armory,Huang. L,4
+MATH 463,38763,Lecture,YL1,09:30AM,10:50AM,TR,100 Materials Science & Eng Bld,Yu. A,4
+MATH 463,38765,Lecture,YL2,11:00AM,12:20PM,TR,100 Materials Science & Eng Bld,Yu. A,4
+MATH 464,65079,Lecture-Discussion,1GR,11:00AM,12:20PM,TR,1090 Lincoln Hall,Stepanov. A,3
+MATH 464,65081,Lecture-Discussion,1UG,11:00AM,12:20PM,TR,1090 Lincoln Hall,Stepanov. A,3
+MATH 464,58797,Lecture-Discussion,2GR,02:00PM,03:20PM,TR,1090 Lincoln Hall,Stepanov. A,3
+MATH 464,58799,Lecture-Discussion,2UG,02:00PM,03:20PM,TR,1090 Lincoln Hall,Stepanov. A,3
+MATH 464,65612,Lecture-Discussion,3GR,11:00AM,11:50AM,MWF,1002 Lincoln Hall,Stepanov. A,3
+MATH 464,65614,Lecture-Discussion,3UG,11:00AM,11:50AM,MWF,1002 Lincoln Hall,Stepanov. A,3
+MATH 464,35497,Lecture-Discussion,4GR,09:00AM,09:50AM,MWF,160 English Building,Douglas. J,3
+MATH 464,35710,Lecture-Discussion,4UG,09:00AM,09:50AM,MWF,160 English Building,Douglas. J,3
+MATH 466,76790,Lecture-Discussion,D13,11:00AM,11:50AM,MWF,307 David Kinley Hall,Song. R,3
+MATH 466,76794,Lecture-Discussion,D14,11:00AM,11:50AM,MWF,307 David Kinley Hall,Song. R,3
+MATH 473,70172,Lecture-Discussion,S4,02:00PM,03:15PM,TR,2079 Natural History Building,Har-Peled. S,4
+MATH 473,72229,Lecture-Discussion,S4G,02:00PM,03:15PM,TR,2079 Natural History Building,Har-Peled. S,4
+MATH 481,72294,Online,XGR,ARRANGED,ARRANGED,n.a.,n.a.,DeVille. L,3
+MATH 482,30808,Lecture-Discussion,C13,10:00AM,10:50AM,MWF,134 Armory,Kelley. E,3
+MATH 482,39139,Lecture-Discussion,C14,10:00AM,10:50AM,MWF,134 Armory,Kelley. E,3
+MATH 482,66990,Lecture-Discussion,E13,01:00PM,01:50PM,MWF,140 Henry Administration Bldg,Kelley. E,3
+MATH 482,66991,Lecture-Discussion,E14,01:00PM,01:50PM,MWF,140 Henry Administration Bldg,Kelley. E,3
+MATH 484,30809,Lecture-Discussion,F13,02:00PM,02:50PM,MWF,169 Davenport Hall,Bradshaw. P,3
+MATH 484,39140,Lecture-Discussion,F14,02:00PM,02:50PM,MWF,169 Davenport Hall,Bradshaw. P,3
+MATH 490,48560,Online,KK,11:00AM,12:20PM,TR,n.a.,Kirkpatrick. K,3
+MATH 490,61255,Lecture-Discussion,QIT,10:00AM,10:50AM,MWF,307 David Kinley Hall,Araiza. R,3
+MATH 490,54837,Online,XGR,ARRANGED,ARRANGED,n.a.,n.a.,DeVille. L,3
+MATH 492,64803,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+MATH 492,65799,Research,LPS,ARRANGED,ARRANGED,n.a.,Location Pending,Zeiser. F,3
+MATH 499,64054,Lecture-Discussion,H1,04:00PM,04:50PM,M,209 David Kinley Hall,Hoffmeister. A,1
+MATH 500,30815,Lecture-Discussion,C1,10:00AM,10:50AM,MWF,115 David Kinley Hall,Dunfield. N,4
+MATH 540,30824,Lecture-Discussion,F1,09:00AM,09:50AM,MWF,1022 Lincoln Hall,Li. X,4
+MATH 564,33547,Lecture-Discussion,E1,11:00AM,11:50AM,MWF,307 David Kinley Hall,Song. R,4
+MATH 593,65166,Internship,RPM,ARRANGED,ARRANGED,n.a.,Location Pending,Mortensen. K,0
+MATH 593,65165,Internship,YB,ARRANGED,ARRANGED,n.a.,Location Pending,Baryshnikov. Y,0
+MATH 595,46710,Lecture-Discussion,GTT,03:00PM,03:50PM,MWF,325 David Kinley Hall,Mineyev. I,3
+MATH 595,51374,Lecture-Discussion,RZF,09:30AM,10:50AM,TR,214 Davenport Hall,Zaharescu. A,3
+MATH 595,63378,Lecture-Discussion,SD,09:00AM,09:50AM,MWF,310 David Kinley Hall,Stojanoska. V,3
+MATH 597,10556,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+MATH 599,10600,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+PHYS 101,34813,Lecture,A1,01:00PM,01:50PM,MW,141 Loomis Laboratory,Ansell. K,5
+PHYS 101,34816,Lecture,A2,02:00PM,02:50PM,MW,141 Loomis Laboratory,Ansell. K,5
+PHYS 101,34818,Discussion/ Recitation,D2A,08:00AM,09:50AM,T,1047 Sidney Lu Mech Engr Bldg,Liu. C,5
+PHYS 101,43197,Discussion/ Recitation,D2E,10:00AM,11:50AM,T,106B3 Engineering Hall,Mueller. L,5
+PHYS 101,34821,Discussion/ Recitation,D2J,12:00PM,01:50PM,T,1304 Siebel Center for Comp Sci,Shenogina. I,5
+PHYS 101,34824,Discussion/ Recitation,D2M,02:00PM,03:50PM,T,163 Noyes Laboratory,Chan. R,5
+PHYS 101,43195,Discussion/ Recitation,D2R,04:00PM,05:50PM,T,3038 Campus Instructional Facility,Lopez. J,5
+PHYS 101,34830,Discussion/ Recitation,D3A,08:00AM,09:50AM,W,0018 Campus Instructional Facility,Mullins. N,5
+PHYS 101,34835,Discussion/ Recitation,D3E,10:00AM,11:50AM,W,2078 Natural History Building,Chan. R,5
+PHYS 101,34839,Discussion/ Recitation,D3J,12:00PM,01:50PM,W,147 Loomis Laboratory,Loveridge. T,5
+PHYS 101,46110,Discussion/ Recitation,D3M,02:00PM,03:50PM,W,137 Loomis Laboratory,Gulian. E,5
+PHYS 101,45836,Discussion/ Recitation,D3R,04:00PM,05:50PM,W,143 Loomis Laboratory,Loveridge. T,5
+PHYS 101,34850,Discussion/ Recitation,D4A,08:00AM,09:50AM,R,304 Noyes Laboratory,Mueller. L,5
+PHYS 101,34854,Discussion/ Recitation,D4E,10:00AM,11:50AM,R,106B3 Engineering Hall,Gulian. E,5
+PHYS 101,43198,Discussion/ Recitation,D4J,12:00PM,01:50PM,R,1038 Campus Instructional Facility,Mullins. N,5
+PHYS 101,34858,Discussion/ Recitation,D4M,02:00PM,03:50PM,R,106B3 Engineering Hall,Shenogina. I,5
+PHYS 101,43196,Discussion/ Recitation,D4R,04:00PM,05:50PM,R,106B6 Engineering Hall,Loveridge. T,5
+PHYS 101,34871,Discussion/ Recitation,D5A,08:00AM,09:50AM,F,0018 Campus Instructional Facility,Lopez. J,5
+PHYS 101,45891,Laboratory,L2A,08:00AM,10:50AM,T,4018 Campus Instructional Facility,Aksimentiev. A,5
+PHYS 101,43796,Laboratory,L2E,11:00AM,01:50PM,T,4018 Campus Instructional Facility,Amerikheirabadi. F,5
+PHYS 101,34888,Laboratory,L2M,02:00PM,04:50PM,T,4018 Campus Instructional Facility,Nettelhorst. C,5
+PHYS 101,54032,Laboratory,L2R,05:00PM,07:50PM,T,4018 Campus Instructional Facility,Sinha. S,5
+PHYS 101,34895,Laboratory,L3A,08:00AM,10:50AM,W,4018 Campus Instructional Facility,De. R,5
+PHYS 101,54031,Laboratory,L3E,11:00AM,01:50PM,W,4018 Campus Instructional Facility,Tinlin. J,5
+PHYS 101,34452,Laboratory,L3M,02:00PM,04:50PM,W,4018 Campus Instructional Facility,Sinha. S,5
+PHYS 101,43795,Laboratory,L3R,05:00PM,07:50PM,W,4018 Campus Instructional Facility,Nettelhorst. C,5
+PHYS 101,34455,Laboratory,L4A,08:00AM,10:50AM,R,4018 Campus Instructional Facility,De. R,5
+PHYS 101,34457,Laboratory,L4E,11:00AM,01:50PM,R,4018 Campus Instructional Facility,Zine. K,5
+PHYS 101,34459,Laboratory,L4M,02:00PM,04:50PM,R,4018 Campus Instructional Facility,Amerikheirabadi. F,5
+PHYS 101,34460,Laboratory,L4R,05:00PM,07:50PM,R,4018 Campus Instructional Facility,Tinlin. J,5
+PHYS 101,34464,Laboratory,L5A,08:00AM,10:50AM,F,4018 Campus Instructional Facility,Wolanski. E,5
+PHYS 101,34461,Laboratory,L5E,11:00AM,01:50PM,F,4018 Campus Instructional Facility,Wolanski. E,5
+PHYS 101,34462,Laboratory,L5M,02:00PM,04:50PM,F,4018 Campus Instructional Facility,Zine. K,5
+PHYS 102,34469,Lecture,A1,11:00AM,11:50AM,MW,151 Loomis Laboratory,Holder. G,5
+PHYS 102,34471,Lecture,A2,12:00PM,12:50PM,MW,151 Loomis Laboratory,Holder. G,5
+PHYS 102,34473,Discussion/ Recitation,D2A,08:00AM,09:50AM,T,304 Noyes Laboratory,Pan. D,5
+PHYS 102,50254,Discussion/ Recitation,D2E,10:00AM,11:50AM,T,331 Gregory Hall,Song. J,5
+PHYS 102,34475,Discussion/ Recitation,D2J,12:00PM,01:50PM,T,315 Gregory Hall,Bradford. J,5
+PHYS 102,34506,Discussion/ Recitation,D2M,02:00PM,03:50PM,T,108 David Kinley Hall,Das. I,5
+PHYS 102,34529,Discussion/ Recitation,D2R,04:00PM,05:50PM,T,212 Davenport Hall,Bradford. J,5
+PHYS 102,34502,Discussion/ Recitation,D3A,08:00AM,09:50AM,W,147 Loomis Laboratory,Ghadiri. N,5
+PHYS 102,34533,Discussion/ Recitation,D3E,10:00AM,11:50AM,W,1064 Lincoln Hall,Mirasola. A,5
+PHYS 102,34547,Discussion/ Recitation,D3J,12:00PM,01:50PM,W,4036 Campus Instructional Facility,Ghadiri. N,5
+PHYS 102,34548,Discussion/ Recitation,D3M,02:00PM,03:50PM,W,212 Davenport Hall,Das. I,5
+PHYS 102,34500,Discussion/ Recitation,D3R,04:00PM,05:50PM,W,147 Loomis Laboratory,Pan. D,5
+PHYS 102,34554,Laboratory,L2A,08:00AM,10:50AM,T,4036 Campus Instructional Facility,Mullen. E,5
+PHYS 102,50253,Laboratory,L2E,11:00AM,01:50PM,T,4036 Campus Instructional Facility,Schulte. E,5
+PHYS 102,59975,Laboratory,L2M,02:00PM,04:50PM,T,4036 Campus Instructional Facility,Rizzo. M,5
+PHYS 102,34552,Laboratory,L2R,05:00PM,07:50PM,T,4036 Campus Instructional Facility,Liu. K,5
+PHYS 102,34550,Laboratory,L3A,08:00AM,10:50AM,W,4036 Campus Instructional Facility,Liu. K,5
+PHYS 102,75097,Laboratory,L3M,02:00PM,04:50PM,W,4036 Campus Instructional Facility,Honeycutt. A,5
+PHYS 102,75098,Laboratory,L3R,05:00PM,07:50PM,W,4036 Campus Instructional Facility,Rizzo. M,5
+PHYS 102,34549,Laboratory,L4A,08:00AM,10:50AM,R,4036 Campus Instructional Facility,Mullen. E,5
+PHYS 102,34555,Laboratory,L4E,11:00AM,01:50PM,R,4036 Campus Instructional Facility,Honeycutt. A,5
+PHYS 199,10145,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+PHYS 211,55650,Lecture,A1,09:00AM,09:50AM,TR,141 Loomis Laboratory,Stelzer. T,4
+PHYS 211,34564,Lecture,A2,10:00AM,10:50AM,TR,141 Loomis Laboratory,Leite Noronha. J,4
+PHYS 211,34566,Lecture,A3,11:00AM,11:50AM,TR,141 Loomis Laboratory,Leite Noronha. J,4
+PHYS 211,59136,Discussion/ Recitation,D2A,08:00AM,09:50AM,T,2025 Campus Instructional Facility,Madhavan. V,4
+PHYS 211,59140,Discussion/ Recitation,D2B,08:00AM,09:50AM,T,2036 Campus Instructional Facility,Antunes Saes De Lima. J,4
+PHYS 211,34590,Discussion/ Recitation,D2E,10:00AM,11:50AM,T,147 Loomis Laboratory,McClure. D,4
+PHYS 211,34569,Discussion/ Recitation,D2F,10:00AM,11:50AM,T,136 Loomis Laboratory,Forbes. D,4
+PHYS 211,34598,Discussion/ Recitation,D2J,12:00PM,01:50PM,T,136 Loomis Laboratory,Chen. N,4
+PHYS 211,54863,Discussion/ Recitation,D2K,12:00PM,01:50PM,T,2025 Campus Instructional Facility,Kovach. I,4
+PHYS 211,34592,Discussion/ Recitation,D2M,02:00PM,03:50PM,T,106B3 Engineering Hall,Hackner. N,4
+PHYS 211,34624,Discussion/ Recitation,D2N,02:00PM,03:50PM,T,158 Loomis Laboratory,Nana. F,4
+PHYS 211,47717,Discussion/ Recitation,D2R,04:00PM,05:50PM,T,106B3 Engineering Hall,Wolff. O,4
+PHYS 211,34595,Discussion/ Recitation,D2S,04:00PM,05:50PM,T,305 Materials Science & Eng Bld,Knudtson. M,4
+PHYS 211,60539,Discussion/ Recitation,D3A,08:00AM,09:50AM,W,0036 Campus Instructional Facility,Knudtson. M,4
+PHYS 211,34601,Discussion/ Recitation,D3B,08:00AM,09:50AM,W,206 Transportation Building,Keenan. A,4
+PHYS 211,54864,Discussion/ Recitation,D3E,10:00AM,11:50AM,W,0036 Campus Instructional Facility,Bennett. J,4
+PHYS 211,60540,Discussion/ Recitation,D3F,10:00AM,11:50AM,W,0018 Campus Instructional Facility,Garmire. G,4
+PHYS 211,34608,Discussion/ Recitation,D3J,12:00PM,01:50PM,W,143 Loomis Laboratory,Chen. N,4
+PHYS 211,34611,Discussion/ Recitation,D3K,12:00PM,01:50PM,W,4101 Materials Science & Eng Bld,Forbes. D,4
+PHYS 211,60541,Discussion/ Recitation,D3M,02:00PM,03:50PM,W,0036 Campus Instructional Facility,Antunes Saes De Lima. J,4
+PHYS 211,47577,Discussion/ Recitation,D3N,02:00PM,03:50PM,W,162 Noyes Laboratory,Cordeiro. I,4
+PHYS 211,34630,Discussion/ Recitation,D3R,04:00PM,05:50PM,W,206 Transportation Building,Elhaderi. J,4
+PHYS 211,34709,Discussion/ Recitation,D3S,04:00PM,05:50PM,W,137 Loomis Laboratory,Montaner. J,4
+PHYS 211,34604,Discussion/ Recitation,D4A,08:00AM,09:50AM,R,147 Loomis Laboratory,Garmire. G,4
+PHYS 211,34613,Discussion/ Recitation,D4B,08:00AM,09:50AM,R,106B6 Engineering Hall,Keenan. A,4
+PHYS 211,34616,Discussion/ Recitation,D4E,10:00AM,11:50AM,R,136 Loomis Laboratory,McClure. D,4
+PHYS 211,34619,Discussion/ Recitation,D4F,10:00AM,11:50AM,R,147 Loomis Laboratory,Nana. F,4
+PHYS 211,34586,Discussion/ Recitation,D4J,12:00PM,01:50PM,R,1304 Siebel Center for Comp Sci,Kovach. I,4
+PHYS 211,34621,Discussion/ Recitation,D4K,12:00PM,01:50PM,R,136 Loomis Laboratory,Chen. N,4
+PHYS 211,59137,Discussion/ Recitation,D4M,02:00PM,03:50PM,R,4101 Materials Science & Eng Bld,Bennett. J,4
+PHYS 211,55008,Discussion/ Recitation,D4N,02:00PM,03:50PM,R,158 Loomis Laboratory,Wolff. O,4
+PHYS 211,34625,Discussion/ Recitation,D4R,04:00PM,05:50PM,R,3018 Campus Instructional Facility,McClure. D,4
+PHYS 211,34727,Discussion/ Recitation,D4S,04:00PM,05:50PM,R,2018 Campus Instructional Facility,Elhaderi. J,4
+PHYS 211,52599,Discussion/ Recitation,D5A,08:00AM,09:50AM,F,2025 Campus Instructional Facility,Kleiner. K,4
+PHYS 211,60543,Discussion/ Recitation,D5E,10:00AM,11:50AM,F,0036 Campus Instructional Facility,Forbes. D,4
+PHYS 211,59143,Laboratory,L2A,08:00AM,09:50AM,T,4035 Campus Instructional Facility,Long. J,4
+PHYS 211,34706,Laboratory,L2E,10:00AM,11:50AM,T,4035 Campus Instructional Facility,Joshi. R,4
+PHYS 211,56981,Laboratory,L2J,12:00PM,01:50PM,T,4035 Campus Instructional Facility,O'Donnell. S,4
+PHYS 211,34659,Laboratory,L2M,02:00PM,03:50PM,T,4035 Campus Instructional Facility,Roberts. S,4
+PHYS 211,34661,Laboratory,L2R,04:00PM,05:50PM,T,4035 Campus Instructional Facility,Wang. Z,4
+PHYS 211,55800,Laboratory,L3A,08:00AM,09:50AM,W,4035 Campus Instructional Facility,Pardoe. F,4
+PHYS 211,34665,Laboratory,L3E,10:00AM,11:50AM,W,4035 Campus Instructional Facility,Nakib. M,4
+PHYS 211,34667,Laboratory,L3J,12:00PM,01:50PM,W,4035 Campus Instructional Facility,Skye. C,4
+PHYS 211,34670,Laboratory,L3M,02:00PM,03:50PM,W,4035 Campus Instructional Facility,Wang. Z,4
+PHYS 211,34673,Laboratory,L3R,04:00PM,05:50PM,W,4035 Campus Instructional Facility,Nakib. M,4
+PHYS 211,59144,Laboratory,L4A,08:00AM,09:50AM,R,4035 Campus Instructional Facility,Skye. C,4
+PHYS 211,34693,Laboratory,L4E,10:00AM,11:50AM,R,4035 Campus Instructional Facility,Pardoe. F,4
+PHYS 211,34689,Laboratory,L4J,12:00PM,01:50PM,R,4035 Campus Instructional Facility,O'Donnell. S,4
+PHYS 211,34700,Laboratory,L4M,02:00PM,03:50PM,R,4035 Campus Instructional Facility,Kaur. S,4
+PHYS 211,34703,Laboratory,L4R,04:00PM,05:50PM,R,4035 Campus Instructional Facility,Joshi. R,4
+PHYS 211,34698,Laboratory,L5A,08:00AM,09:50AM,F,4035 Campus Instructional Facility,Pardoe. F,4
+PHYS 211,55006,Laboratory,L5E,10:00AM,11:50AM,F,4035 Campus Instructional Facility,Roberts. S,4
+PHYS 211,55118,Laboratory,L5J,12:00PM,01:50PM,F,4035 Campus Instructional Facility,Kaur. S,4
+PHYS 211,60535,Laboratory,L5M,02:00PM,03:50PM,F,4035 Campus Instructional Facility,Wang. Z,4
+PHYS 211,60536,Laboratory,L5R,04:00PM,05:50PM,F,4035 Campus Instructional Facility,Kaur. S,4
+PHYS 212,43044,Lecture,A1,01:00PM,01:50PM,TR,141 Loomis Laboratory,Hooberman. B,4
+PHYS 212,34734,Lecture,A2,02:00PM,02:50PM,TR,141 Loomis Laboratory,Kwiat. P,4
+PHYS 212,34736,Lecture,A3,03:00PM,03:50PM,TR,141 Loomis Laboratory,Kwiat. P,4
+PHYS 212,34603,Discussion/ Recitation,D2A,08:00AM,09:50AM,T,113 Davenport Hall,Beck. D,4
+PHYS 212,60533,Discussion/ Recitation,D2B,08:00AM,09:50AM,T,"G32 Literatures, Cultures, & Ling",Boyella. P,4
+PHYS 212,34749,Discussion/ Recitation,D2E,10:00AM,11:50AM,T,139 Loomis Laboratory,Dillingham. E,4
+PHYS 212,34773,Discussion/ Recitation,D2F,10:00AM,11:50AM,T,325 David Kinley Hall,Gifford. K,4
+PHYS 212,34757,Discussion/ Recitation,D2J,12:00PM,01:50PM,T,164 Noyes Laboratory,Pitagora. D,4
+PHYS 212,34752,Discussion/ Recitation,D2K,12:00PM,01:50PM,T,"1038 Literatures, Cultures, & Ling",Lee. D,4
+PHYS 212,34783,Discussion/ Recitation,D2M,02:00PM,03:50PM,T,307 David Kinley Hall,Acharya. R,4
+PHYS 212,34787,Discussion/ Recitation,D2N,02:00PM,03:50PM,T,150 English Building,Fajardo Montenegro. J,4
+PHYS 212,34793,Discussion/ Recitation,D2R,04:00PM,05:50PM,T,143 Loomis Laboratory,Samantaray. A,4
+PHYS 212,55803,Discussion/ Recitation,D2S,04:00PM,05:50PM,T,139 Loomis Laboratory,Singirikonda. K,4
+PHYS 212,34779,Discussion/ Recitation,D3A,08:00AM,09:50AM,W,204 Transportation Building,Miloro. P,4
+PHYS 212,34638,Discussion/ Recitation,D3B,08:00AM,09:50AM,W,137 Loomis Laboratory,Fajardo Montenegro. J,4
+PHYS 212,45665,Discussion/ Recitation,D3E,10:00AM,11:50AM,W,164 Noyes Laboratory,Guan. Y,4
+PHYS 212,52223,Discussion/ Recitation,D3F,10:00AM,11:50AM,W,321 Gregory Hall,Kibbee. R,4
+PHYS 212,34861,Discussion/ Recitation,D3J,12:00PM,01:50PM,W,217 Gregory Hall,Girotti-Hernandez. D,4
+PHYS 212,34790,Discussion/ Recitation,D3K,12:00PM,01:50PM,W,205 Gregory Hall,Hidalgo. L,4
+PHYS 212,34796,Discussion/ Recitation,D3M,02:00PM,03:50PM,W,2078 Natural History Building,Samantaray. A,4
+PHYS 212,34758,Discussion/ Recitation,D3N,02:00PM,03:50PM,W,"G46 Literatures, Cultures, & Ling",Hiri-O-Tuppa. T,4
+PHYS 212,34800,Discussion/ Recitation,D3R,04:00PM,05:50PM,W,115 English Building,Chauhan. A,4
+PHYS 212,34760,Discussion/ Recitation,D3S,04:00PM,05:50PM,W,312 Davenport Hall,Hidalgo. L,4
+PHYS 212,60534,Discussion/ Recitation,D4A,08:00AM,09:50AM,R,113 Davenport Hall,Pitagora. D,4
+PHYS 212,52219,Discussion/ Recitation,D4B,08:00AM,09:50AM,R,313 Davenport Hall,Guan. Y,4
+PHYS 212,34834,Discussion/ Recitation,D4E,10:00AM,11:50AM,R,139 Loomis Laboratory,Gifford. K,4
+PHYS 212,58778,Discussion/ Recitation,D4F,10:00AM,11:50AM,R,304 Noyes Laboratory,Dillingham. E,4
+PHYS 212,34846,Discussion/ Recitation,D4J,12:00PM,01:50PM,R,219 David Kinley Hall,Acharya. R,4
+PHYS 212,34849,Discussion/ Recitation,D4K,12:00PM,01:50PM,R,307 David Kinley Hall,Lee. D,4
+PHYS 212,34853,Discussion/ Recitation,D4M,02:00PM,03:50PM,R,307 David Kinley Hall,Miloro. P,4
+PHYS 212,48007,Discussion/ Recitation,D4N,02:00PM,03:50PM,R,206 David Kinley Hall,Girotti-Hernandez. D,4
+PHYS 212,34523,Discussion/ Recitation,D4R,04:00PM,05:50PM,R,149 English Building,Boyella. P,4
+PHYS 212,34857,Discussion/ Recitation,D4S,04:00PM,05:50PM,R,143 Loomis Laboratory,Kibbee. R,4
+PHYS 212,34864,Discussion/ Recitation,D5A,08:00AM,09:50AM,F,147 Loomis Laboratory,Singirikonda. K,4
+PHYS 212,34474,Discussion/ Recitation,D5B,08:00AM,09:50AM,F,143 Loomis Laboratory,Chauhan. A,4
+PHYS 212,52449,Laboratory,L2A,08:00AM,09:50AM,T,4031 Campus Instructional Facility,Adlakha. V Basani. P,4
+PHYS 212,34591,Laboratory,L2E,10:00AM,11:50AM,T,4031 Campus Instructional Facility,Dong. M Mleziva. X,4
+PHYS 212,52252,Laboratory,L2J,12:00PM,01:50PM,T,4031 Campus Instructional Facility,Cao. Y Gysbers. D,4
+PHYS 212,59985,Laboratory,L2M,02:00PM,03:50PM,T,4031 Campus Instructional Facility,Hill. B Liu. Y,4
+PHYS 212,34609,Laboratory,L2R,04:00PM,05:50PM,T,4031 Campus Instructional Facility,Chen. D Paghadal. A,4
+PHYS 212,34632,Laboratory,L3J,12:00PM,01:50PM,W,4031 Campus Instructional Facility,Basani. P Cao. Y,4
+PHYS 212,64531,Laboratory,L4A,08:00AM,09:50AM,R,4031 Campus Instructional Facility,Conefrey-Shinozaki. C Gysbers. D,4
+PHYS 212,34637,Laboratory,L4E,10:00AM,11:50AM,R,4031 Campus Instructional Facility,Dong. M Mleziva. X,4
+PHYS 212,34636,Laboratory,L4J,12:00PM,01:50PM,R,4031 Campus Instructional Facility,Cao. Y Paghadal. A,4
+PHYS 212,34640,Laboratory,L4M,02:00PM,03:50PM,R,4031 Campus Instructional Facility,Conefrey-Shinozaki. C Hill. B,4
+PHYS 212,45662,Laboratory,L4R,04:00PM,05:50PM,R,4031 Campus Instructional Facility,Chen. D Liu. Y,4
+PHYS 213,71589,Lecture,A1,09:00AM,09:50AM,MW,141 Loomis Laboratory,Wagner. L,2
+PHYS 213,71590,Lecture,A2,10:00AM,10:50AM,MW,141 Loomis Laboratory,Wagner. L,2
+PHYS 213,71569,Discussion/ Recitation,D2A,08:00AM,09:50AM,T,212 Davenport Hall,Gatto Lamas. A,2
+PHYS 213,71572,Discussion/ Recitation,D2E,10:00AM,11:50AM,T,2025 Campus Instructional Facility,El-Khadra. A,2
+PHYS 213,71575,Discussion/ Recitation,D2J,12:00PM,01:50PM,T,1038 Campus Instructional Facility,Yao. N,2
+PHYS 213,71576,Discussion/ Recitation,D2M,02:00PM,03:50PM,T,1038 Campus Instructional Facility,Garzon Armendariz. D,2
+PHYS 213,71605,Discussion/ Recitation,D2R,04:00PM,05:50PM,T,2036 Campus Instructional Facility,Garzon Armendariz. D,2
+PHYS 213,71601,Discussion/ Recitation,D3B,08:00AM,09:50AM,W,2036 Campus Instructional Facility,Gatto Lamas. A,2
+PHYS 213,71604,Discussion/ Recitation,D3F,10:00AM,11:50AM,W,2025 Campus Instructional Facility,Gray. A,2
+PHYS 213,71558,Discussion/ Recitation,D3K,12:00PM,01:50PM,W,0036 Campus Instructional Facility,Yao. N,2
+PHYS 213,71567,Discussion/ Recitation,D3N,02:00PM,03:50PM,W,143 Loomis Laboratory,Jenike. B,2
+PHYS 213,71557,Discussion/ Recitation,D3S,04:00PM,05:50PM,W,2025 Campus Instructional Facility,Balaji. P,2
+PHYS 213,71586,Discussion/ Recitation,D4A,08:00AM,09:50AM,R,169 Davenport Hall,Mishra. R,2
+PHYS 213,71597,Discussion/ Recitation,D4B,08:00AM,09:50AM,R,222 David Kinley Hall,Arya. S,2
+PHYS 213,71600,Discussion/ Recitation,D4E,10:00AM,11:50AM,R,W203 Turner Hall,Yao. N,2
+PHYS 213,71606,Discussion/ Recitation,D4F,10:00AM,11:50AM,R,382 Education Building,Balaji. P,2
+PHYS 213,71598,Discussion/ Recitation,D4J,12:00PM,01:50PM,R,320 Mumford Hall,Arya. S,2
+PHYS 213,71582,Discussion/ Recitation,D4K,12:00PM,01:50PM,R,W115 Turner Hall,Jenike. B,2
+PHYS 213,71599,Discussion/ Recitation,D4M,02:00PM,03:50PM,R,W115 Turner Hall,Arya. S,2
+PHYS 213,71587,Discussion/ Recitation,D4N,02:00PM,03:50PM,R,1064 Lincoln Hall,Gray. A,2
+PHYS 213,71594,Discussion/ Recitation,D4R,04:00PM,05:50PM,R,169 Davenport Hall,Mishra. R,2
+PHYS 213,71596,Discussion/ Recitation,D4S,04:00PM,05:50PM,R,162 Noyes Laboratory,Jenike. B,2
+PHYS 213,71568,Discussion/ Recitation,D5A,08:00AM,09:50AM,F,137 Loomis Laboratory,Gray. A,2
+PHYS 213,71490,Laboratory,L2A,08:00AM,09:50AM,T,64 Loomis Laboratory,Bezryadin. A,2
+PHYS 213,71480,Laboratory,L2E,10:00AM,11:50AM,T,64 Loomis Laboratory,Liu. A,2
+PHYS 213,71481,Laboratory,L2J,12:00PM,01:50PM,T,64 Loomis Laboratory,Inafuku. D,2
+PHYS 213,71482,Laboratory,L2M,02:00PM,03:50PM,T,64 Loomis Laboratory,Inafuku. D,2
+PHYS 213,71483,Laboratory,L2R,04:00PM,05:50PM,T,64 Loomis Laboratory,Alam. F,2
+PHYS 213,71494,Laboratory,L3A,08:00AM,09:50AM,W,64 Loomis Laboratory,Vijay. A,2
+PHYS 213,71479,Laboratory,L3E,10:00AM,11:50AM,W,64 Loomis Laboratory,Liu. A,2
+PHYS 213,71485,Laboratory,L3J,12:00PM,01:50PM,W,64 Loomis Laboratory,Inafuku. D,2
+PHYS 213,71486,Laboratory,L3M,02:00PM,03:50PM,W,64 Loomis Laboratory,Germany. C,2
+PHYS 213,71487,Laboratory,L3R,04:00PM,05:50PM,W,64 Loomis Laboratory,Kacmaz. S,2
+PHYS 213,71478,Laboratory,L4A,08:00AM,09:50AM,R,64 Loomis Laboratory,Germany. C,2
+PHYS 213,71491,Laboratory,L4E,10:00AM,11:50AM,R,64 Loomis Laboratory,Vijay. A,2
+PHYS 213,71492,Laboratory,L4J,12:00PM,01:50PM,R,64 Loomis Laboratory,Liu. A,2
+PHYS 213,38555,Laboratory,L4M,02:00PM,03:50PM,R,64 Loomis Laboratory,Germany. C,2
+PHYS 213,71489,Laboratory,L4R,04:00PM,05:50PM,R,64 Loomis Laboratory,Kacmaz. S,2
+PHYS 213,71477,Laboratory,L5A,08:00AM,09:50AM,F,64 Loomis Laboratory,Kacmaz. S,2
+PHYS 213,71493,Laboratory,L5E,10:00AM,11:50AM,F,64 Loomis Laboratory,Vijay. A,2
+PHYS 214,34891,Lecture,A1,09:00AM,09:50AM,MWF,141 Loomis Laboratory,Wagner. L,2
+PHYS 214,34894,Lecture,A2,10:00AM,10:50AM,MWF,141 Loomis Laboratory,Wagner. L,2
+PHYS 214,62161,Discussion/ Recitation,D2A,08:00AM,09:50AM,T,212 Davenport Hall,Arya. S,2
+PHYS 214,38584,Discussion/ Recitation,D2E,10:00AM,11:50AM,T,2025 Campus Instructional Facility,El-Khadra. A,2
+PHYS 214,60575,Discussion/ Recitation,D2J,12:00PM,01:50PM,T,1038 Campus Instructional Facility,Yao. N,2
+PHYS 214,38582,Discussion/ Recitation,D2M,02:00PM,03:50PM,T,1038 Campus Instructional Facility,Garzon Armendariz. D,2
+PHYS 214,38604,Discussion/ Recitation,D2R,04:00PM,05:50PM,T,"G48 Literatures, Cultures, & Ling",Garzon Armendariz. D,2
+PHYS 214,38600,Discussion/ Recitation,D3B,08:00AM,09:50AM,W,143 Loomis Laboratory,Gatto Lamas. A,2
+PHYS 214,38517,Discussion/ Recitation,D3F,10:00AM,11:50AM,W,2025 Campus Instructional Facility,Gray. A,2
+PHYS 214,38576,Discussion/ Recitation,D3K,12:00PM,01:50PM,W,0036 Campus Instructional Facility,Yao. N,2
+PHYS 214,38580,Discussion/ Recitation,D3S,04:00PM,05:50PM,W,2025 Campus Instructional Facility,Balaji. P,2
+PHYS 214,38581,Discussion/ Recitation,D4A,08:00AM,09:50AM,R,222 David Kinley Hall,Mishra. R,2
+PHYS 214,38573,Discussion/ Recitation,D4B,08:00AM,09:50AM,R,169 Davenport Hall,Arya. S,2
+PHYS 214,38593,Discussion/ Recitation,D4E,10:00AM,11:50AM,R,382 Education Building,Yao. N,2
+PHYS 214,38606,Discussion/ Recitation,D4F,10:00AM,11:50AM,R,389 Education Building,Balaji. P,2
+PHYS 214,38602,Discussion/ Recitation,D4J,12:00PM,01:50PM,R,320 Mumford Hall,Arya. S,2
+PHYS 214,38591,Discussion/ Recitation,D4K,12:00PM,01:50PM,R,W115 Turner Hall,Jenike. B,2
+PHYS 214,38570,Discussion/ Recitation,D4M,02:00PM,03:50PM,R,215 Gregory Hall,Gatto Lamas. A,2
+PHYS 214,38589,Discussion/ Recitation,D4N,02:00PM,03:50PM,R,317 Gregory Hall,Gray. A,2
+PHYS 214,38603,Discussion/ Recitation,D4R,04:00PM,05:50PM,R,136 Davenport Hall,Mishra. R,2
+PHYS 214,38586,Discussion/ Recitation,D4S,04:00PM,05:50PM,R,169 Davenport Hall,Jenike. B,2
+PHYS 214,38552,Laboratory,L2A,08:00AM,09:50AM,T,64 Loomis Laboratory,Bezryadin. A,2
+PHYS 214,38519,Laboratory,L2E,10:00AM,11:50AM,T,64 Loomis Laboratory,Liu. A,2
+PHYS 214,38521,Laboratory,L2J,12:00PM,01:50PM,T,64 Loomis Laboratory,Inafuku. D,2
+PHYS 214,38523,Laboratory,L2M,02:00PM,03:50PM,T,64 Loomis Laboratory,Inafuku. D,2
+PHYS 214,38524,Laboratory,L2R,04:00PM,05:50PM,T,64 Loomis Laboratory,Alam. F,2
+PHYS 214,60016,Laboratory,L3A,08:00AM,09:50AM,W,64 Loomis Laboratory,Vijay. A,2
+PHYS 214,38554,Laboratory,L3E,10:00AM,11:50AM,W,64 Loomis Laboratory,Liu. A,2
+PHYS 214,38531,Laboratory,L3J,12:00PM,01:50PM,W,64 Loomis Laboratory,Inafuku. D,2
+PHYS 214,38534,Laboratory,L3M,02:00PM,03:50PM,W,64 Loomis Laboratory,Germany. C,2
+PHYS 214,38536,Laboratory,L3R,04:00PM,05:50PM,W,64 Loomis Laboratory,Kacmaz. S,2
+PHYS 214,38514,Laboratory,L4A,08:00AM,09:50AM,R,64 Loomis Laboratory,Germany. C,2
+PHYS 214,38541,Laboratory,L4E,10:00AM,11:50AM,R,64 Loomis Laboratory,Vijay. A,2
+PHYS 214,38543,Laboratory,L4J,12:00PM,01:50PM,R,64 Loomis Laboratory,Liu. A,2
+PHYS 214,38545,Laboratory,L4M,02:00PM,03:50PM,R,64 Loomis Laboratory,Germany. C,2
+PHYS 214,38547,Laboratory,L4R,04:00PM,05:50PM,R,64 Loomis Laboratory,Kacmaz. S,2
+PHYS 214,38512,Laboratory,L5E,10:00AM,11:50AM,F,64 Loomis Laboratory,Vijay. A,2
+PHYS 225,55728,Lecture,A,04:00PM,04:50PM,T,151 Loomis Laboratory,Koptieva. E,2
+PHYS 225,59198,Discussion/ Recitation,D5A,08:00AM,09:50AM,F,35 Loomis Laboratory,Osborne. I,2
+PHYS 225,60532,Discussion/ Recitation,D5E,10:00AM,11:50AM,F,35 Loomis Laboratory,Osborne. I,2
+PHYS 225,55730,Discussion/ Recitation,D5J,12:00PM,01:50PM,F,35 Loomis Laboratory,Osborne. I,2
+PHYS 225,55731,Discussion/ Recitation,D5M,02:00PM,03:50PM,F,35 Loomis Laboratory,Liu. Y,2
+PHYS 225,55734,Discussion/ Recitation,D5R,04:00PM,05:50PM,F,35 Loomis Laboratory,Liu. Y,2
+PHYS 225,55729,Discussion/ Recitation,D5U,06:00PM,07:50PM,F,35 Loomis Laboratory,Liu. Y,2
+PHYS 325,32694,Lecture,A,12:00PM,01:20PM,TR,151 Loomis Laboratory,Adshead. P,3
+PHYS 325,60434,Discussion/ Recitation,D0,03:00PM,03:50PM,M,4018 Campus Instructional Facility,Moy. B,3
+PHYS 325,32687,Discussion/ Recitation,D1,04:00PM,04:50PM,M,4018 Campus Instructional Facility,Moy. B,3
+PHYS 325,32688,Discussion/ Recitation,D2,05:00PM,05:50PM,M,4018 Campus Instructional Facility,Moy. B,3
+PHYS 325,32691,Discussion/ Recitation,D3,06:00PM,06:50PM,M,4018 Campus Instructional Facility,Moy. B,3
+PHYS 325,56627,Discussion/ Recitation,D4,07:00PM,07:50PM,M,4018 Campus Instructional Facility,Velury. S,3
+PHYS 326,32751,Lecture,A,11:00AM,12:20PM,TR,2055 Sidney Lu Mech Engr Bldg,Golding. I,3
+PHYS 326,61383,Discussion/ Recitation,D0,05:00PM,05:50PM,R,35 Loomis Laboratory,Belkin. D,3
+PHYS 326,32737,Discussion/ Recitation,D1,06:00PM,06:50PM,R,0036 Campus Instructional Facility,Belkin. D,3
+PHYS 326,32741,Discussion/ Recitation,D2,07:00PM,07:50PM,R,0036 Campus Instructional Facility,Belkin. D,3
+PHYS 370,77225,Lecture,A,10:00AM,11:20AM,MW,1047 Sidney Lu Mech Engr Bldg,Covey. J,3
+PHYS 394,76338,Lecture-Discussion,LA1,03:30PM,04:50PM,T,222 Loomis Laboratory,Mahmood. M,2
+PHYS 394,76339,Lecture-Discussion,LA2,03:30PM,04:50PM,T,1043 Sidney Lu Mech Engr Bldg,Engblom. S,2
+PHYS 394,76337,Lecture-Discussion,LAD,05:00PM,06:20PM,R,276 Loomis Laboratory,Lundsgaard. M,2
+PHYS 395,77539,Independent Study,A,ARRANGED,ARRANGED,n.a.,n.a.,Lundsgaard. M,1
+PHYS 401,32710,Lecture,A,03:30PM,04:20PM,M,222 Loomis Laboratory,Filippini. J,3
+PHYS 401,32704,Laboratory,L1,01:00PM,04:50PM,T,6103 Engineering Sciences Building,Ganesan. V,3
+PHYS 401,32707,Laboratory,L2,01:00PM,04:50PM,W,6103 Engineering Sciences Building,Ding. D,3
+PHYS 401,32708,Laboratory,L3,08:00AM,11:50AM,R,6103 Engineering Sciences Building,Sickle. J,3
+PHYS 402,33052,Lecture,AA,11:00AM,12:20PM,MW,222 Loomis Laboratory,Cohen. O,3
+PHYS 402,47625,Lecture,BB,11:00AM,12:20PM,MW,222 Loomis Laboratory,Cohen. O,3
+PHYS 402,32781,Laboratory,BL1,09:00AM,11:50AM,T,6107 Engineering Sciences Building,Bolan. K Gold. M,3
+PHYS 402,32782,Laboratory,BL2,02:00PM,04:50PM,W,6107 Engineering Sciences Building,Bolan. K Campbell. J,3
+PHYS 402,70731,Laboratory,BL3,02:00PM,04:50PM,R,6107 Engineering Sciences Building,Elsharkawy. I Gold. M,3
+PHYS 403,30674,Laboratory,A,01:00PM,04:50PM,TR,5105 Engineering Sciences Building,Colla. E Lorenz. V,3
+PHYS 404,57729,Lecture,AC,01:00PM,02:50PM,MW,222 Loomis Laboratory,Giannetta. R,3
+PHYS 404,57731,Lecture,AG,01:00PM,02:50PM,MW,222 Loomis Laboratory,Giannetta. R,3
+PHYS 404,57732,Laboratory,L1,01:00PM,03:50PM,TR,6106 Engineering Sciences Building,,3
+PHYS 404,57733,Laboratory,L2,09:00AM,11:50AM,WF,6106 Engineering Sciences Building,,3
+PHYS 419,34926,Lecture,A,02:30PM,03:50PM,TR,144 Loomis Laboratory,Weaver. C,3
+PHYS 419,41220,Lecture,G,02:30PM,03:50PM,TR,144 Loomis Laboratory,Weaver. C,3
+PHYS 420,45795,Lecture,A,02:30PM,03:50PM,TR,144 Loomis Laboratory,Weaver. C,2
+PHYS 427,30681,Lecture,A,11:00AM,12:20PM,MW,2055 Sidney Lu Mech Engr Bldg,Shelton. J,4
+PHYS 427,64574,Discussion/ Recitation,D0,05:00PM,05:50PM,T,0018 Campus Instructional Facility,Goswami. S,4
+PHYS 427,64575,Discussion/ Recitation,D1,06:00PM,06:50PM,T,0036 Campus Instructional Facility,Goswami. S,4
+PHYS 435,32763,Lecture,A,09:00AM,09:50AM,MWF,151 Loomis Laboratory,Abbamonte. P,3
+PHYS 435,61384,Discussion/ Recitation,D0,04:00PM,04:50PM,M,4036 Campus Instructional Facility,Loehr. K,3
+PHYS 435,32757,Discussion/ Recitation,D1,05:00PM,05:50PM,M,4036 Campus Instructional Facility,Loehr. K,3
+PHYS 435,32760,Discussion/ Recitation,D2,06:00PM,06:50PM,M,4036 Campus Instructional Facility,Loehr. K,3
+PHYS 435,60046,Discussion/ Recitation,D3,07:00PM,07:50PM,M,4036 Campus Instructional Facility,Loehr. K,3
+PHYS 436,32773,Lecture,A,09:00AM,09:50AM,MWF,144 Loomis Laboratory,Eckstein. J,3
+PHYS 436,61385,Discussion/ Recitation,D0,04:00PM,04:50PM,T,1038 Campus Instructional Facility,Passias. V,3
+PHYS 436,32766,Discussion/ Recitation,D1,05:00PM,05:50PM,T,2025 Campus Instructional Facility,Passias. V,3
+PHYS 436,32768,Discussion/ Recitation,D2,06:00PM,06:50PM,T,0018 Campus Instructional Facility,Passias. V,3
+PHYS 486,32793,Lecture,A,09:30AM,10:50AM,TR,2100 Sidney Lu Mech Engr Bldg,Pfaff. W,4
+PHYS 486,61942,Discussion/ Recitation,D0,03:00PM,04:20PM,R,136 Loomis Laboratory,Cao. J,4
+PHYS 486,47769,Discussion/ Recitation,D1,04:30PM,05:50PM,R,139 Loomis Laboratory,Cao. J,4
+PHYS 486,32784,Discussion/ Recitation,D2,06:00PM,07:20PM,R,0018 Campus Instructional Facility,Cao. J,4
+PHYS 486,32787,Discussion/ Recitation,D3,07:30PM,08:50PM,R,0018 Campus Instructional Facility,Bogucki. R,4
+PHYS 487,32796,Lecture,A,12:30PM,01:50PM,MW,144 Loomis Laboratory,Faulkner. T,4
+PHYS 487,32795,Discussion/ Recitation,D1,03:00PM,04:20PM,W,3038 Campus Instructional Facility,Goldman. S,4
+PHYS 487,32794,Discussion/ Recitation,D2,04:30PM,05:50PM,W,3038 Campus Instructional Facility,Goldman. S,4
+PHYS 495,78394,Lecture-Discussion,A,09:00AM,11:40AM,M,1000 Siebel Center for Design,Raley. J Yunes. N,3
+PHYS 496,66672,Lecture,A,02:00PM,04:50PM,F,158 Loomis Laboratory,Elliott. C Hughes. T Raley. J,3
+PHYS 497,10147,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+PHYS 498,73027,Lecture-Discussion,EBP,01:00PM,04:50PM,TR,4122 Engineering Sciences Building,Denos. S Kim. S,3
+PHYS 523,78164,Laboratory,A,02:00PM,04:50PM,TR,Location Pending,Gollin. G Liu. Y,4
+PHYS 597,10150,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+PHYS 598,78576,Online Lecture,GTC,03:30PM,04:50PM,TR,n.a.,Bradlyn. B,3
+PHYS 599,10154,Independent Study,,ARRANGED,ARRANGED,n.a.,n.a.,,3
+PHYS 599,78864,Independent Study,NEJ,ARRANGED,ARRANGED,n.a.,n.a.,Jackson. N,3
+PHYS 599,78861,Independent Study,WP,ARRANGED,ARRANGED,n.a.,n.a.,Pfaff. W,3

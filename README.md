@@ -1,3 +1,9 @@
+# Project Overview
+Welcome to CourseHelper, a comprehensive digital solution designed to make students' lives easier. To see a demo of the application, select the "Downloads" tab
+on the lefthand side of the screen, and download "CourseHelperDemo.mov". For more technical information about application design and implementation, please read
+the "CourseHelperReport attached to the repository.
+
+
 # Webscrape Course Information
 To webscrape all of the course information at UIUC so that you can ensure that the most up to date course info is being used:
 first start by navigating to the web_scraping folder, and run the command:

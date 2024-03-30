@@ -1,7 +1,5 @@
 # Project Overview
-Welcome to CourseHelper, a comprehensive digital solution designed to make students' lives easier. To see a demo of the application, select the "Downloads" tab
-on the lefthand side of the screen, and download "CourseHelperDemo.mov". For more technical information about application design and implementation, please download and 
-read the "CourseHelperReport attached in the downloads section.
+Welcome to CourseHelper, a comprehensive digital solution designed to make students' lives easier. To see a demo of the application, please view "CourseHelperDemo.mov" in the repository. For more technical information about application design and implementation, please see the "CourseHelperReport" in the repository.
 
 
 # Webscrape Course Information
@@ -19,9 +17,9 @@ Wait for 2-3 minutes after running this command, so that the webscraping driver 
 ```
 py web_scraping.py
 ```
-After either approach the course_information.csv file in the web_scraping folder, should contain updated course information. This is the information that will be used in all of our services regarding schedule generation and recommendations.
+After either approach the course_information.csv file in the web_scraping folder will contain updated course information. This is the information that will be used in all of our services regarding schedule generation and recommendations.
 
-In order to run the webscraping, you need to install a few python libraries such as Selenium, requests, and bs4 in order to use the webdriver. (Download the most recent version of python and verify pip is installed) Run the commands:
+In order to run the webscraping, you need to install the following python libraries: Selenium, requests, and bs4. (Download the most recent version of python and verify pip is installed) Run the commands:
 ```
 pip install <module>
 ```

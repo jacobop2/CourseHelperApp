@@ -1,5 +1,5 @@
 # Project Overview
-Welcome to CourseHelper, a comprehensive digital solution designed to make students' lives easier. To see a demo of the application, please view "CourseHelperDemo.mov" in the repository. For more technical information about application design and implementation, please see the "CourseHelperReport" in the repository.
+Welcome to CourseHelper, a comprehensive digital solution designed to make students' lives easier. For more technical information about application design and implementation, please see the "CourseHelperReport" in the repository.
 
 
 # Webscrape Course Information
